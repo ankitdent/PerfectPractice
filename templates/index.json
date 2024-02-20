@@ -47,7 +47,7 @@
         "164602873867eb3815-2": {
           "type": "custom_text",
           "settings": {
-            "text": "TICK + INSECT SPRAY",
+            "text": "PRESIDENTS DAY SALE",
             "remove_br_tag": false,
             "heading_level": 2,
             "tag": "p",
@@ -71,7 +71,7 @@
         "164602873867eb3815-1": {
           "type": "custom_text",
           "settings": {
-            "text": "Body-Worn Repellent",
+            "text": "Save an extra 15% sitewide",
             "remove_br_tag": false,
             "heading_level": 1,
             "tag": "h2",
@@ -95,7 +95,7 @@
         "2520939e-82a3-4dc8-99c2-7f1ce20e1005": {
           "type": "custom_text",
           "settings": {
-            "text": "Picaridin 20% is the Safe & Effective Alternative to DEET and protects you for up to 12-hours against ticks, mosquitos, and biting insects.",
+            "text": "WITH PROMO CODE: PRESIDENTSDAY",
             "remove_br_tag": false,
             "heading_level": 3,
             "tag": "p",
@@ -120,7 +120,7 @@
           "type": "custom_button",
           "settings": {
             "button_text": "SHOP NOW",
-            "button_link": "shopify:\/\/collections\/picaridin-20-insect-repellents",
+            "button_link": "shopify:\/\/collections\/99-flash-sale",
             "target_link": "_self",
             "fontf": "inherit",
             "button_icon_w": 0,
