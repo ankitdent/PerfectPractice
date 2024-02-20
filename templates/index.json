@@ -125,7 +125,7 @@
             "fontf": "inherit",
             "button_icon_w": 0,
             "button_style": "default",
-            "button_effect": "sweep-to-top",
+            "button_effect": "default",
             "pri_cl": "#43b049",
             "second_cl": "#ffffff",
             "pri_cl_hover": "#0e272d",
