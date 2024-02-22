@@ -194,6 +194,108 @@
         "code_cus_css": ".SectionID {\nbackground-color:red\n}"
       }
     },
+    "logo_list_yf6Kcm": {
+      "type": "logo_list",
+      "blocks": {
+        "logo_item_zPxJEK": {
+          "type": "logo_item",
+          "settings": {
+            "url": ""
+          }
+        },
+        "logo_item_6deamw": {
+          "type": "logo_item",
+          "settings": {
+            "url": ""
+          }
+        },
+        "logo_item_QUiBfA": {
+          "type": "logo_item",
+          "settings": {
+            "url": ""
+          }
+        },
+        "logo_item_WWFaPp": {
+          "type": "logo_item",
+          "settings": {
+            "url": ""
+          }
+        },
+        "logo_item_rVjJPk": {
+          "type": "logo_item",
+          "settings": {
+            "url": ""
+          }
+        },
+        "logo_item_b7mfy4": {
+          "type": "logo_item",
+          "settings": {
+            "url": ""
+          }
+        },
+        "logo_item_AXCcUk": {
+          "type": "logo_item",
+          "settings": {
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_item_zPxJEK",
+        "logo_item_6deamw",
+        "logo_item_QUiBfA",
+        "logo_item_WWFaPp",
+        "logo_item_rVjJPk",
+        "logo_item_b7mfy4",
+        "logo_item_AXCcUk"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "img_effect": "none",
+        "b_effect": "none",
+        "open_link": "_blank",
+        "layout_des": "2",
+        "click_image": "data-goto",
+        "nav_thumbs": true,
+        "col_dk": "6",
+        "col_tb": "2",
+        "col_mb": "2",
+        "space_item": "30",
+        "space_item_mb": "30",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": false,
+        "btn_vi": "hover",
+        "btn_owl": "default",
+        "btn_shape": "none",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": true,
+        "nav_dot": false,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": true,
+        "dots_space": 10,
+        "dots_hidden_mobile": false,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
     "59f6c9e5-7931-4242-9694-c64146b2c3d0": {
       "type": "shipping",
       "blocks": {
@@ -233,6 +335,7 @@
         "template--21405986717973__59f6c9e5-7931-4242-9694-c64146b2c3d0-shipping-2",
         "template--21405986717973__59f6c9e5-7931-4242-9694-c64146b2c3d0-shipping-3"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -800,6 +903,7 @@
   },
   "order": [
     "1646028739ae283905",
+    "logo_list_yf6Kcm",
     "59f6c9e5-7931-4242-9694-c64146b2c3d0",
     "8b07777e-f541-4c5e-a185-139639de18dc",
     "df216932-591b-477f-8564-1fa591ab28ac",
