@@ -200,42 +200,49 @@
         "logo_item_zPxJEK": {
           "type": "logo_item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Image_32.png",
             "url": ""
           }
         },
         "logo_item_6deamw": {
           "type": "logo_item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Image_15_2.png",
             "url": ""
           }
         },
         "logo_item_QUiBfA": {
           "type": "logo_item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Image_14.png",
             "url": ""
           }
         },
         "logo_item_WWFaPp": {
           "type": "logo_item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Image_33.png",
             "url": ""
           }
         },
         "logo_item_rVjJPk": {
           "type": "logo_item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Image_31.png",
             "url": ""
           }
         },
         "logo_item_b7mfy4": {
           "type": "logo_item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Image_17.png",
             "url": ""
           }
         },
         "logo_item_AXCcUk": {
           "type": "logo_item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Image_12.png",
             "url": ""
           }
         }
@@ -252,12 +259,12 @@
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
-        "top_heading": "",
+        "top_heading": "AS FEATURED IN",
         "icon_heading": "las la-gem",
         "top_subheading": "",
         "tophead_mb": 30,
         "img_effect": "none",
-        "b_effect": "none",
+        "b_effect": "pervasive-circle",
         "open_link": "_blank",
         "layout_des": "2",
         "click_image": "data-goto",
@@ -284,10 +291,10 @@
         "dots_space": 10,
         "dots_hidden_mobile": false,
         "layout": "t4s-container-wrap",
-        "cl_bg": "",
+        "cl_bg": "#0e272d",
         "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
+        "mg": ",,20px,",
+        "pd": "30px,,20px",
         "mg_tb": "",
         "pd_tb": "",
         "mg_mb": ",,30px,",
