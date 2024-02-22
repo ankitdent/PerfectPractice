@@ -1045,7 +1045,7 @@
         "product": "v5-putting-mat",
         "enable_sticky_info": false,
         "media_layout": "thumbnails_left",
-        "media_size": "medium",
+        "media_size": "large",
         "thumb_lr_size": "small",
         "image_ratio": "ratioadapt",
         "image_size": "cover",
