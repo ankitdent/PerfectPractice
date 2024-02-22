@@ -1346,7 +1346,7 @@
         "custom_text_f3fF87": {
           "type": "custom_text",
           "settings": {
-            "text": "Everything you love about the original Perfect Putting Mat, with our new lay-flat technology and a roll-away base to bring the green wherever you go.",
+            "text": "Everything you love about the<br>original Perfect Putting Mat, with<br>our \nnew lay-flat technology and<br>a roll-away base to bring the green<br>wherever you go.",
             "remove_br_tag": false,
             "tag": "p",
             "fontf": "inherit",
