@@ -1153,6 +1153,23 @@
         "code_cus_css": ""
       }
     },
+    "custom_html_QDy4U8": {
+      "type": "custom-html",
+      "settings": {
+        "code": "<div class=\"t4s-text-center\" style=\"padding: 15px 0;background-color: #E4E5E6;color: #2D2926;\">\n<div class=\"heading-testimonials-star t4s-text-center\"><h3 class=\"t4s-section-title t4s-title\"><span>PUTT. REPEAT. IMPROVE.<\/span><\/h3><\/div>Golf is a game of constant progression. Perfect Practice accelerates it. From new personal bests to course records, we design for better play at every level.<\/div>",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
     "df216932-591b-477f-8564-1fa591ab28ac": {
       "type": "feature_columns2",
       "blocks": {
@@ -1501,6 +1518,7 @@
     "slideshow_mpwXqk",
     "59f6c9e5-7931-4242-9694-c64146b2c3d0",
     "8b07777e-f541-4c5e-a185-139639de18dc",
+    "custom_html_QDy4U8",
     "df216932-591b-477f-8564-1fa591ab28ac",
     "7c2595c1-8ec3-43d6-adcd-7a805d3185a8",
     "17068202832f1c9be2",
