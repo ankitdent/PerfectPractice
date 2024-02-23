@@ -1358,28 +1358,116 @@
         "code_cus_css": ""
       }
     },
-    "1696627529d8e7efa8": {
-      "type": "apps",
+    "brand_faqs_ymVknR": {
+      "type": "brand-faqs",
       "blocks": {
-        "4b552893-116f-4639-b867-53723c99935a": {
-          "type": "shopify:\/\/apps\/opinew-product-reviews-app\/blocks\/all-reviews\/e1d8e0dc-17ff-4e4a-8a8a-1e73c8ef8676",
+        "accor_item_ftDK4H": {
+          "type": "accor_item",
           "settings": {
+            "icon": "none",
+            "title": "Tab 01",
+            "content": "<p>We love to hear from you on our customer service, merchandise, website or any topics you want to share with us. Your comments and suggestions will be appreciated. Please complete the form below.<\/p>"
+          }
+        },
+        "accor_item_wh38G6": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "Tab 02",
+            "content": "<p>We love to hear from you on our customer service, merchandise, website or any topics you want to share with us. Your comments and suggestions will be appreciated. Please complete the form below.<\/p>"
+          }
+        },
+        "accor_item_6znfNW": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "Tab 03",
+            "content": "<p>We love to hear from you on our customer service, merchandise, website or any topics you want to share with us. Your comments and suggestions will be appreciated. Please complete the form below.<\/p>"
           }
         }
       },
       "block_order": [
-        "4b552893-116f-4639-b867-53723c99935a"
+        "accor_item_ftDK4H",
+        "accor_item_wh38G6",
+        "accor_item_6znfNW"
       ],
       "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "Accordion",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "accor_des": "2",
+        "title_cl": "#222",
+        "bg_title_cl": "#f6f6f8",
+        "title_active_cl": "#000",
+        "bg_title_active_cl": "#f6f6f8",
+        "content_cl": "#878787",
+        "bg_content_cl": "#fff",
+        "bg_icon_cl": "#D1EFEC",
+        "bg_icon_cl_active": "",
+        "bg_icon_color": "#459B96",
+        "content_align": "t4s-text-start",
+        "auto_active": true,
+        "layout": "t4s-container-wrap",
+        "custom_width": 1000,
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "tabs_des": "base",
+        "tabs_border": "solid",
+        "item_rounded": false,
+        "item_cl": "#222222",
+        "item_bg": "",
+        "item_cl_active": "#56CFE1",
+        "item_bg_active": "#56CFE1",
+        "space_between": 30,
+        "tabs_pos": "center",
+        "tabslist_mb": 30,
+        "faq_link": "",
+        "support_heading": "",
+        "support_text_block": "",
+        "support_link": "",
+        "support_text": "Reach out to us",
+        "use_cus_css": false,
+        "code_cus_css": ""
       }
     },
     "7f6dbb86-18ab-4678-82da-9c175a851438": {
       "type": "newsletter",
       "blocks": {
+        "custom_text_M6986R": {
+          "type": "custom_text",
+          "settings": {
+            "text": "First-Time Customer?",
+            "remove_br_tag": false,
+            "tag": "div",
+            "fontf": "inherit",
+            "text_cl": "#0b0f0e",
+            "text_fs": 16,
+            "text_lh": 0,
+            "text_fw": 400,
+            "text_ls": 0,
+            "font_italic": false,
+            "text_shadow": false,
+            "text_mgb": 15,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10
+          }
+        },
         "template--20783191064873__7f6dbb86-18ab-4678-82da-9c175a851438-custom_text-1": {
           "type": "custom_text",
           "settings": {
-            "text": "Need Help?",
+            "text": "SIGN UP TO GET 10% OFF",
             "remove_br_tag": false,
             "tag": "div",
             "fontf": "inherit",
@@ -1390,7 +1478,7 @@
             "text_ls": 0,
             "font_italic": false,
             "text_shadow": false,
-            "text_mgb": 25,
+            "text_mgb": 15,
             "hidden_mobile": false,
             "text_fs_mb": 24,
             "text_lh_mb": 0,
@@ -1401,12 +1489,12 @@
         "template--20783191064873__7f6dbb86-18ab-4678-82da-9c175a851438-custom_text-2": {
           "type": "custom_text",
           "settings": {
-            "text": "Get answers to all your questions<br>you might have",
+            "text": "YOUR FIRST ORDER",
             "remove_br_tag": false,
             "tag": "p",
             "fontf": "inherit",
             "text_cl": "#000000",
-            "text_fs": 24,
+            "text_fs": 30,
             "text_lh": 0,
             "text_fw": 400,
             "text_ls": 0,
@@ -1422,66 +1510,34 @@
         },
         "template--20783191064873__7f6dbb86-18ab-4678-82da-9c175a851438-newsletter-1": {
           "type": "newsletter",
-          "disabled": true,
           "settings": {
             "form_width": 435,
             "form_width_mb": 0,
-            "newl_des": "1",
+            "newl_des": "5",
             "news_align": "start",
-            "newl_size": "small",
+            "newl_size": "medium",
             "btn_icon": false,
-            "input_cl": "#000f41",
-            "border_cl": "#000000",
-            "btn_cl": "#f4dd4a",
-            "btn_bg_cl": "#000f41",
+            "input_cl": "#0e272d",
+            "border_cl": "#0e272d",
+            "btn_cl": "#ffffff",
+            "btn_bg_cl": "#0e272d",
             "btn_hover_cl": "#000f41",
             "btn_hover_bg_cl": "#56cfe1",
             "hidden_mobile": false,
             "mgb": 15,
             "mgb_mb": 10
           }
-        },
-        "fecdd310-1b73-4e94-a4d6-1d0600e3d1d1": {
-          "type": "custom_button",
-          "settings": {
-            "button_text": "CONTACT US",
-            "button_link": "shopify:\/\/pages\/contact-us",
-            "target_link": "_self",
-            "fontf": "inherit",
-            "button_icon_w": 0,
-            "button_style": "default",
-            "button_effect": "default",
-            "pri_cl": "#1e4c2f",
-            "second_cl": "#ffffff",
-            "pri_cl_hover": "#1e4c2f",
-            "second_cl_hover": "#ffffff",
-            "fsbutton": 16,
-            "fwbutton": 400,
-            "button_ls": 0,
-            "button_mh": 42,
-            "button_bdr": 10,
-            "button_pd_lr": 35,
-            "button_mgb": 0,
-            "hidden_mobile": false,
-            "button_icon_w_mb": 0,
-            "fsbutton_mb": 16,
-            "button_mh_mb": 36,
-            "button_pd_lr_mb": 42,
-            "button_ls_mb": 0,
-            "button_mgb_mb": 0
-          }
         }
       },
       "block_order": [
+        "custom_text_M6986R",
         "template--20783191064873__7f6dbb86-18ab-4678-82da-9c175a851438-custom_text-1",
         "template--20783191064873__7f6dbb86-18ab-4678-82da-9c175a851438-custom_text-2",
-        "template--20783191064873__7f6dbb86-18ab-4678-82da-9c175a851438-newsletter-1",
-        "fecdd310-1b73-4e94-a4d6-1d0600e3d1d1"
+        "template--20783191064873__7f6dbb86-18ab-4678-82da-9c175a851438-newsletter-1"
       ],
-      "disabled": true,
       "settings": {
         "design_heading": "1",
-        "heading_align": "t4s-text-center",
+        "heading_align": "t4s-text-start",
         "top_heading": "",
         "icon_heading": "las la-gem",
         "top_subheading": "",
@@ -1502,6 +1558,21 @@
         "use_cus_css": true,
         "code_cus_css": ".SectionID p{opacity: 0.7;}"
       }
+    },
+    "1696627529d8e7efa8": {
+      "type": "apps",
+      "blocks": {
+        "4b552893-116f-4639-b867-53723c99935a": {
+          "type": "shopify:\/\/apps\/opinew-product-reviews-app\/blocks\/all-reviews\/e1d8e0dc-17ff-4e4a-8a8a-1e73c8ef8676",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "4b552893-116f-4639-b867-53723c99935a"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -1516,7 +1587,8 @@
     "df216932-591b-477f-8564-1fa591ab28ac",
     "7c2595c1-8ec3-43d6-adcd-7a805d3185a8",
     "blog_post_eMJUDM",
-    "1696627529d8e7efa8",
-    "7f6dbb86-18ab-4678-82da-9c175a851438"
+    "brand_faqs_ymVknR",
+    "7f6dbb86-18ab-4678-82da-9c175a851438",
+    "1696627529d8e7efa8"
   ]
 }
