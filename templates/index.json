@@ -927,9 +927,9 @@
         "d7c50122-e94a-4d12-8985-59ed65dd2b17": {
           "type": "tab_item",
           "settings": {
-            "title": "Picaridin",
+            "title": "Putting Mats",
             "icon_title": "",
-            "collection": "picaridin-20-insect-repellents",
+            "collection": "putting-mats",
             "product_des": "1",
             "show_vendor": false,
             "use_cdt": false,
@@ -975,9 +975,9 @@
         "9ebd0a3f-ed70-4369-943a-0b35fe8feeae": {
           "type": "tab_item",
           "settings": {
-            "title": "Permethrin",
+            "title": "Putting Aids",
             "icon_title": "",
-            "collection": "permethrin-0-5",
+            "collection": "putting-aids",
             "product_des": "1",
             "show_vendor": false,
             "use_cdt": false,
@@ -1023,7 +1023,7 @@
         "75cba43c-5624-4498-997c-a84aab12095c": {
           "type": "tab_item",
           "settings": {
-            "title": "Bundles & Variety Packs",
+            "title": "Bundles",
             "icon_title": "",
             "collection": "bundles",
             "product_des": "1",
@@ -1067,14 +1067,62 @@
             "button_effect": "default",
             "btn_pos": "t4s-text-center"
           }
+        },
+        "tab_item_CV7Hw9": {
+          "type": "tab_item",
+          "settings": {
+            "title": "All Categories",
+            "icon_title": "",
+            "collection": "all",
+            "product_des": "1",
+            "show_vendor": false,
+            "use_cdt": false,
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "content_align": "start",
+            "limit": 8,
+            "col_dk": "4",
+            "col_tb": "2",
+            "col_mb": "2",
+            "space_h_item": "30",
+            "space_v_item": "30",
+            "space_h_item_mb": "10",
+            "space_v_item_mb": "10",
+            "layout_des": "2",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false,
+            "use_pagination": "view-all",
+            "enable_bar_lm": true,
+            "btn_icon": false,
+            "button_style": "default",
+            "btns_size": "large",
+            "btns_cl": "dark",
+            "button_effect": "default",
+            "btn_pos": "t4s-text-center"
+          }
         }
       },
       "block_order": [
         "d7c50122-e94a-4d12-8985-59ed65dd2b17",
         "9ebd0a3f-ed70-4369-943a-0b35fe8feeae",
-        "75cba43c-5624-4498-997c-a84aab12095c"
+        "75cba43c-5624-4498-997c-a84aab12095c",
+        "tab_item_CV7Hw9"
       ],
-      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
