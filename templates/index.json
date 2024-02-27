@@ -653,7 +653,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Group_34712x.png",
             "image_mb": "shopify:\/\/shop_images\/Group_5771_2x_913a8a6d-0631-49d4-82c1-a5d69ba34c95.png",
-            "image_position": "8",
+            "image_position": "default",
             "cl_img": "",
             "link_img1": "",
             "open_link": "_blank",
