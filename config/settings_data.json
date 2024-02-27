@@ -515,9 +515,9 @@
             "type": "drop",
             "settings": {
               "title": "Shop",
-              "url": "https:\/\/rangerready.com\/collections\/all",
+              "url": "shopify:\/\/collections",
               "open_link": "_self",
-              "menu": "",
+              "menu": "shop",
               "icon": "",
               "cus_cl": false,
               "cl": "#ec0101",
