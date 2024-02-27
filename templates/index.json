@@ -14,7 +14,7 @@
             "open_link": "_self",
             "animate_slide": "none",
             "text_align": "start",
-            "text_align_mb": "start",
+            "text_align_mb": "center",
             "show_mobile-content-bottom": false,
             "content_width": "auto",
             "cv_pos": 50,
