@@ -246,10 +246,10 @@
               "menu": "",
               "menu_style": "1",
               "col_border": "none",
-              "col_dk": "3",
-              "col_tb": "6",
+              "col_dk": "12",
+              "col_tb": "12",
               "col_mb": "12",
-              "content_align": "t4s-text-lg-start",
+              "content_align": "t4s-text-lg-center",
               "padding_inner": "",
               "content_align_tb": "t4s-text-md-start",
               "padding_inner_tb": "",
@@ -258,13 +258,32 @@
               "padding_inner_mb": ""
             }
           },
+          "footer-8": {
+            "type": "bl_col",
+            "settings": {
+              "col_heading": "",
+              "menu": "footer",
+              "menu_style": "2",
+              "col_border": "none",
+              "col_dk": "12",
+              "col_tb": "12",
+              "col_mb": "12",
+              "content_align": "t4s-text-lg-center",
+              "padding_inner": "5px,0,0,0",
+              "content_align_tb": "t4s-text-md-center",
+              "padding_inner_tb": "",
+              "col_heading_mobile": "",
+              "content_align_mb": "t4s-text-center",
+              "padding_inner_mb": ""
+            }
+          },
           "image_cJgcMd": {
             "type": "image",
             "settings": {
               "image_child": "shopify:\/\/shop_images\/PFP_Logos_Navy_Infiniti_Left-800px.png",
               "link_img": "",
-              "img_width": 0,
-              "img_width_mb": 0,
+              "img_width": 250,
+              "img_width_mb": 250,
               "mgb": 19,
               "mgb_mb": 20
             }
@@ -285,32 +304,13 @@
               "space_h_item_mb": "2",
               "space_v_item_mb": "2"
             }
-          },
-          "footer-8": {
-            "type": "bl_col",
-            "settings": {
-              "col_heading": "",
-              "menu": "footer",
-              "menu_style": "2",
-              "col_border": "none",
-              "col_dk": "9",
-              "col_tb": "12",
-              "col_mb": "12",
-              "content_align": "t4s-text-lg-center",
-              "padding_inner": "5px,0,0,0",
-              "content_align_tb": "t4s-text-md-center",
-              "padding_inner_tb": "",
-              "col_heading_mobile": "",
-              "content_align_mb": "t4s-text-start",
-              "padding_inner_mb": ""
-            }
           }
         },
         "block_order": [
           "bl_col_6L4qMg",
+          "footer-8",
           "image_cJgcMd",
-          "cus_socials_HtEtGY",
-          "footer-8"
+          "cus_socials_HtEtGY"
         ],
         "settings": {
           "sticky": false,
