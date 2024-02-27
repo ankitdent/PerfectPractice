@@ -92,9 +92,9 @@
     "share_tumblr": true,
     "share_telegram": true,
     "share_whatsapp": false,
-    "social_facebook_link": "#",
-    "social_twitter_link": "",
-    "social_instagram_link": "#",
+    "social_facebook_link": "https:\/\/www.facebook.com\/practiceperfected\/",
+    "social_twitter_link": "https:\/\/twitter.com\/golf_perfect",
+    "social_instagram_link": "https:\/\/www.instagram.com\/perfectpracticegolf",
     "social_dribbble_link": "",
     "social_linkedin_link": "",
     "social_pinterest_link": "",
@@ -104,7 +104,7 @@
     "social_vimeo_link": "",
     "social_behance_link": "",
     "social_soundcloud_link": "",
-    "social_tiktok_link": "",
+    "social_tiktok_link": "https:\/\/www.tiktok.com\/@perfectpracticegolf",
     "social_threads_link": "",
     "social_spotify_link": "",
     "favicon": "shopify:\/\/shop_images\/Ranger-Ready-logo_1.png",
@@ -238,7 +238,7 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "footer-8": {
+          "bl_col_6L4qMg": {
             "type": "bl_col",
             "settings": {
               "col_heading": "",
@@ -246,137 +246,6 @@
               "menu_style": "1",
               "col_border": "none",
               "col_dk": "3",
-              "col_tb": "6",
-              "col_mb": "12",
-              "content_align": "t4s-text-md-start",
-              "padding_inner": "5px,0,0,0",
-              "content_align_tb": "t4s-text-md-start",
-              "padding_inner_tb": "",
-              "col_heading_mobile": "",
-              "content_align_mb": "t4s-text-start",
-              "padding_inner_mb": ""
-            }
-          },
-          "1ba4b938-4484-4256-9fd2-1d3c7d58213f": {
-            "type": "image",
-            "settings": {
-              "link_img": "",
-              "img_width": 80,
-              "img_width_mb": 80,
-              "mgb": 20,
-              "mgb_mb": 20
-            }
-          },
-          "6a37dfd9-7f2c-4ef6-baab-2bc5ed4913cf": {
-            "type": "custom_text",
-            "settings": {
-              "text": "Ranger Ready was invented in Norwalk, Connecticut, just south of the epicenter of Lyme disease. Ranger Ready products are proudly made in the U.S., using local family-owned businesses. Ranger Ready bottles and packaging are 100% recyclable.\n<br><br>We put our fans first and strive to always deliver 5-star customer service.",
-              "remove_br_tag": false,
-              "tag": "p",
-              "fontf": "inherit",
-              "text_cl": "#0b0f0e",
-              "text_fs": 16,
-              "text_lh": 26,
-              "text_fw": 500,
-              "text_ls": 0,
-              "font_italic": false,
-              "text_shadow": false,
-              "text_mgb": 15,
-              "hidden_mobile": false,
-              "text_fs_mb": 18,
-              "text_lh_mb": 28,
-              "text_ls_mb": 0,
-              "text_mgb_mobile": 10
-            }
-          },
-          "18833cd0-cfef-4607-abd0-ae141bd0fd41": {
-            "type": "bl_col",
-            "settings": {
-              "col_heading": "",
-              "menu": "",
-              "menu_style": "1",
-              "col_border": "none",
-              "col_dk": "16",
-              "col_tb": "0",
-              "col_mb": "12",
-              "content_align": "t4s-text-md-start",
-              "padding_inner": "5px,0,0,0",
-              "content_align_tb": "t4s-text-md-start",
-              "padding_inner_tb": "",
-              "col_heading_mobile": "",
-              "content_align_mb": "t4s-text-start",
-              "padding_inner_mb": ""
-            }
-          },
-          "footer-4": {
-            "type": "bl_col",
-            "settings": {
-              "col_heading": "Customer Service",
-              "menu": "",
-              "menu_style": "1",
-              "col_border": "none",
-              "col_dk": "15",
-              "col_tb": "6",
-              "col_mb": "12",
-              "content_align": "t4s-text-md-start",
-              "padding_inner": "5px,0,0,0",
-              "content_align_tb": "t4s-text-md-start",
-              "padding_inner_tb": "",
-              "col_heading_mobile": "",
-              "content_align_mb": "t4s-text-start",
-              "padding_inner_mb": ""
-            }
-          },
-          "footer-10": {
-            "type": "bl_col",
-            "settings": {
-              "col_heading": "General Information",
-              "menu": "",
-              "menu_style": "1",
-              "col_border": "none",
-              "col_dk": "15",
-              "col_tb": "6",
-              "col_mb": "12",
-              "content_align": "t4s-text-lg-start",
-              "padding_inner": "5px,0,0,0",
-              "content_align_tb": "t4s-text-md-start",
-              "padding_inner_tb": "",
-              "col_heading_mobile": "",
-              "content_align_mb": "t4s-text-start",
-              "padding_inner_mb": ""
-            }
-          },
-          "d319ce19-e078-4958-b353-44ba66439d6f": {
-            "type": "custom_text",
-            "disabled": true,
-            "settings": {
-              "text": "Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.",
-              "remove_br_tag": false,
-              "tag": "p",
-              "fontf": "inherit",
-              "text_cl": "#ffffff",
-              "text_fs": 16,
-              "text_lh": 22,
-              "text_fw": 400,
-              "text_ls": 0,
-              "font_italic": false,
-              "text_shadow": false,
-              "text_mgb": 15,
-              "hidden_mobile": false,
-              "text_fs_mb": 16,
-              "text_lh_mb": 24,
-              "text_ls_mb": 0,
-              "text_mgb_mobile": 10
-            }
-          },
-          "91fda933-0e19-49b6-9810-b031e272d0cf": {
-            "type": "bl_col",
-            "settings": {
-              "col_heading": "Information",
-              "menu": "",
-              "menu_style": "1",
-              "col_border": "none",
-              "col_dk": "15",
               "col_tb": "6",
               "col_mb": "12",
               "content_align": "t4s-text-lg-start",
@@ -388,24 +257,59 @@
               "padding_inner_mb": ""
             }
           },
-          "html_pU73Rw": {
-            "type": "html",
+          "image_cJgcMd": {
+            "type": "image",
             "settings": {
-              "html_content": "<button id=\"ot-sdk-btn\" class=\"ot-sdk-show-settings\" style=\"color: inherit; border:none; background: transparent; text-decoration: underline\">Review My Cookies<\/button>",
-              "hidden_mobile": false
+              "image_child": "shopify:\/\/shop_images\/PFP_Logos_Navy_Infiniti_Left-800px.png",
+              "link_img": "",
+              "img_width": 0,
+              "img_width_mb": 0,
+              "mgb": 19,
+              "mgb_mb": 20
+            }
+          },
+          "cus_socials_HtEtGY": {
+            "type": "cus_socials",
+            "settings": {
+              "title": "",
+              "social_mode": "1",
+              "social_style": "3",
+              "social_size": "small",
+              "bd_radius": 5,
+              "use_color_set": true,
+              "icon_cl": "#323e48",
+              "bg_cl": "#43b02a",
+              "space_h_item": "20",
+              "space_v_item": "5",
+              "space_h_item_mb": "2",
+              "space_v_item_mb": "2"
+            }
+          },
+          "footer-8": {
+            "type": "bl_col",
+            "settings": {
+              "col_heading": "",
+              "menu": "footer",
+              "menu_style": "2",
+              "col_border": "none",
+              "col_dk": "9",
+              "col_tb": "12",
+              "col_mb": "12",
+              "content_align": "t4s-text-lg-center",
+              "padding_inner": "5px,0,0,0",
+              "content_align_tb": "t4s-text-md-center",
+              "padding_inner_tb": "",
+              "col_heading_mobile": "",
+              "content_align_mb": "t4s-text-start",
+              "padding_inner_mb": ""
             }
           }
         },
         "block_order": [
-          "footer-8",
-          "1ba4b938-4484-4256-9fd2-1d3c7d58213f",
-          "6a37dfd9-7f2c-4ef6-baab-2bc5ed4913cf",
-          "18833cd0-cfef-4607-abd0-ae141bd0fd41",
-          "footer-4",
-          "footer-10",
-          "d319ce19-e078-4958-b353-44ba66439d6f",
-          "91fda933-0e19-49b6-9810-b031e272d0cf",
-          "html_pU73Rw"
+          "bl_col_6L4qMg",
+          "image_cJgcMd",
+          "cus_socials_HtEtGY",
+          "footer-8"
         ],
         "settings": {
           "sticky": false,
@@ -2429,6 +2333,7 @@
         "blocks": {
           "custom_text_kBckMm": {
             "type": "custom_text",
+            "disabled": true,
             "settings": {
               "text": "SUBSCRIBE AND SAVE $10 OFF YOUR FIRST ORDER OF $25 OR MORE!",
               "remove_br_tag": false,
@@ -2451,6 +2356,7 @@
           },
           "newsletter_yrP9di": {
             "type": "newsletter",
+            "disabled": true,
             "settings": {
               "form_width": 0,
               "form_width_mb": 0,
