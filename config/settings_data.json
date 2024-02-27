@@ -137,7 +137,7 @@
           "b3c6ceca-2d54-4a14-b482-bb86cbf25f08": {
             "type": "copyR",
             "settings": {
-              "text": "<span class=\"t4s-cp\">© Ranger Ready [year]. All Rights Reserved<\/span>",
+              "text": "<span class=\"t4s-cp\" style=\"color:#fff\">© Perfect Practice [year]. | <a href=\"https:\/\/thrasio-privacy.my.onetrust.com\/webform\/31671afb-8866-4ea6-b9eb-90276fcdf684\/18672c1f-5796-4b3c-9c51-147dadb5b6ff\" target=\"_blank\"> Do Not Sell My Info<\/a><\/span>",
               "mgb": 0,
               "mgb_mb": 0
             }
@@ -220,12 +220,12 @@
           "text_fs": 14,
           "text_fw": 400,
           "heading_cl": "#222222",
-          "text_cl": "#666666",
-          "link_cl": "#666666",
-          "link_hover_cl": "#666666",
+          "text_cl": "#ffffff",
+          "link_cl": "#ffffff",
+          "link_hover_cl": "#43b02a",
           "border_cl": "#e6e6e6",
           "layout": "t4s-container-wrap",
-          "cl_bg": "#ececec",
+          "cl_bg": "#0e272d",
           "cl_bg_gradient": "",
           "mg": "",
           "pd": "20px,,5px,",
