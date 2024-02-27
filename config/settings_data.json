@@ -767,10 +767,10 @@
           "btn_config-1": {
             "type": "custom2",
             "settings": {
-              "color_primary": "#f7f7f7",
-              "color_second": "#222222",
+              "color_primary": "#43b02a",
+              "color_second": "#ffffff",
               "color_primary_hover": "#ffffff",
-              "color_second_hover": "#222222"
+              "color_second_hover": "#43b02a"
             }
           }
         },
