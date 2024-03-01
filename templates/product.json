@@ -950,6 +950,87 @@
         "code_cus_css": ""
       }
     },
+    "brand_faqs_hFfp9x": {
+      "type": "brand-faqs",
+      "blocks": {
+        "accor_item_fxFqAb": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "Who benefits from Perfect Practice Putting Mats?",
+            "content": "<p>Everyone! Our premium putting mats help every golfer practice more and practice better. For Tour Pros like Dustin Johnson, making one extra putt per tournament can be worth hundreds of thousands of dollars! <\/p><p>For everyone else, who can put a price on taking a $20 Nassau off your buddies? Our putting mats will help you leave the course with a smile (or maybe even a trophy).<\/p>"
+          }
+        },
+        "accor_item_jbJNY3": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "Where should I use my Perfect Practice Putting Mat?",
+            "content": "<p>Indoors or outdoors… anywhere you have a flat surface such as your living room, office, gym, basement, kitchen, or pro shop. Please make sure your mat is pulled tight to ensure a smooth transition up the ramp. And if you’re using it outside, bring it indoors when you’re finished.<\/p><p>If you mat happens to get dirty, simply vacuum it as you would any carpet.<\/p>"
+          }
+        },
+        "accor_item_DH9DtR": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "Tab 03",
+            "content": "<p>We love to hear from you on our customer service, merchandise, website or any topics you want to share with us. Your comments and suggestions will be appreciated. Please complete the form below.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "accor_item_fxFqAb",
+        "accor_item_jbJNY3",
+        "accor_item_DH9DtR"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "Accordion",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "accor_des": "1",
+        "title_cl": "#222",
+        "bg_title_cl": "#f6f6f8",
+        "title_active_cl": "#000",
+        "bg_title_active_cl": "#f6f6f8",
+        "content_cl": "#878787",
+        "bg_content_cl": "#fff",
+        "bg_icon_cl": "#D1EFEC",
+        "bg_icon_cl_active": "",
+        "bg_icon_color": "#459B96",
+        "content_align": "t4s-text-start",
+        "auto_active": true,
+        "layout": "t4s-container-wrap",
+        "custom_width": 1000,
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "tabs_des": "base",
+        "tabs_border": "solid",
+        "item_rounded": false,
+        "item_cl": "#222222",
+        "item_bg": "",
+        "item_cl_active": "#56CFE1",
+        "item_bg_active": "#56CFE1",
+        "space_between": 30,
+        "tabs_pos": "center",
+        "tabslist_mb": 30,
+        "faq_link": "",
+        "support_heading": "",
+        "support_text_block": "",
+        "support_link": "",
+        "support_text": "Reach out to us",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
     "1702895640c62aba6a": {
       "type": "apps",
       "blocks": {
@@ -979,6 +1060,7 @@
     "34eab03a-b1c4-4c29-9079-64f6e663d12a",
     "67aee4f6-c98c-4da7-9ea9-8fe5b50e0691",
     "testimonials_2_aAjXRH",
+    "brand_faqs_hFfp9x",
     "1702895640c62aba6a"
   ]
 }
