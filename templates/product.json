@@ -963,6 +963,21 @@
         "use_cus_css": false,
         "code_cus_css": ""
       }
+    },
+    "1709290484375e27e9": {
+      "type": "apps",
+      "blocks": {
+        "opinew_product_reviews_app_product_widget_gWhqqh": {
+          "type": "shopify:\/\/apps\/opinew-product-reviews-app\/blocks\/product-widget\/e1d8e0dc-17ff-4e4a-8a8a-1e73c8ef8676",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "opinew_product_reviews_app_product_widget_gWhqqh"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -978,6 +993,7 @@
     "1a5f18e3-6d85-43b3-a67d-fd565e3561bd",
     "34eab03a-b1c4-4c29-9079-64f6e663d12a",
     "67aee4f6-c98c-4da7-9ea9-8fe5b50e0691",
-    "testimonials_2_aAjXRH"
+    "testimonials_2_aAjXRH",
+    "1709290484375e27e9"
   ]
 }
