@@ -896,11 +896,13 @@
         "testimonial_RRJP9M": {
           "type": "testimonial",
           "settings": {
+            "image": "shopify:\/\/shop_images\/m_wolf_32.jpg",
+            "image_mb": "shopify:\/\/shop_images\/m_wolff.jpg",
             "heading": "",
-            "content": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-            "author": "Author's name",
-            "pos": "",
-            "rating": 5
+            "content": "<p>\"You make this putt, you can make any putt! (on the Perfect Practice Mat) All day, I'm buying!\"<\/p>",
+            "author": "Matt Wolff,",
+            "pos": "PGA Tour Champion",
+            "rating": 0
           }
         },
         "testimonial_ajfVrj": {
