@@ -1535,6 +1535,7 @@
         "template--20783191064873__7f6dbb86-18ab-4678-82da-9c175a851438-custom_text-2",
         "template--20783191064873__7f6dbb86-18ab-4678-82da-9c175a851438-newsletter-1"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-start",
