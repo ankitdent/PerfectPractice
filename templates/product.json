@@ -893,11 +893,12 @@
         "testimonial_ajfVrj": {
           "type": "testimonial",
           "settings": {
+            "image": "shopify:\/\/shop_images\/faldo.jpg",
             "heading": "",
-            "content": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-            "author": "Author's name",
-            "pos": "",
-            "rating": 5
+            "content": "<p>\"The Perfect Putting Mat is the first thing  you  should buy if you want to make more putts.\"<\/p>",
+            "author": "Sir Nick Faldo,",
+            "pos": "6-Time Major Champion",
+            "rating": 0
           }
         }
       },
