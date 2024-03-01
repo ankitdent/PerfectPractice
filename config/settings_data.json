@@ -2334,16 +2334,15 @@
         "blocks": {
           "custom_text_kBckMm": {
             "type": "custom_text",
-            "disabled": true,
             "settings": {
-              "text": "SUBSCRIBE AND SAVE $10 OFF YOUR FIRST ORDER OF $25 OR MORE!",
+              "text": "First-Time Customer?",
               "remove_br_tag": false,
               "tag": "div",
               "fontf": "inherit",
               "text_cl": "#ffffff",
-              "text_fs": 24,
+              "text_fs": 14,
               "text_lh": 0,
-              "text_fw": 700,
+              "text_fw": 600,
               "text_ls": 0,
               "font_italic": false,
               "text_shadow": false,
@@ -2355,20 +2354,63 @@
               "text_mgb_mobile": 10
             }
           },
+          "custom_text_VzKVi9": {
+            "type": "custom_text",
+            "settings": {
+              "text": "SIGN UP TO GET 10% OFF",
+              "remove_br_tag": false,
+              "tag": "h3",
+              "fontf": "inherit",
+              "text_cl": "#fff",
+              "text_fs": 24,
+              "text_lh": 0,
+              "text_fw": 400,
+              "text_ls": 0,
+              "font_italic": false,
+              "text_shadow": false,
+              "text_mgb": 15,
+              "hidden_mobile": false,
+              "text_fs_mb": 30,
+              "text_lh_mb": 0,
+              "text_ls_mb": 0,
+              "text_mgb_mobile": 10
+            }
+          },
+          "custom_text_BEr6Nk": {
+            "type": "custom_text",
+            "settings": {
+              "text": "YOUR FIRST ORDER",
+              "remove_br_tag": false,
+              "tag": "h4",
+              "fontf": "inherit",
+              "text_cl": "#fff",
+              "text_fs": 21,
+              "text_lh": 0,
+              "text_fw": 400,
+              "text_ls": 0,
+              "font_italic": false,
+              "text_shadow": false,
+              "text_mgb": 15,
+              "hidden_mobile": false,
+              "text_fs_mb": 16,
+              "text_lh_mb": 0,
+              "text_ls_mb": 0,
+              "text_mgb_mobile": 10
+            }
+          },
           "newsletter_yrP9di": {
             "type": "newsletter",
-            "disabled": true,
             "settings": {
-              "form_width": 0,
-              "form_width_mb": 0,
-              "newl_des": "1",
-              "news_align": "center",
-              "newl_size": "small",
-              "btn_icon": false,
+              "form_width": 500,
+              "form_width_mb": 400,
+              "newl_des": "2",
+              "news_align": "start",
+              "newl_size": "medium",
+              "btn_icon": true,
               "input_cl": "#0b0f0e",
               "border_cl": "#0b0f0e",
-              "btn_cl": "#0b0f0e",
-              "btn_bg_cl": "#ffffff",
+              "btn_cl": "#ffffff",
+              "btn_bg_cl": "#0e272d",
               "btn_hover_cl": "#0b0f0e",
               "btn_hover_bg_cl": "#ffffff",
               "hidden_mobile": false,
@@ -2379,6 +2421,8 @@
         },
         "block_order": [
           "custom_text_kBckMm",
+          "custom_text_VzKVi9",
+          "custom_text_BEr6Nk",
           "newsletter_yrP9di"
         ],
         "settings": {
@@ -2392,7 +2436,7 @@
           "news_overlay": "#000000",
           "news_overlay_opacity": 0,
           "layout": "t4s-container-wrap",
-          "cl_bg": "#e87200",
+          "cl_bg": "#43b02a",
           "cl_bg_gradient": "",
           "parallax": false,
           "mg": "",
