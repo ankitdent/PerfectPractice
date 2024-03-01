@@ -137,7 +137,7 @@
     <div id="t4s-support-{{ section.id }}" class="t4s-tabs t4s-type-accordion {{ se_stts.content_align }}" data-t4s-tabs style="--title-cl: {{ se_stts.title_cl }};--bg-title-cl: {{ se_stts.bg_title_cl }};--title-active-cl: {{ se_stts.title_active_cl }};--bg-title-active-cl: {{ se_stts.bg_title_active_cl }};--content-cl: {{ se_stts.content_cl }};--bg-content-cl: {{ se_stts.bg_content_cl }}; t4s-tab-content2" data-t4s-tab-content data-render-lazy-component style="display:none;">
   {% if section.settings.support_heading %} <h3 style="text-align:center;" class="t4s-title">{{ section.settings.support_heading }}</h3>{% endif %}
   {% if section.settings.support_text_block %} <p style="text-align:center;">{{ section.settings.support_text_block }}</p>{% endif %}
-      <center><a href="{{ section.settings.support_link }}" class="t4s-btn" style="padding:10px 25px;background:var(--accent-color);color:#c6d1ff;">{{ section.settings.support_text }}</a></center>
+      <center><a href="{{ section.settings.support_link }}" class="t4s-btn" style="padding:10px 25px;background:var(--accent-color);color:var(--link-color)">{{ section.settings.support_text }}</a></center>
     </div>
    {% endcomment %}
       {{- html_layout[1] -}}
