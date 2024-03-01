@@ -973,15 +973,24 @@
           "type": "accor_item",
           "settings": {
             "icon": "none",
-            "title": "Tab 03",
-            "content": "<p>We love to hear from you on our customer service, merchandise, website or any topics you want to share with us. Your comments and suggestions will be appreciated. Please complete the form below.<\/p>"
+            "title": "Why the Perfect Practice Putting Mat?",
+            "content": "<p>After a few minutes of using our mat, you will gain confidence in your ability to hit your putts where you are aimed. That translates to a lot more made putts on the course and a huge boost in confidence over the ball.<\/p>"
+          }
+        },
+        "accor_item_nYD8E4": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "What is the speed of the Perfect Practice Putting Mat?",
+            "content": "<p>We spent a lot of time perfecting our Crystal Velvet material with Tru-Roll Technology, which will roll out at 10-14 on the stimp meter depending what is under the mat. Hard floors roll closer to 14 whereas thick carpets tend to roll closer to 10.<\/p>"
           }
         }
       },
       "block_order": [
         "accor_item_fxFqAb",
         "accor_item_jbJNY3",
-        "accor_item_DH9DtR"
+        "accor_item_DH9DtR",
+        "accor_item_nYD8E4"
       ],
       "settings": {
         "design_heading": "1",
@@ -991,15 +1000,15 @@
         "top_subheading": "",
         "tophead_mb": 30,
         "accor_des": "1",
-        "title_cl": "#222",
+        "title_cl": "#222222",
         "bg_title_cl": "#f6f6f8",
-        "title_active_cl": "#000",
+        "title_active_cl": "#000000",
         "bg_title_active_cl": "#f6f6f8",
         "content_cl": "#878787",
-        "bg_content_cl": "#fff",
-        "bg_icon_cl": "#D1EFEC",
+        "bg_content_cl": "#ffffff",
+        "bg_icon_cl": "#d1efec",
         "bg_icon_cl_active": "",
-        "bg_icon_color": "#459B96",
+        "bg_icon_color": "#459b96",
         "content_align": "t4s-text-start",
         "auto_active": true,
         "layout": "t4s-container-wrap",
@@ -1017,8 +1026,8 @@
         "item_rounded": false,
         "item_cl": "#222222",
         "item_bg": "",
-        "item_cl_active": "#56CFE1",
-        "item_bg_active": "#56CFE1",
+        "item_cl_active": "#56cfe1",
+        "item_bg_active": "#56cfe1",
         "space_between": 30,
         "tabs_pos": "center",
         "tabslist_mb": 30,
