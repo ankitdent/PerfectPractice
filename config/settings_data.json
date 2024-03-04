@@ -1151,7 +1151,7 @@
               "title": "Shop",
               "url": "shopify:\/\/collections\/all",
               "open_link": "_self",
-              "menu": "",
+              "menu": "shop",
               "lb": "",
               "lb_cl": "",
               "icons_op": "0",
@@ -1161,10 +1161,10 @@
           "25fa7ecf-2db0-4747-b093-a1299099917e": {
             "type": "menu",
             "settings": {
-              "title": "Why Picaridin?",
+              "title": "About",
               "url": "shopify:\/\/pages\/what-is-picaridin",
               "open_link": "_self",
-              "menu": "",
+              "menu": "about",
               "lb": "",
               "lb_cl": "",
               "icons_op": "2",
@@ -1174,8 +1174,8 @@
           "58800ed8-befe-449a-b8f8-ea86620bef6f": {
             "type": "menu",
             "settings": {
-              "title": "Why Permethrin?",
-              "url": "shopify:\/\/pages\/permethrin-repellent-spray",
+              "title": "Blog",
+              "url": "shopify:\/\/blogs\/news",
               "open_link": "_self",
               "menu": "",
               "lb": "",
@@ -1187,8 +1187,8 @@
           "mb_nav-3": {
             "type": "menu",
             "settings": {
-              "title": "About Us",
-              "url": "shopify:\/\/pages\/about-us",
+              "title": "Contact Us",
+              "url": "shopify:\/\/pages\/contact-us",
               "open_link": "_self",
               "menu": "",
               "lb": "",
@@ -1218,11 +1218,13 @@
           },
           "mb_nav-8": {
             "type": "lang",
+            "disabled": true,
             "settings": {
             }
           },
           "mb_nav-9": {
             "type": "cur",
+            "disabled": true,
             "settings": {
             }
           }
