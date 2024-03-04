@@ -218,4 +218,7 @@ ul.contact-info-footer {
 	}
   .t4s-footer a, .t4s-footer-menu ul li a{font-size:18px;line-height: 1.6;}
   .t4s-footer-heading h3{font-size:24px;font-size:1.4;}
+  .t4s-footer-menu.t4s-footer-menu-style2 ul li{
+    display:flex;
+  }
 }
