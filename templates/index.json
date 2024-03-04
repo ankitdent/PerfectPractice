@@ -697,7 +697,7 @@
             "text_ls": 0,
             "text_mgb": 25,
             "font_italic": false,
-            "text_shadow": false,
+            "text_shadow": true,
             "hidden_mobile": false,
             "text_fs_mb": 16,
             "text_lh_mb": 0,
