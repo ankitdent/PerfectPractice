@@ -97,8 +97,8 @@
                   assign url_img = cl_img
                   assign url_img_mb = cl_img
                 else
-                  assign url_img = image | image_url: width: 1, height: 1, format: 'jpg' | prepend: 'url(' | append: ')'
-                  assign url_img_mb = mb_image | image_url: width: 1, height: 1, format: 'jpg' | prepend: 'url(' | append: ')'
+                  assign url_img = 'url(' | append: img_1 | append: ')'
+                  assign url_img_mb = 'url(' | append: img_1_mb | append: ')'
                 endif           
            -%}
             
@@ -110,18 +110,18 @@
                                   <img {% if mb_image.presentation.focal_point != '50.0% 50.0%' %} style="object-position: {{ mb_image.presentation.focal_point }}"{% endif %} class="t4s-img-as-bg t4s-d-md-none -t4s-lz--fadeIn t4s-slide-{{ bk_stts.animate_slide }}"
                                   srcset="{{ img_url_w_mb0 }}375{{ img_url_w_mb1 }} 375w, {{ img_url_w_mb0 }}550{{ img_url_w_mb1 }} 550w, {{ img_url_w_mb0 }}750{{ img_url_w_mb1 }} 750w, {{ img_url_w_mb0 }}1100{{ img_url_w_mb1 }} 1100w, {{ img_url_w_mb0 }}1500{{ img_url_w_mb1 }} 1500w, {{ img_url_w_mb0 }}1780{{ img_url_w_mb1 }} 1780w, {{ img_url_w_mb0 }}2000{{ img_url_w_mb1 }} 2000w, {{ img_url_w_mb0 }}3000{{ img_url_w_mb1 }} 3000w,{{ img_url_w_mb0 }}3840{{ img_url_w_mb1 }} 3840w, {{ mb_image | image_url }} {{ mb_image.width }}w"
                                   sizes="(min-width: 768px) 768px,100vw" src="{{ img_url_w_mb0 }}1500{{ img_url_w_mb1 }}"
-                                  loading="lazy" onload="loadImageT4s(this)" alt="{% if mb_image.alt %}{{ mb_image.alt | escape }}{% else %}{{ shop.name }}{% endif %}" width="{{ mb_image.width }}" height="{{ mb_image.height }}">
-                                  <span class="lazyloadt4s-loader is-bg-img t4s-d-md-none" style="background: {{ url_img_mb }}" role="presentation"></span>
+                                  loading="lazy" onload="loadImageT4s(this)" alt="{{ mb_image.alt | escape }}" width="{{ mb_image.width }}" height="{{ mb_image.height }}">
+                                  <span class="lazyloadt4s-loader is-bg-img t4s-d-md-none" style="background: {{ url_img_mb }}"></span>
                                   <img {% if image.presentation.focal_point != '50.0% 50.0%' %} style="object-position: {{ image.presentation.focal_point }}"{% endif %} class="t4s-img-as-bg t4s-d-none t4s-d-md-block -t4s-lz--fadeIn t4s-slide-{{ bk_stts.animate_slide }}"
                                   srcset="{{ img_url_w0 }}375{{ img_url_w1 }} 375w, {{ img_url_w0 }}550{{ img_url_w1 }} 550w, {{ img_url_w0 }}750{{ img_url_w1 }} 750w, {{ img_url_w0 }}1100{{ img_url_w1 }} 1100w, {{ img_url_w0 }}1500{{ img_url_w1 }} 1500w, {{ img_url_w0 }}1780{{ img_url_w1 }} 1780w, {{ img_url_w0 }}2000{{ img_url_w1 }} 2000w, {{ img_url_w0 }}3000{{ img_url_w1 }} 3000w,{{ img_url_w0 }}3840{{ img_url_w1 }} 3840w, {{ image | image_url }} {{ image.width }}w"
                                   sizes="{{ size_img }}" src="{{ img_url_w0 }}1500{{ img_url_w1 }}"
-                                  loading="lazy" onload="loadImageT4s(this)" alt="{% if image.alt %}{{ image.alt | escape }}{% else %}{{ shop.name }}{% endif %}" width="{{ image.width }}" height="{{ image.height }}">
-                                  <span class="lazyloadt4s-loader is-bg-img t4s-d-none t4s-d-md-block" style="background: {{ url_img }}" role="presentation"></span>
+                                  loading="lazy" onload="loadImageT4s(this)" alt="{{ image.alt | escape }}" width="{{ image.width }}" height="{{ image.height }}">
+                                  <span class="lazyloadt4s-loader is-bg-img t4s-d-none t4s-d-md-block" style="background: {{ url_img }}"></span>
                             {%- else -%}
-                                <img {% if mb_image.presentation.focal_point != '50.0% 50.0%' %} style="object-position: {{ mb_image.presentation.focal_point }}"{% endif %} class="lazyloadt4s t4s-lz--fadeIn t4s-img-as-bg t4s-d-md-none t4s-slide-{{ bk_stts.animate_slide }}" data-src="{{ img_1_mb }}" data-widths="[375, 575, 750]" data-optimumx="2" data-sizes="auto" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" width="{{ mb_image.width }}" height="{{ mb_image.height }}" alt="{% if mb_image.alt %}{{ mb_image.alt | escape }}{% else %}{{ shop.name }}{% endif %}">
-                                <span class="lazyloadt4s-loader is-bg-img t4s-d-md-none" style="background: {{ url_img_mb }}" role="presentation"></span>
-                                <img {% if image.presentation.focal_point != '50.0% 50.0%' %} style="object-position: {{ image.presentation.focal_point }}"{% endif %} class="lazyloadt4s t4s-lz--fadeIn t4s-img-as-bg t4s-d-none t4s-d-md-block t4s-slide-{{ bk_stts.animate_slide }}" data-src="{{ img_1 }}" data-widths="[800, 1000, 1200, 1400, 1600, 1800, 2000, 2200, 2500, 3000, 3400, 3800, 4100]" data-optimumx="2" data-sizes="auto" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" width="{{ image.width }}" height="{{ image.height }}" alt="{% if image.alt %}{{ image.alt | escape }}{% else %}{{ shop.name }}{% endif %}">
-                                <span class="lazyloadt4s-loader is-bg-img t4s-d-none t4s-d-md-block" style="background: {{ url_img }}" role="presentation"></span>
+                                <img {% if mb_image.presentation.focal_point != '50.0% 50.0%' %} style="object-position: {{ mb_image.presentation.focal_point }}"{% endif %} class="lazyloadt4s t4s-lz--fadeIn t4s-img-as-bg t4s-d-md-none t4s-slide-{{ bk_stts.animate_slide }}" data-src="{{ img_1_mb }}" data-widths="[375, 575, 750]" data-optimumx="2" data-sizes="auto" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" width="{{ mb_image.width }}" height="{{ mb_image.height }}" alt="{{ mb_image.alt | escape }}">
+                                <span class="lazyloadt4s-loader is-bg-img t4s-d-md-none" style="background: {{ url_img_mb }}"></span>
+                                <img {% if image.presentation.focal_point != '50.0% 50.0%' %} style="object-position: {{ image.presentation.focal_point }}"{% endif %} class="lazyloadt4s t4s-lz--fadeIn t4s-img-as-bg t4s-d-none t4s-d-md-block t4s-slide-{{ bk_stts.animate_slide }}" data-src="{{ img_1 }}" data-widths="[800, 1000, 1200, 1400, 1600, 1800, 2000, 2200, 2500, 3000, 3400, 3800, 4100]" data-optimumx="2" data-sizes="auto" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" width="{{ image.width }}" height="{{ image.height }}" alt="{{ image.alt | escape }}">
+                                <span class="lazyloadt4s-loader is-bg-img t4s-d-none t4s-d-md-block" style="background: {{ url_img }}"></span>
                             {%- endif -%}
 
                         {%- else -%} 
@@ -134,10 +134,7 @@
                             {%- capture append_bg_border_style -%}--br-color:{{ bk_stts.br_color }};--br-style:{{ bk_stts.br_style }};--br-pd:{{ bk_stts.br_pd }}px;--br-pd-mb:{{ bk_stts.br_pd_mb }}px;--border-bg:{{ br_bg }};{%- endcapture -%}
                         {%- endif -%}
                         <div class="t4s-content-wrap t4s-pe-none t4s-full-width-link t4s-z-100">
-                            <div class="t4s-content-position t4s-{{ bk_stts.content_width }} t4s-pa t4s-text-md-{{ bk_stts.text_align }} t4s-text-{{ bk_stts.text_align_mb }} t4s-bg-content-true t4s-box-content-square-{{ bk_stts.box_square }} t4s-br-content-{{ bk_stts.border_bl }} t4s-br-style-{{ bk_stts.br_style }} {% if block.settings.bg_image_content != blank %}varwidth{% endif %} {% if block.settings.show_mobile-content-bottom == true %}movetobottom{% endif %}" style="--time-animation:{{ bk_stts.time_animation }}s;{%- render 'position_content', ch_pos: bk_stts.ch_pos, cv_pos: bk_stts.cv_pos, ch_pos_mb: bk_stts.ch_pos_mb, cv_pos_mb: bk_stts.cv_pos_mb, append_bg_content_style: append_bg_content_style, append_bg_border_style: append_bg_border_style -%}; --bg-content-radius: {{ bk_stts.content_radius }}%;{% if block.settings.bg_image_content != blank %}background-image:url('{{ block.settings.bg_image_content | image_url: width: 1920 }}'); background-repeat: no-repeat;
-    padding: 5% 3.5%;
-    background-size: cover;
-   {% endif %}">               <div id="contentblock-{{ forloop.index }}">               
+                            <div class="t4s-content-position t4s-{{ bk_stts.content_width }} t4s-pa t4s-text-md-{{ bk_stts.text_align }} t4s-text-{{ bk_stts.text_align_mb }} t4s-bg-content-true t4s-box-content-square-{{ bk_stts.box_square }} t4s-br-content-{{ bk_stts.border_bl }} t4s-br-style-{{ bk_stts.br_style }}" style="--time-animation:{{ bk_stts.time_animation }}s;{%- render 'position_content', ch_pos: bk_stts.ch_pos, cv_pos: bk_stts.cv_pos, ch_pos_mb: bk_stts.ch_pos_mb, cv_pos_mb: bk_stts.cv_pos_mb, append_bg_content_style: append_bg_content_style, append_bg_border_style: append_bg_border_style -%}; --bg-content-radius: {{ bk_stts.content_radius }}%;">  
                                 {%- for block in se_blocks offset: index -%} 
                                     {%- assign index = index | plus: 1 -%}
                                     {%- assign bk_stts = block.settings -%}
@@ -146,7 +143,7 @@
                                         {%- when 'custom_text' -%}
                                             {%- assign general_block = true -%}
                                             {%- if bk_stts.animation != 'none' -%}{%- assign use_animation = true -%} {%- endif -%}
-                                            <{{ bk_stts.tag }} data-lh="{{ bk_stts.text_lh_mb }}" data-lh-md="{{ bk_stts.text_lh }}" data-lh-lg="{{ bk_stts.text_lh }}" class="t4s-bl-item t4s-animation-{{ bk_stts.animation }} t4s-text-bl t4s-fnt-fm-{{ bk_stts.fontf }} t4s-font-italic-{{ bk_stts.font_italic }} t4s-hidden-mobile-{{ bk_stts.hidden_mobile }} t4s-br-mb-{{ bk_stts.remove_br_tag }} t4s-text-shadow-{{ bk_stts.text_shadow }}" id="b_{{ block.id }}" {{ block.shopify_attributes }} {%- render 'bk_cus_style', type: 'custom_text', bk_stts: bk_stts, ani_delay: ani_delay -%} role="heading" {% if bk_stts.heading_level != blank %}aria-level="{{ bk_stts.heading_level }}"{% endif %}>{{ bk_stts.text }}</{{ bk_stts.tag }}>
+                                            <{{ bk_stts.tag }} data-lh="{{ bk_stts.text_lh_mb }}" data-lh-md="{{ bk_stts.text_lh }}" data-lh-lg="{{ bk_stts.text_lh }}" class="t4s-bl-item t4s-animation-{{ bk_stts.animation }} t4s-text-bl t4s-fnt-fm-{{ bk_stts.fontf }} t4s-font-italic-{{ bk_stts.font_italic }} t4s-hidden-mobile-{{ bk_stts.hidden_mobile }} t4s-br-mb-{{ bk_stts.remove_br_tag }} t4s-text-shadow-{{ bk_stts.text_shadow }}" id="b_{{ block.id }}" {{ block.shopify_attributes }} {%- render 'bk_cus_style', type: 'custom_text', bk_stts: bk_stts, ani_delay: ani_delay -%}>{{ bk_stts.text }}</{{ bk_stts.tag }}>
                                         {%- when 'space_html' -%}
                                             {%- assign general_block = true -%}
                                             {%- if bk_stts.animation != 'none' -%}{%- assign use_animation = true -%} {%- endif -%}
@@ -161,8 +158,8 @@
                                                 {%- assign general_block = true -%}
                                                 {%- if bk_stts.animation != 'none' -%}{%- assign use_animation = true -%} {%- endif -%}
                                                 <div class="t4s-bl-item t4s-img-child t4s-animation-{{ bk_stts.animation }} t4s-hidden-mobile-{{ bk_stts.hidden_mobile }}" id="b_{{ block.id }}" {{ block.shopify_attributes }} {%- render 'bk_cus_style', type: 'image', bk_stts: bk_stts, ani_delay: ani_delay -%}>
-                                                    <img data-maxw="{{ bk_stts.img_width_mb }}" data-maxw-md="{{ bk_stts.img_width }}" data-maxw-lg="{{ bk_stts.img_width }}" class="lazyloadt4s {% if bk_stts.hidden_lazyload %} {% else %}t4s-lz--fadeIn{% endif %}" data-src="{{ image | image_url: width: 1 }}" data-widths="[100,200,400,600,700,800,900,1000,1200,1400,1600]" data-optimumx="2" data-sizes="auto" src="{% render 'img_svg', w: image.width, h: image.height %}" width="{{ image.width }}" height="{{ image.height }}" alt="{% if image.alt %}{{ image.alt | escape }}{% else %}{{ shop.name }}{% endif %}">
-                                                   {% if bk_stts.hidden_lazyload %} {% else %}<span class="lazyloadt4s-loader" role="presentation"></span>{% endif %}
+                                                    <img data-maxw="{{ bk_stts.img_width_mb }}" data-maxw-md="{{ bk_stts.img_width }}" data-maxw-lg="{{ bk_stts.img_width }}" class="lazyloadt4s t4s-lz--fadeIn" data-src="{{ image | image_url: width: 1 }}" data-widths="[100,200,400,600,700,800,900,1000,1200,1400,1600]" data-optimumx="2" data-sizes="auto" src="{% render 'img_svg', w: image.width, h: image.height %}" width="{{ image.width }}" height="{{ image.height }}" alt="{{ image.alt | escape }}">
+                                                    <span class="lazyloadt4s-loader"></span>
                                                 </div>
                                             {%- endif -%}
                                         {%- when "countdown" -%}
@@ -183,45 +180,12 @@
                                     {%- endcase -%}
                                     {%- if bk_stts.animation != 'none' %}{% assign ani_delay = ani_delay | plus: time_ani_delay %}{% endif -%}
                                 {%- endfor -%}
-         </div>
                             </div>
                         </div>
-                    <a href="{{ url }}" target="{{ open_link }}" class="t4s-full-width-link{% if url == blank %} t4s-pe-none {% else %} t4s-pe-auto{% endif %}" style="--bg-overlay:{{ bg_overlay }};" aria-label="Slide Link" role="button"></a>
-
-                                            </div>
-                                              {% if block.settings.show_mobile-content-bottom == true %}
-   <div class="hidedeskslide" id="contentcopy-{{ forloop.index }}" style="padding:25px; {% if block.settings.bg_image_content != blank %}background-image:url('{{ block.settings.bg_image_content | image_url: width: 1920 }}'); background-repeat: no-repeat;background-size:cover;{% endif %}">  
-        <script>
-          var f=0;
-          document.addEventListener("DOMContentLoaded", function() {
-            showMobileDiv();
-          });
-          window.addEventListener('resize', function(event) {
-   showMobileDiv();
-            if((screen.width > 767) && (f == 1)){
-              hideMobileDiv();
-            }
-}, true);
-          function showMobileDiv(){
-          var w= screen.width;
-          if((w<768) && (f == 0)){
-           document.getElementById('contentcopy-1').innerHTML='';
-    document.getElementById('contentcopy-{{ forloop.index }}').appendChild(
-      document.getElementById('contentblock-{{ forloop.index }}')
-    );
- f=1;
-          }
-            }
-            function hideMobileDiv(){
-            var h = document.getElementById('contentcopy-1').innerHTML;
-document.querySelector('.t4s-content-position').innerHTML = h;
-          }
-          </script>
-                                </div>
-                                                {% endif %}
+                    <a href="{{ url }}" target="{{ open_link }}" class="t4s-full-width-link{% if url == blank %} t4s-pe-none {% else %} t4s-pe-auto{% endif %}" style="--bg-overlay:{{ bg_overlay }};"></a>
+                </div>
             </div>
         {%- endfor -%}
-  
     </div>  
     {{- html_layout[1] -}} 
 </div>
@@ -256,49 +220,6 @@ document.querySelector('.t4s-content-position').innerHTML = h;
         </span>
     </template>
 {%- endif -%}
-
-<script>
-// Function to add 'role="button"' attribute to elements with class 'dot'
-function addRoleToDotElements() {
-  // Get all elements with the class 'dot'
-  var dotElements = document.querySelectorAll('.dot');
-
-  // Loop through each 'dot' element and add the 'role' attribute
-  dotElements.forEach(function(dotElement) {
-    dotElement.setAttribute('role', 'button');
-  });
-}
-
-// Add an event listener to run the code when the page is fully loaded
-document.addEventListener('DOMContentLoaded', function() {
-  setTimeout(function(){
-  addRoleToDotElements();
-    },10);
-});
-
-</script>
-<style>
-  @media (min-width:1100px){
-.hide-tab-up{display:none!important;}
-    .varwidth{width:40%;}
-  .hidedesk{display:none!important;}
-}
-@media (min-width:1300px){
-  .hide-big-up{display:none!important;}
-}
-  @media (max-width:767px){
-   .t4s_nt_se_{{ sid }} .t4s-content-wrap{position:relative!important;}      
-   .t4s_nt_se_{{ sid }} .t4s-content-position.movetobottom{margin-top:35%;}
-        
-  }
-      @media (min-width:768px){
-      .varwidth{border-radius:40px!important;}
-        .hidedeskslide{display:none!important;}
-      }
-      @media (min-width:768px) and (max-width:1100px){
-         .varwidth{width:55%;}
-      }
-</style>
 {%- schema -%}
 {
     "name":"Slideshow",
@@ -901,12 +822,6 @@ document.addEventListener('DOMContentLoaded', function() {
                         }
                     ]
                 },
-              {
-                "type":"checkbox",
-                "id":"show_mobile-content-bottom",
-                "label":"Show Mobile content below the banner",
-                "default":false
-              },
                 {
                     "type":"select",
                     "id":"content_width",
@@ -988,11 +903,6 @@ document.addEventListener('DOMContentLoaded', function() {
                     "id": "bg_overlay",
                     "label": "Overlay",
                     "default": "#000"
-                },
-              {
-                    "type": "image_picker",
-                    "id": "bg_image_content",
-                    "label": "Content background Image"
                 },
                 {
                     "type": "range",
@@ -1198,11 +1108,6 @@ document.addEventListener('DOMContentLoaded', function() {
                     "label":"Remove <br> tag on mobile",
                     "default":false
                 },
-              {
-                "type":"number",
-                "id":"heading_level",
-                "label":"Aria Heading Level"
-              },
                 {
                     "type": "select",
                     "id": "tag",
@@ -1717,12 +1622,6 @@ document.addEventListener('DOMContentLoaded', function() {
                     "type":"checkbox",
                     "id":"hidden_mobile",
                     "label":"Hidden on mobile",
-                    "default":false
-                },
-               {
-                    "type":"checkbox",
-                    "id":"hidden_lazyload",
-                    "label":"Disable Lazy loading",
                     "default":false
                 },
                 {
