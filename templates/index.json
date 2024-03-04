@@ -1359,31 +1359,76 @@
           "type": "accor_item",
           "settings": {
             "icon": "none",
-            "title": "Tab 01",
-            "content": "<p>We love to hear from you on our customer service, merchandise, website or any topics you want to share with us. Your comments and suggestions will be appreciated. Please complete the form below.<\/p>"
+            "title": "What Perfect Practice Putting Mat size should I choose?",
+            "content": "<p>It depends on the space you have available. Our Standard Edition has a length of 9 feet 6 inches is our most popular size because it works in most spaces. <\/p><p>If you’re tight or space or will frequently travel with your mat, our Compact Edition (8 feet) is a great size. <\/p><p>For a great canter piece in larger rooms, we recommend our XL Edition (15 feet 6 inches) so you can practice the longest putts.<\/p>"
           }
         },
         "accor_item_wh38G6": {
           "type": "accor_item",
           "settings": {
             "icon": "none",
-            "title": "Tab 02",
-            "content": "<p>We love to hear from you on our customer service, merchandise, website or any topics you want to share with us. Your comments and suggestions will be appreciated. Please complete the form below.<\/p>"
+            "title": "Can your training aids be used outside?",
+            "content": "<p>All Perfect Practice products are designed for indoor and outdoor use. Just remember to reduce long-term exposure to UV rays and store them inside or in your golf bag.<\/p>"
           }
         },
         "accor_item_6znfNW": {
           "type": "accor_item",
           "settings": {
             "icon": "none",
-            "title": "Tab 03",
-            "content": "<p>We love to hear from you on our customer service, merchandise, website or any topics you want to share with us. Your comments and suggestions will be appreciated. Please complete the form below.<\/p>"
+            "title": "What products does Dustin Johnson use?",
+            "content": "<p>Dustin Johnson has all of our training aids, but he specifically uses our <a href=\"https:\/\/perfectpractice.golf\/collections\/all\/products\/the-perfect-practice-putting-mat\"><span style=\"text-decoration:underline\">Perfect Putting Mat -- Standard Edition<\/span><\/a>, <a href=\"https:\/\/perfectpractice.golf\/collections\/all\/products\/true-pendulum-motion-tpm\"><span style=\"text-decoration:underline\">TPM<\/span><\/a>, <a href=\"https:\/\/perfectpractice.golf\/collections\/all\/products\/the-raindrop\"><span style=\"text-decoration:underline\">The Raindrop -- Retractable Putting String<\/span><\/a>, and <a href=\"https:\/\/perfectpractice.golf\/collections\/all\/products\/laser-putting-glasses\"><span style=\"text-decoration:underline\">Laser Putting Glasses<\/span><\/a> to practice year round.<br\/>You can learn more about how DJ uses these products in the <a href=\"https:\/\/perfectpractice.golf\/collections\/all\/products\/dustin-johnson-collection\" title=\"DJ Collection\"><span style=\"text-decoration:underline\">DJ Collection<\/span><\/a> page. <\/p>"
+          }
+        },
+        "accor_item_B3b8WB": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "Do you have a payment plan?",
+            "content": "<p>Yes, we use After-Pay to offer up to four interest-free payment installments.<\/p>"
+          }
+        },
+        "accor_item_crfmCP": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "Can left-handed golfers use Perfect Practice training aids?",
+            "content": "<p>All of our products work for righties and lefties. We’ve even developed<a href=\"https:\/\/perfectpractice.golf\/products\/perfect-putting-mat%E2%84%A2-standard-edition-lefty-version\"><span style=\"text-decoration:underline\">a putting mat specifically for lefties<\/span><\/a>, although they’ll be perfectly happy with any of our mats.<\/p>"
+          }
+        },
+        "accor_item_7A63PP": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "Are there resources on how to train with Perfect Practice products?",
+            "content": "<p>To help golfers get the most from their Perfect Practice training aids, we’ve developed a series of instructional videos for each product. You can access those resources for free on our<a href=\"https:\/\/perfectpractice.golf\/pages\/perfect-practice-drop-5-system\" title=\"Drop 5 System\"><span style=\"text-decoration:underline\">Drop 5 System<\/span><\/a> page.<\/p>"
+          }
+        },
+        "accor_item_H6iYXB": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "I saw that you offer free returns. How do I access this?",
+            "content": "<p>Please see our return instructions here: <a href=\"https:\/\/perfectpractice.golf\/pages\/refunds\"><span style=\"text-decoration:underline\">Returns<\/span><\/a><\/p>"
+          }
+        },
+        "accor_item_fhTUjU": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "My tracking info states my order was delivered, but I haven't received my product(s). What should I do?",
+            "content": "<p>We trust and value our carriers, but issues with deliveries can occur every now and then. We recommend checking at all entrances or with neighbors to see if your order was accidentally delivered to the incorrect address.<\/p><p>You can also contact the carrier directly to verify that they in fact did deliver the package.<\/p><p>UPS: 1-888-742-5877<\/p><p>USPS: 1-800-275-877<\/p>"
           }
         }
       },
       "block_order": [
         "accor_item_ftDK4H",
         "accor_item_wh38G6",
-        "accor_item_6znfNW"
+        "accor_item_6znfNW",
+        "accor_item_B3b8WB",
+        "accor_item_crfmCP",
+        "accor_item_7A63PP",
+        "accor_item_H6iYXB",
+        "accor_item_fhTUjU"
       ],
       "settings": {
         "design_heading": "1",
