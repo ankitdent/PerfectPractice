@@ -491,7 +491,7 @@
             "text_align_mb": "center",
             "content_width": "auto",
             "cv_pos": 33,
-            "ch_pos": 35,
+            "ch_pos": 10,
             "cv_pos_mb": 10,
             "ch_pos_mb": 100,
             "bg_overlay": "#000000",
@@ -520,8 +520,8 @@
         "custom_text_UDUmq7": {
           "type": "custom_text",
           "settings": {
-            "text": "“Anyone who is serious about improving their putting should have a Perfect Practice mat in their home or office. It’s worked wonders for my confidence and become part of my daily practice.”",
-            "remove_br_tag": false,
+            "text": "“Anyone who is serious about<br>improving their putting<br>should have a Perfect <br>Practice mat in their home or office. <br>It’s worked wonders for <br>my confidence and become <br>part of my daily practice.”",
+            "remove_br_tag": true,
             "tag": "p",
             "fontf": "inherit",
             "text_cl": "#ffffff",
