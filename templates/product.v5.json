@@ -44,7 +44,6 @@
         },
         "afbc77be-c292-4e14-a4c0-e92133a2841c": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "text": ""
           }
@@ -113,6 +112,7 @@
         },
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {
             "des": "2",
             "text": "",
@@ -133,12 +133,12 @@
             "enable_compare": false,
             "btn_atc_full": false,
             "pr_btn_round": 8,
-            "ani": "t4s-ani-fadeIn",
+            "ani": "none",
             "time": 6,
             "btn_txt": "3",
             "btn_icon": false,
             "button_style": "default",
-            "button_color": "custom2",
+            "button_color": "primary",
             "button_effect": "sweep-to-top",
             "wishlist_color": "#e87200",
             "wishlist_color_hover": "#1e4c2f",
@@ -211,44 +211,29 @@
         },
         "95d4f334-8ea7-4cd2-b609-2373b1e848b8": {
           "type": "tab_des",
-          "disabled": true,
           "settings": {
             "title": "Description"
           }
         },
-        "tab_html_re4JLm": {
+        "bbe8716c-1aed-47b8-a78a-3e82b01a4ae8": {
           "type": "tab_html",
           "settings": {
-            "title": "Key Features",
-            "content": "{{ product.metafields.custom.key_features | metafield_tag }}",
+            "title": "Ingredients",
+            "content": "",
             "page": ""
           }
         },
-        "tab_html_YqkayC": {
+        "754ad4a0-7308-4a3e-b325-e2f2c0b85d4c": {
           "type": "tab_html",
           "settings": {
-            "title": "Specifications",
-            "content": "{{ product.metafields.custom.specifications | metafield_tag }}",
+            "title": "Scent",
+            "content": "",
             "page": ""
-          }
-        },
-        "tab_html_PzAXGT": {
-          "type": "tab_html",
-          "settings": {
-            "title": "Assembly",
-            "content": "{{ product.metafields.custom.assembly | metafield_tag }}",
-            "page": ""
-          }
-        },
-        "tab_add_gd8MXP": {
-          "type": "tab_add",
-          "disabled": true,
-          "settings": {
-            "title": "Additional Information"
           }
         },
         "94011ade-ec25-4d68-b37a-70660ede49dd": {
           "type": "social",
+          "disabled": true,
           "settings": {
             "socials_align": "start",
             "social_mode": "2",
@@ -280,10 +265,8 @@
         "23551ebc-3be1-40d6-81b2-30f03478cccb",
         "size_delivery_ask",
         "95d4f334-8ea7-4cd2-b609-2373b1e848b8",
-        "tab_html_re4JLm",
-        "tab_html_YqkayC",
-        "tab_html_PzAXGT",
-        "tab_add_gd8MXP",
+        "bbe8716c-1aed-47b8-a78a-3e82b01a4ae8",
+        "754ad4a0-7308-4a3e-b325-e2f2c0b85d4c",
         "94011ade-ec25-4d68-b37a-70660ede49dd"
       ],
       "settings": {
@@ -316,8 +299,8 @@
         "dots_round": true,
         "dots_space": 9,
         "dots_hidden_mobile": false,
-        "tabs_design": "accordion",
-        "tabs_design_mb": "accordion",
+        "tabs_design": "tab",
+        "tabs_design_mb": "tab",
         "tabs_position": "inner",
         "enable_first_tab": true,
         "tabs_layout_fix": "full",
