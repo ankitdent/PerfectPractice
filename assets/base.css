@@ -4902,7 +4902,7 @@ transform: rotate(90deg) translate(-50%, -100%);
   }
 }
 @media (min-width: 768px) {
-  .banner-slideshow .t4s-container{
+  .banner-slideshow .t4s-slideshow .t4s-bg-content-true{
     background:url('https://cdn.shopify.com/s/files/1/2642/5702/t/158/assets/Path_5370.webp?v=1709663044') top left no-repeat;
     right: initial;
     padding: 40px 30px;
