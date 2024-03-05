@@ -4896,6 +4896,10 @@ transform: rotate(90deg) translate(-50%, -100%);
 .featured_logo h3.t4s-section-title.t4s-title{
   color:#fff;
 }
+.t4s-blog-post .t4s-post-inner {
+  background: #E4E5E6;
+  padding: 30px;
+}
 @media (max-width: 767px) {
   #pr_recommendations h3.t4s-section-title.t4s-title {
     padding: 0 !important;
