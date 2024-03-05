@@ -23,7 +23,8 @@
   min-height: 80px;
 }
 .t4s-post-time{
-  padding-bottom:20px;
+  padding-bottom: 10px;
+  display: inline-block;
 }
 .t4s-post-item .t4s-post-title a {
   color: inherit;
