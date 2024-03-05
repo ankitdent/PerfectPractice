@@ -1850,6 +1850,7 @@
       "block_order": [
         "4b552893-116f-4639-b867-53723c99935a"
       ],
+      "disabled": true,
       "settings": {
       }
     }
