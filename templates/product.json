@@ -218,8 +218,8 @@
         "tab_html_YqkayC": {
           "type": "tab_html",
           "settings": {
-            "title": "SPECIFICATIONS",
-            "content": "<p>{{ product.title }}<\/p>",
+            "title": "Specifications",
+            "content": "<p>{{ product.metafields.product.specifications | metafield_tag }}<\/p>",
             "page": ""
           }
         },
