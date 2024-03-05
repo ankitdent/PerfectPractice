@@ -4890,6 +4890,9 @@ transform: rotate(90deg) translate(-50%, -100%);
 .shopify-policy__container{
   max-width: 1200px;
 }
+#shopify-section-template--15415634788421__slideshow_3PkTeX .t4s-content-position{
+  max-width:26%;
+}
 @media (max-width: 767px) {
   #pr_recommendations h3.t4s-section-title.t4s-title {
     padding: 0 !important;
@@ -4897,7 +4900,4 @@ transform: rotate(90deg) translate(-50%, -100%);
   #shopify-section-template--15415634788421__slideshow_3PkTeX .t4s-content-position{
     max-width:100%;
   }
-}
-#shopify-section-template--15415634788421__slideshow_3PkTeX .t4s-content-position{
-  max-width:26%;
 }
