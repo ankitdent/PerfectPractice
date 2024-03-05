@@ -44,6 +44,7 @@
         },
         "afbc77be-c292-4e14-a4c0-e92133a2841c": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": ""
           }
@@ -112,7 +113,6 @@
         },
         "description": {
           "type": "description",
-          "disabled": true,
           "settings": {
             "des": "2",
             "text": "",
@@ -211,28 +211,40 @@
         },
         "95d4f334-8ea7-4cd2-b609-2373b1e848b8": {
           "type": "tab_des",
+          "disabled": true,
           "settings": {
             "title": "Description"
+          }
+        },
+        "tab_html_re4JLm": {
+          "type": "tab_html",
+          "settings": {
+            "title": "Key Features",
+            "content": "<p>{{ product.metafields.product.key_features | metafield_tag }}<\/p>",
+            "page": ""
           }
         },
         "tab_html_YqkayC": {
           "type": "tab_html",
           "settings": {
             "title": "Specifications",
-            "content": "<p>{{ product.metafields.product.specifications | metafield_tag }}<\/p>",
+            "content": "<p>{{ product.metafields.product.specifications | metafield_tag }}asdasdad<\/p>",
+            "page": ""
+          }
+        },
+        "tab_html_PzAXGT": {
+          "type": "tab_html",
+          "settings": {
+            "title": "Assembly",
+            "content": "<p>{{ product.metafields.product.assembly | metafield_tag }}<\/p>",
             "page": ""
           }
         },
         "tab_add_gd8MXP": {
           "type": "tab_add",
+          "disabled": true,
           "settings": {
             "title": "Additional Information"
-          }
-        },
-        "text_hxmqMA": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
           }
         },
         "94011ade-ec25-4d68-b37a-70660ede49dd": {
@@ -268,9 +280,10 @@
         "23551ebc-3be1-40d6-81b2-30f03478cccb",
         "size_delivery_ask",
         "95d4f334-8ea7-4cd2-b609-2373b1e848b8",
+        "tab_html_re4JLm",
         "tab_html_YqkayC",
+        "tab_html_PzAXGT",
         "tab_add_gd8MXP",
-        "text_hxmqMA",
         "94011ade-ec25-4d68-b37a-70660ede49dd"
       ],
       "settings": {
