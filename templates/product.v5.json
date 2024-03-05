@@ -324,7 +324,10 @@
         "bg": "#f6f6f8",
         "bg_mb": "#ffffff",
         "product_list": [
-
+          "v5-putting-mat",
+          "perfect-practice-all-season-putting-bundle",
+          "perfect-putting-mat-barstool-golf-edition",
+          "perfect-putting-mat-acrylic-limited-edition"
         ],
         "sticky_mode": "2",
         "sticky_show": "2",
@@ -712,199 +715,6 @@
       ],
       "settings": {
       }
-    },
-    "pricing_tables_E7pWBa": {
-      "type": "pricing-tables",
-      "blocks": {
-        "package_zrUQpM": {
-          "type": "package",
-          "settings": {
-            "highlights_item": false,
-            "heading": "SILVER",
-            "package_label": "Hot",
-            "package_label_bg": "#FF0000",
-            "price": 0,
-            "des": "V5-CM | COMPACT EDITION",
-            "txt": "Enter text here... \nEnter text here..??[Tooltip here]\nStrikethrough text--",
-            "button_text": "Buy now",
-            "button_link": "https:\/\/perfectpractice.com\/products\/v5-putting-mat?variant=40488391311429",
-            "button_style": "bordered",
-            "btns_size": "large",
-            "btns_cl": "custom2",
-            "button_effect": "default",
-            "item_cl": "#28A77F"
-          }
-        },
-        "package_36H8HT": {
-          "type": "package",
-          "settings": {
-            "highlights_item": true,
-            "heading": "GOLD",
-            "package_label": "Hot",
-            "package_label_bg": "#FF0000",
-            "price": 199,
-            "des": "Enter description here",
-            "txt": "Enter text here... \nEnter text here..??[Tooltip here]\nStrikethrough text--",
-            "button_text": "By now",
-            "button_link": "",
-            "button_style": "default",
-            "btns_size": "large",
-            "btns_cl": "dark",
-            "button_effect": "default",
-            "item_cl": "#28A77F"
-          }
-        },
-        "package_YBa6CB": {
-          "type": "package",
-          "settings": {
-            "highlights_item": false,
-            "heading": "PLATINIUM",
-            "package_label": "Hot",
-            "package_label_bg": "#FF0000",
-            "price": 299,
-            "des": "Enter description here",
-            "txt": "Enter text here... \nEnter text here..??[Tooltip here]\nStrikethrough text--",
-            "button_text": "By now",
-            "button_link": "",
-            "button_style": "default",
-            "btns_size": "large",
-            "btns_cl": "dark",
-            "button_effect": "default",
-            "item_cl": "#28A77F"
-          }
-        }
-      },
-      "block_order": [
-        "package_zrUQpM",
-        "package_36H8HT",
-        "package_YBa6CB"
-      ],
-      "settings": {
-        "design_heading": "1",
-        "heading_align": "t4s-text-center",
-        "top_heading": "Pricing tables",
-        "icon_heading": "las la-gem",
-        "top_subheading": "",
-        "tophead_mb": 30,
-        "package_des": "1",
-        "content_align": "center",
-        "target_link": "_blank",
-        "col_dk": "3",
-        "col_tb": "2",
-        "col_mb": "2",
-        "space_h_item": "30",
-        "space_v_item": "30",
-        "space_h_item_mb": "10",
-        "space_v_item_mb": "10",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
-    "collection_products_deal_nee87X": {
-      "type": "collection-products-deal",
-      "blocks": {
-        "product_QNKByd": {
-          "type": "product",
-          "settings": {
-            "title": "",
-            "link_product": "https:\/\/perfectpractice.com\/products\/v5-putting-mat?variant=40488391311429",
-            "total": 100,
-            "available": 75
-          }
-        }
-      },
-      "block_order": [
-        "product_QNKByd"
-      ],
-      "settings": {
-        "heading_align": "t4s-text-center",
-        "top_heading": "Product deals of the day",
-        "cd_txt": "End in:",
-        "date": "2023\/12\/20",
-        "cl_text": "#ffffff",
-        "bg_cdt": "#e4573d",
-        "tophead_mb": 30,
-        "section_layout": "1",
-        "layout_border": true,
-        "box_border_r": 5,
-        "box_border_cl": "#4e97fd",
-        "product_des": "1",
-        "show_vendor": false,
-        "use_cdt": false,
-        "image_ratio": "ratioadapt",
-        "image_size": "cover",
-        "image_position": "8",
-        "content_align": "default",
-        "pr_limit": 8,
-        "col_dk": "4",
-        "col_tb": "2",
-        "col_mb": "2",
-        "space_h_item": "30",
-        "space_v_item": "30",
-        "space_h_item_mb": "10",
-        "space_v_item_mb": "10",
-        "show_stock_bar": true,
-        "txt_sold": "Sold:",
-        "txt_avai": "Available:",
-        "cl_stock_1": "#4e97fd",
-        "cl_stock_2": "#77ccfd",
-        "layout_des": "2",
-        "loop": true,
-        "au_time": 0,
-        "au_hover": true,
-        "nav_btn": false,
-        "btn_vi": "hover",
-        "btn_owl": "default",
-        "btn_shape": "none",
-        "btn_cl": "dark",
-        "btn_size": "small",
-        "btn_hidden_mobile": true,
-        "nav_dot": false,
-        "dot_owl": "default",
-        "dots_cl": "dark",
-        "dots_round": true,
-        "dots_space": 10,
-        "dots_hidden_mobile": false,
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
-    "170964864657514714": {
-      "type": "apps",
-      "blocks": {
-        "rebuy_personalization_engine_rebuy_widget_kBWVhz": {
-          "type": "shopify:\/\/apps\/rebuy-personalization-engine\/blocks\/rebuy-widget\/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
-          "settings": {
-            "enabled": true,
-            "id": "",
-            "product_id_enabled": true,
-            "collection_id_enabled": false
-          }
-        }
-      },
-      "block_order": [
-        "rebuy_personalization_engine_rebuy_widget_kBWVhz"
-      ],
-      "settings": {
-      }
     }
   },
   "order": [
@@ -914,9 +724,6 @@
     "recently-viewed-products",
     "sidebar",
     "product-recommendations",
-    "1702895640c62aba6a",
-    "pricing_tables_E7pWBa",
-    "collection_products_deal_nee87X",
-    "170964864657514714"
+    "1702895640c62aba6a"
   ]
 }
