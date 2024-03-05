@@ -153,6 +153,7 @@
         "390cb6f8-c5fc-44ed-badf-074a03818e5a"
       ],
       "settings": {
+        "section_css_class": "banner-slideshow",
         "se_height": "t4s_ratioadapt_f",
         "custom_dk": true,
         "height_dk": 530,
@@ -603,6 +604,7 @@
         "custom_button_jprmLk"
       ],
       "settings": {
+        "section_css_class": "",
         "se_height": "t4s_ratioadapt",
         "custom_dk": true,
         "height_dk": 600,
@@ -793,6 +795,7 @@
         "custom_button_giLL6g"
       ],
       "settings": {
+        "section_css_class": "",
         "se_height": "t4s_ratioadapt",
         "custom_dk": true,
         "height_dk": 600,
