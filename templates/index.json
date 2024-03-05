@@ -1189,7 +1189,8 @@
         "bl_subheading_GBmdaM"
       ],
       "custom_css": [
-        "h3 {color: #fff; padding-top:20px; padding-bottom:0px}"
+        "h3 {color: #fff; padding-top: 20px; padding-bottom: 0px;}",
+        ".t4s-subtitle {color: #fff;}"
       ],
       "settings": {
         "design_heading": "1",
@@ -1213,7 +1214,7 @@
         "title_pRnkmt": {
           "type": "title",
           "settings": {
-            "txt_tr_pr": "none",
+            "txt_tr_pr": "uppercase",
             "fnt_df_pr": "1",
             "size_pr": 22,
             "fw_pr": 600,
