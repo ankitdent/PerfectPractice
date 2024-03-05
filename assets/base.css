@@ -4901,3 +4901,8 @@ transform: rotate(90deg) translate(-50%, -100%);
     max-width:100%;
   }
 }
+@media (min-width: 768px) {
+  .banner-slideshow .t4s-container{
+    background:url('https://cdn.shopify.com/s/files/1/2642/5702/t/158/assets/Path_5370.webp?v=1709663044') top left no-repeat;
+  }
+}
