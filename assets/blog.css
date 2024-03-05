@@ -332,6 +332,10 @@
   }
 }
 @media (min-width:768px){
-  .t4s-post-item .t4s-post-metas,.t4s-post-item .t4s-post-content{font-size:16px;}
+  .t4s-post-item .t4s-post-metas,.t4s-post-item .t4s-post-content{
+    font-size:16px;
+    max-height: 140px;
+    overflow: hidden;
+  }
 }
   .t4s-post-item .t4s-post-content em{font-style:normal!important;}
