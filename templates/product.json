@@ -220,7 +220,7 @@
           "type": "tab_html",
           "settings": {
             "title": "Key Features",
-            "content": "<p>{{ product.metafields.product.key_features | metafield_tag }}<\/p>",
+            "content": "{{ product.metafields.custom.key_features | metafield_tag }}",
             "page": ""
           }
         },
@@ -228,7 +228,7 @@
           "type": "tab_html",
           "settings": {
             "title": "Specifications",
-            "content": "<p>{{ product.metafields.product.specifications | metafield_tag }}asdasdad<\/p>",
+            "content": "{{ product.metafields.custom.specifications | metafield_tag }}",
             "page": ""
           }
         },
@@ -236,7 +236,7 @@
           "type": "tab_html",
           "settings": {
             "title": "Assembly",
-            "content": "<p>{{ product.metafields.product.assembly | metafield_tag }}<\/p>",
+            "content": "{{ product.metafields.custom.assembly | metafield_tag }}",
             "page": ""
           }
         },
