@@ -264,7 +264,7 @@
         "img_effect": "none",
         "b_effect": "pervasive-circle",
         "open_link": "_blank",
-        "layout_des": "2",
+        "layout_des": "1",
         "click_image": "data-goto",
         "nav_thumbs": true,
         "col_dk": "6",
