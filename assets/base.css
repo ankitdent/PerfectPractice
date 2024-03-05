@@ -4900,6 +4900,9 @@ transform: rotate(90deg) translate(-50%, -100%);
   #shopify-section-template--15415634788421__slideshow_3PkTeX .t4s-content-position{
     max-width:100%;
   }
+  .banner-slideshow .t4s-slideshow .t4s-bg-content-true{
+    padding: 20px 10px;
+  }
 }
 @media (min-width: 768px) {
   .banner-slideshow .t4s-slideshow .t4s-bg-content-true{
