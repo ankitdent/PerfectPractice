@@ -4893,6 +4893,9 @@ transform: rotate(90deg) translate(-50%, -100%);
 #shopify-section-template--15415634788421__slideshow_3PkTeX .t4s-content-position{
   max-width:26%;
 }
+.featured_logo h3.t4s-section-title.t4s-title{
+  color:#fff;
+}
 @media (max-width: 767px) {
   #pr_recommendations h3.t4s-section-title.t4s-title {
     padding: 0 !important;
