@@ -493,181 +493,6 @@
         "code_cus_css": ""
       }
     },
-    "featured_product_CYAnAM": {
-      "type": "featured-product",
-      "blocks": {
-        "title_pRnkmt": {
-          "type": "title",
-          "settings": {
-            "txt_tr_pr": "none",
-            "fnt_df_pr": "1",
-            "size_pr": 16,
-            "fw_pr": 600,
-            "lh_pr": 0,
-            "ls_pr": 0,
-            "pr_title_color": "#222222",
-            "pr_title_color_hover": "#56cfe1"
-          }
-        },
-        "price_review_M6imGd": {
-          "type": "price_review",
-          "settings": {
-            "price": "0",
-            "type_sale": "0",
-            "tax_ship": true,
-            "rating": true,
-            "review_liquid": "",
-            "size_price_pr": 22,
-            "fw_price_pr": 400,
-            "price_color": "#696969",
-            "price_sale_color": "#ec0101"
-          }
-        },
-        "description_rnpKy8": {
-          "type": "description",
-          "settings": {
-            "des": "2",
-            "text": "",
-            "length": 31
-          }
-        },
-        "form_4ifnbg": {
-          "type": "form",
-          "settings": {
-            "selector_mode": "block",
-            "color_mode": "color",
-            "enable_fit_ratio_img": false,
-            "color_size": "small",
-            "show_qty": true,
-            "enable_wishlist": true,
-            "enable_compare": true,
-            "btn_atc_full": false,
-            "pr_btn_round": 40,
-            "ani": "none",
-            "time": 6,
-            "btn_txt": "3",
-            "btn_icon": false,
-            "button_style": "default",
-            "button_color": "custom2",
-            "button_effect": "fade",
-            "wishlist_color": "#222222",
-            "wishlist_color_hover": "#56cfe1",
-            "wishlist_color_active": "#e81e1e",
-            "compare_color": "#222222",
-            "compare_color_hover": "#56cfe1",
-            "compare_color_active": "#222222",
-            "show_dynamic_checkout": false,
-            "btn_txt2": "3",
-            "button_color_payment": "dark",
-            "show_gift_card_recipient": true,
-            "product_list": [
-
-            ],
-            "show_product_current": true,
-            "qty_val": "0",
-            "advance_label": "Choose style",
-            "advance_pr_list": [
-
-            ]
-          }
-        },
-        "size_delivery_ask_brXWDF": {
-          "type": "size_delivery_ask",
-          "disabled": true,
-          "settings": {
-            "size_chart": "3",
-            "pos_sizeg": "1",
-            "sc_type": "1",
-            "page": "",
-            "size_ck": "",
-            "delivery": false,
-            "page_dr": "",
-            "ask": false,
-            "phone": true
-          }
-        },
-        "meta_METnnk": {
-          "type": "meta",
-          "disabled": true,
-          "settings": {
-            "show_options": true,
-            "show_vendor": false,
-            "show_type": false,
-            "show_sku": true,
-            "show_barcode": false,
-            "show_available": true,
-            "show_category": true,
-            "show_tags": true
-          }
-        },
-        "social_bmjwaT": {
-          "type": "social",
-          "settings": {
-            "socials_align": "start",
-            "social_mode": "2",
-            "social_style": "3",
-            "social_size": "medium",
-            "bd_radius": 0,
-            "use_color_set": false,
-            "icon_cl": "#878787",
-            "bg_cl": "#222222",
-            "space_h_item": "5",
-            "space_v_item": "5",
-            "space_h_item_mb": "2",
-            "space_v_item_mb": "2"
-          }
-        }
-      },
-      "block_order": [
-        "title_pRnkmt",
-        "price_review_M6imGd",
-        "description_rnpKy8",
-        "form_4ifnbg",
-        "size_delivery_ask_brXWDF",
-        "meta_METnnk",
-        "social_bmjwaT"
-      ],
-      "settings": {
-        "product": "v5-putting-mat",
-        "enable_sticky_info": false,
-        "media_layout": "thumbnails_left",
-        "media_size": "large",
-        "thumb_lr_size": "small",
-        "image_ratio": "ratioadapt",
-        "image_size": "cover",
-        "image_position": "8",
-        "main_click": "zoom",
-        "zoom_tp": "external",
-        "enable_zoom_icon": true,
-        "enable_zoom_click_mb": true,
-        "enable_video_looping": false,
-        "enable_video_muting": true,
-        "enable_video_autoplaying": true,
-        "eff": "fade",
-        "nav_btn": true,
-        "btn_vi": "always",
-        "btn_owl": "outline",
-        "btn_shape": "round",
-        "btn_cl": "dark",
-        "btn_size": "small",
-        "btn_hidden_mobile": false,
-        "nav_dot": false,
-        "dot_owl": "default",
-        "dots_cl": "dark",
-        "dots_round": true,
-        "dots_space": 10,
-        "dots_hidden_mobile": false,
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": ""
-      }
-    },
     "slideshow_Mipnfw": {
       "type": "slideshow",
       "blocks": {
@@ -848,11 +673,11 @@
             "link_img1": "",
             "open_link": "_blank",
             "animate_slide": "none",
-            "text_align": "end",
+            "text_align": "start",
             "text_align_mb": "center",
-            "content_width": "container",
+            "content_width": "auto",
             "cv_pos": 20,
-            "ch_pos": 100,
+            "ch_pos": 90,
             "cv_pos_mb": 10,
             "ch_pos_mb": 100,
             "bg_overlay": "#000000",
@@ -881,7 +706,7 @@
         "custom_text_BQHMfq": {
           "type": "custom_text",
           "settings": {
-            "text": "INTRODUCING THE ROLL A PUTT",
+            "text": "INTRODUCING<br>THE ROLL A PUTT",
             "remove_br_tag": false,
             "tag": "p",
             "fontf": "inherit",
@@ -1024,6 +849,181 @@
         "pd_mb": "",
         "use_cus_css": false,
         "code_cus_css": ""
+      }
+    },
+    "featured_product_CYAnAM": {
+      "type": "featured-product",
+      "blocks": {
+        "title_pRnkmt": {
+          "type": "title",
+          "settings": {
+            "txt_tr_pr": "none",
+            "fnt_df_pr": "1",
+            "size_pr": 16,
+            "fw_pr": 600,
+            "lh_pr": 0,
+            "ls_pr": 0,
+            "pr_title_color": "#222222",
+            "pr_title_color_hover": "#56cfe1"
+          }
+        },
+        "price_review_M6imGd": {
+          "type": "price_review",
+          "settings": {
+            "price": "0",
+            "type_sale": "0",
+            "tax_ship": true,
+            "rating": true,
+            "review_liquid": "",
+            "size_price_pr": 22,
+            "fw_price_pr": 400,
+            "price_color": "#696969",
+            "price_sale_color": "#ec0101"
+          }
+        },
+        "description_rnpKy8": {
+          "type": "description",
+          "settings": {
+            "des": "2",
+            "text": "",
+            "length": 31
+          }
+        },
+        "form_4ifnbg": {
+          "type": "form",
+          "settings": {
+            "selector_mode": "block",
+            "color_mode": "color",
+            "enable_fit_ratio_img": false,
+            "color_size": "small",
+            "show_qty": true,
+            "enable_wishlist": true,
+            "enable_compare": true,
+            "btn_atc_full": false,
+            "pr_btn_round": 40,
+            "ani": "none",
+            "time": 6,
+            "btn_txt": "3",
+            "btn_icon": false,
+            "button_style": "default",
+            "button_color": "custom2",
+            "button_effect": "fade",
+            "wishlist_color": "#222222",
+            "wishlist_color_hover": "#56cfe1",
+            "wishlist_color_active": "#e81e1e",
+            "compare_color": "#222222",
+            "compare_color_hover": "#56cfe1",
+            "compare_color_active": "#222222",
+            "show_dynamic_checkout": false,
+            "btn_txt2": "3",
+            "button_color_payment": "dark",
+            "show_gift_card_recipient": true,
+            "product_list": [
+
+            ],
+            "show_product_current": true,
+            "qty_val": "0",
+            "advance_label": "Choose style",
+            "advance_pr_list": [
+
+            ]
+          }
+        },
+        "size_delivery_ask_brXWDF": {
+          "type": "size_delivery_ask",
+          "disabled": true,
+          "settings": {
+            "size_chart": "3",
+            "pos_sizeg": "1",
+            "sc_type": "1",
+            "page": "",
+            "size_ck": "",
+            "delivery": false,
+            "page_dr": "",
+            "ask": false,
+            "phone": true
+          }
+        },
+        "meta_METnnk": {
+          "type": "meta",
+          "disabled": true,
+          "settings": {
+            "show_options": true,
+            "show_vendor": false,
+            "show_type": false,
+            "show_sku": true,
+            "show_barcode": false,
+            "show_available": true,
+            "show_category": true,
+            "show_tags": true
+          }
+        },
+        "social_bmjwaT": {
+          "type": "social",
+          "settings": {
+            "socials_align": "start",
+            "social_mode": "2",
+            "social_style": "3",
+            "social_size": "medium",
+            "bd_radius": 0,
+            "use_color_set": false,
+            "icon_cl": "#878787",
+            "bg_cl": "#222222",
+            "space_h_item": "5",
+            "space_v_item": "5",
+            "space_h_item_mb": "2",
+            "space_v_item_mb": "2"
+          }
+        }
+      },
+      "block_order": [
+        "title_pRnkmt",
+        "price_review_M6imGd",
+        "description_rnpKy8",
+        "form_4ifnbg",
+        "size_delivery_ask_brXWDF",
+        "meta_METnnk",
+        "social_bmjwaT"
+      ],
+      "settings": {
+        "product": "v5-putting-mat",
+        "enable_sticky_info": false,
+        "media_layout": "thumbnails_left",
+        "media_size": "large",
+        "thumb_lr_size": "small",
+        "image_ratio": "ratioadapt",
+        "image_size": "cover",
+        "image_position": "8",
+        "main_click": "zoom",
+        "zoom_tp": "external",
+        "enable_zoom_icon": true,
+        "enable_zoom_click_mb": true,
+        "enable_video_looping": false,
+        "enable_video_muting": true,
+        "enable_video_autoplaying": true,
+        "eff": "fade",
+        "nav_btn": true,
+        "btn_vi": "always",
+        "btn_owl": "outline",
+        "btn_shape": "round",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": false,
+        "nav_dot": false,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": true,
+        "dots_space": 10,
+        "dots_hidden_mobile": false,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": ""
       }
     },
     "59f6c9e5-7931-4242-9694-c64146b2c3d0": {
@@ -1815,9 +1815,9 @@
     "1646028739ae283905",
     "logo_list_yf6Kcm",
     "slideshow_QjX9gQ",
-    "featured_product_CYAnAM",
     "slideshow_Mipnfw",
     "slideshow_mpwXqk",
+    "featured_product_CYAnAM",
     "59f6c9e5-7931-4242-9694-c64146b2c3d0",
     "8b07777e-f541-4c5e-a185-139639de18dc",
     "custom_html_QDy4U8",
