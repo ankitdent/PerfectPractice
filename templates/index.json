@@ -1188,6 +1188,9 @@
         "bl_heading_ch3CDk",
         "bl_subheading_GBmdaM"
       ],
+      "custom_css": [
+        "h3 {color: #fff; padding-top:20px; padding-bottom:0px}"
+      ],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -1200,7 +1203,7 @@
         "pd_tb": "",
         "mg_mb": "",
         "pd_mb": "",
-        "use_cus_css": false,
+        "use_cus_css": true,
         "code_cus_css": ""
       }
     },
