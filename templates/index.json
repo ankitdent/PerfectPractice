@@ -257,6 +257,7 @@
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
+        "section_css_class": "featured_logo",
         "top_heading": "AS FEATURED IN",
         "icon_heading": "las la-gem",
         "top_subheading": "",
