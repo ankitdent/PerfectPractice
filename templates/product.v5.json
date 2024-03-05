@@ -712,6 +712,21 @@
       ],
       "settings": {
       }
+    },
+    "custom_liquid_FAcwV9": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{{  }}",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": ""
+      }
     }
   },
   "order": [
@@ -721,6 +736,7 @@
     "recently-viewed-products",
     "sidebar",
     "product-recommendations",
-    "1702895640c62aba6a"
+    "1702895640c62aba6a",
+    "custom_liquid_FAcwV9"
   ]
 }
