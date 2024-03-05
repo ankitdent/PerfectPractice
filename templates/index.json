@@ -676,7 +676,7 @@
             "text_align": "start",
             "text_align_mb": "center",
             "content_width": "auto",
-            "cv_pos": 20,
+            "cv_pos": 60,
             "ch_pos": 100,
             "cv_pos_mb": 30,
             "ch_pos_mb": 50,
