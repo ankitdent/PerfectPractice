@@ -262,7 +262,7 @@
         "top_subheading": "",
         "tophead_mb": 30,
         "img_effect": "none",
-        "b_effect": "border-run",
+        "b_effect": "plus-zoom-overlay",
         "open_link": "_blank",
         "layout_des": "2",
         "click_image": "data-goto",
