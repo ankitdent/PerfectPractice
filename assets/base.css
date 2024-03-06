@@ -4870,7 +4870,7 @@ footer .t4s-newsl-des-10 .t4s-newsletter__inner .t4s-newsletter__submit .t4s-new
   }
 }
 .template-index,.template-index .t4s-website-wrapper{background:#F5F5F5!important;}
-.template-index .t4s-section-inner:last-child{margin-bottom:20px!important;}
+/* .template-index .t4s-section-inner:last-child{margin-bottom:20px!important;} */
 .template-blog .page-head{background-color: rgba(0, 0, 0, 0.5);}
 .t4s-post-thumb a:focus,.t4s-product-inner a:focus{
 outline: 2px solid black;border: 2px solid black;
