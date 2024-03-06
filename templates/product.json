@@ -16,7 +16,7 @@
           "type": "meta",
           "settings": {
             "show_options": false,
-            "show_vendor": true,
+            "show_vendor": false,
             "show_type": false,
             "show_sku": false,
             "show_barcode": false,
