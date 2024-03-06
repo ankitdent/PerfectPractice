@@ -1056,7 +1056,7 @@ color: var(--btn-color-hover);
 }
 
 .t4s-product-tabs-wrapper .t4s-tab__title .t4s-tab__icon{
-  border-radius:10px;
+  border-radius:0px 10px 10px 0px;
   width: 52px;
   height: 52px;
   background: #43b049;
