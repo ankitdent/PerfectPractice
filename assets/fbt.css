@@ -68,7 +68,7 @@ ul.t4s-fbt__swatches {
 }
 .t4s-fbt__item label:before {
     position: relative;
-    top: 2px;
+    top: 0px;
     content: "";
     display: inline-block;
     margin-right: 4px;
