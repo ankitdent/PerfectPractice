@@ -1054,10 +1054,11 @@ color: var(--btn-color-hover);
   border: 1px solid #43b049;
   background: none;
 }
-.t4s-tab__title .t4s-tab__icon{
+
+.t4s-product-tabs-wrapper .t4s-tab__title .t4s-tab__icon{
   border-radius:10px;
-  width: 57px;
-  height: 57px;
+  width: 52px;
+  height: 52px;
   background: #9DD6D1;
   color:#000F41;
   border: 1px solid #43b049;
