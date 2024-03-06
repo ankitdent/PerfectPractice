@@ -67,6 +67,7 @@ a.t4s-cl-des-viewm:hover {
     margin-right: auto;
 }
 .t4s-uppercase-true {text-transform: uppercase;}
+.template-collection .header-banner{display:none;}
 @media (min-width: 768px){
     div.page-head {
         padding: var(--space-padding-dk) 0;
