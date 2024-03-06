@@ -393,7 +393,7 @@ a.t4s-loadpreview {
     max-width: 100px;
     margin: 20px auto 10px;
 }
-
+.template-collection .header-banner{display:none;}
 @media(max-width: 1199px) and (min-width: 1025px) {
     .t4s-coll-layout-2.has-3-item .coll-item-1 .t4s_ratio,
     .t4s-coll-layout-3.has-3-item .coll-item-3 .t4s_ratio {
