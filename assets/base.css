@@ -4876,6 +4876,7 @@ footer .t4s-newsl-des-10 .t4s-newsletter__inner .t4s-newsletter__submit .t4s-new
 outline: 2px solid black;border: 2px solid black;
 }
 .t4s-product-featured .t4s-product__info-container>:not(:last-child),.t4s-swatch__title{color:#FFFFFF;}
+.t4s-product-featured .t4s-socials-style-3 a{color:#FFFFFF; border:1px solid #fff;}
 @media (max-width:767px){
 .swell-tab{
   inset:50% 0px 0px 0px!important;
