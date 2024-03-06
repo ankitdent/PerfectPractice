@@ -1152,7 +1152,7 @@
         "item_bg": "",
         "item_cl_active": "#0e272d",
         "item_bg_active": "#43b02a",
-        "space_between": 10,
+        "space_between": 20,
         "tabs_pos": "center",
         "tabslist_mb": 40,
         "layout": "t4s-container-wrap",
