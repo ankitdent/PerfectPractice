@@ -900,6 +900,7 @@ endif -%}
                   </div>
               {%- endcase -%}
             {%- endfor -%}
+            {%- render 'FBT' -%}
           </div>
         </div>
       </div> 
@@ -907,7 +908,7 @@ endif -%}
     <aside data-sidebar-content class="t4s-col-item t4s-col-12 t4s-col-lg-3 t4s-sidebar t4s-dn"><div class="t4s-loading--bg"></div></aside>
   </div>
 </div>
-{%- render 'FBT' -%}
+
 
 {%- if tabs_position == 'external' %}{% render 'product_tabs', product: product, se_stts: se_stts, seBlocks: seBlocks, idTabDes: idTabDes, idTabReview: idTabReview, isProductDefault: isProductDefault %}{% endif -%}
 
