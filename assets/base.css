@@ -4246,11 +4246,11 @@ em {
 .t4s-rte--list ul ul ul {
     list-style: square
 }
-
+/* 
 .t4s-rte a:not(.btn):not(.t4s-link):not(.t4s-btn):not(.t4s-button):not(.t4s-a) {
     border-bottom: 1px solid currentColor;
     padding-bottom: 1px
-}
+} */
 
  #MainContent {
    min-height: 50vh
