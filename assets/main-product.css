@@ -1050,17 +1050,17 @@ color: var(--btn-color-hover);
    transform: scale(1);
 }
 .is--tab-design-mb__accordion .t4s-tab-wrapper>.t4s-tab__title[data-t4s-tab-item]{
-  border-radius:29px;
-  border: 1px solid #459B96;
+  border-radius:10px;
+  border: 1px solid #43b049;
   background: none;
 }
 .t4s-tab__title .t4s-tab__icon{
-  border-radius:29px;
+  border-radius:10px;
   width: 57px;
   height: 57px;
   background: #9DD6D1;
   color:#000F41;
-  border: 1px solid #459B96;
+  border: 1px solid #43b049;
 }
 .sale-text-label {
   position: absolute;
