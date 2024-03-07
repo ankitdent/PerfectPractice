@@ -309,43 +309,6 @@
 .t4s-blog-post h3.t4s-section-title.t4s-title{
   color:#FFF;
 }
-.steps_options_container {
-  display: flex;
-  margin: 10px 0px;
-  flex-wrap: wrap; }
-  .steps_options_container .option {
-    width: 33%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px 20px; }
-    @media only screen and (max-width: 430px) {
-      .steps_options_container .option {
-        width: 100%;
-        margin-bottom: 25px;
-        padding: 0px; } }
-    .steps_options_container .option img {
-      margin-bottom: 10px;
-      display: none; }
-    .steps_options_container .option p {
-      padding: 5px !important; }
-    .steps_options_container .option .option_description {
-      text-align: center;
-      margin-top: -10px; }
-    .steps_options_container .option strong {
-      margin-right: 3px; }
-  .steps_options_container .option::before {
-    content: '';
-    width: 91px;
-    height: 78px;
-    background-repeat: no-repeat;
-    margin-bottom: 10px; }
-  .steps_options_container .option_steamer_icon::before {
-    background-image: url("/cdn/shop/files/PFP_FAQ_Instruction_Icon_Option_1.png?v=1653042227"); }
-  .steps_options_container .option_iron_icon::before {
-    background-image: url("/cdn/shop/files/PFP_FAQ_Instruction_Icon_Option_2.png?v=1653042246"); }
-  .steps_options_container .option_flatten_icon::before {
-    background-image: url("/cdn/shop/files/PFP_FAQ_Instruction_Icon_Option_3.png?v=1653042256"); }
 
 @media (max-width: 991px) {
   .t4s-post-item.t4s-post-des-4 .t4s-post-metas > span:not(:last-child):after {
