@@ -101,23 +101,140 @@
           "type": "accor_item",
           "settings": {
             "icon": "none",
-            "title": "Tab 02",
-            "content": "<p>We love to hear from you on our customer service, merchandise, website or any topics you want to share with us. Your comments and suggestions will be appreciated. Please complete the form below.<\/p>"
+            "title": "Who benefits from the Perfect Practice™ Putting Mats?",
+            "content": "<p>Everyone can improve their putting! From the weekend hack to<br\/>the top PGA Professionals.<\/p><p>This mat will be the difference between winning your $20 nassau with your buddies, as well as notable pros making $100,000's more on the money list.<\/p><p>If we all agree that we can improve at putting, then what are you waiting for?!?!?!<\/p>"
           }
         },
         "accor_item_MUxpgj": {
           "type": "accor_item",
           "settings": {
             "icon": "none",
-            "title": "Tab 03",
-            "content": "<p>We love to hear from you on our customer service, merchandise, website or any topics you want to share with us. Your comments and suggestions will be appreciated. Please complete the form below.<\/p>"
+            "title": "What is the Perfect Practice™ Putting Mat?",
+            "content": "<p>Our putting mats are an at-home or office solution to improving your golf game. These mats are made with a unique Crystal Velvet material allowing the golf ball to roll identical to a perfect green. Also included is alignment \"train-track\" training to ensure a straight-back straight-through putting stroke.<\/p><p>What resulted is the BEST putting improvement mat on the market.<\/p>"
+          }
+        },
+        "accor_item_gWpKjH": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "Where should I use my Perfect Practice™ Putting Mat?",
+            "content": "<p>Ideally...wherever you want! The home, office, gym, basement, kitchen, and pro shop are all examples of where we have seen our mats used! Please make sure your mat is pulled tight to ensure a smoothe transition up the ramp.<\/p>"
+          }
+        },
+        "accor_item_rNP4Xd": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "Why the Perfect Practice™ Putting Mat?",
+            "content": "<p>Our belief is that the key to becoming a great putter is knowing you can hit it where you think you are aimed.<\/p><p>\"ALL PUTTS ARE STRAIGHT PUTTS, except gravity gets in the way.\"<\/p><p>After a few minutes of using our mat, you will gain confidence in your ability to hit it where you are aimed. That translates to a lot more made putts on the course and a huge boost in confidence over the ball.<\/p>"
+          }
+        },
+        "accor_item_EWhVPy": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "What is the speed of the Perfect Practice™ Putting Mat?",
+            "content": "<p>The unique Crystal Velvet material featuring Tru-Roll Technology has your ball rolling 10-14 on the stimp depending what is under the mat. Hard floors roll closer to 14 whereas thick carpets tend to roll closer to a 10.<\/p>"
+          }
+        },
+        "accor_item_cegDGt": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "What flooring is needed for the putting mat?",
+            "content": "<p>Our Perfect Practice putting mats work on all kinds of flooring...carpet, wood, tile and more! The goal is to find a flat spot so the putts do not break from uneven flooring.<\/p>"
+          }
+        },
+        "accor_item_qiWB9H": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "Can I use the mat outside?",
+            "content": "<p>Yes, our mats can be easily moved from one location to another whether its inside or outside. We don't recommend leaving the mat outside as the weather will deteriorate the velvet material.<\/p>"
+          }
+        },
+        "accor_item_aU8fzf": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "How much do your mats weigh?",
+            "content": "<p>Our Perfect Practice™ weighs 7.5 pounds and can easily store in its box or just rolled up off to the side.<\/p>"
+          }
+        },
+        "accor_item_pcPKmy": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "How long are the putting mats?",
+            "content": "<p>Our mats extend out over 9.5 feet, with printed markings at 2, 4, 6, and 8 feet.<\/p>"
+          }
+        },
+        "accor_item_L7tCVA": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "Can it be used by a left handed golfer?",
+            "content": "<p>Yes, both mats work great for Right Handed and Left Handed golfers. We now have our Standard Edition available specifically made for lefties!<\/p>"
+          }
+        },
+        "accor_item_JHinUX": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "Can I vacuum this mat?",
+            "content": "<p>Yes, the Perfect Practice™ mats are able to be vacuumed.<\/p>"
+          }
+        },
+        "accor_item_VAWULe": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "I noticed you have hassle-free returns. How do I access this?",
+            "content": "<p>Please see our return instructions here: <a href=\"https:\/\/perfectpractice.golf\/pages\/refunds\">Returns<\/a><\/p>"
+          }
+        },
+        "accor_item_NWifX9": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "My tracking info states my order was delivered, but I haven't received my product(s) - what should I do?",
+            "content": "<p>While we completely trust and value our carriers, issues with deliveries can occur every now and then. We recommend check with at all entrances or with neighbors to see if your order was accidentally delivered to the incorrect address. You can also contact the carrier directly to verify that they in fact did deliver the package. <\/p><p><strong>UPS<\/strong>: 1-888-742-5877<\/p><p><strong>USPS<\/strong>: 1-800-275-8777<\/p>"
+          }
+        },
+        "accor_item_4UkJkm": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "Accordion item",
+            "content": ""
+          }
+        },
+        "accor_item_CU4t3i": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "Accordion item",
+            "content": ""
           }
         }
       },
       "block_order": [
         "accor_item_WXWGEw",
         "accor_item_Mqn7mc",
-        "accor_item_MUxpgj"
+        "accor_item_MUxpgj",
+        "accor_item_gWpKjH",
+        "accor_item_rNP4Xd",
+        "accor_item_EWhVPy",
+        "accor_item_cegDGt",
+        "accor_item_qiWB9H",
+        "accor_item_aU8fzf",
+        "accor_item_pcPKmy",
+        "accor_item_L7tCVA",
+        "accor_item_JHinUX",
+        "accor_item_VAWULe",
+        "accor_item_NWifX9",
+        "accor_item_4UkJkm",
+        "accor_item_CU4t3i"
       ],
       "settings": {
         "design_heading": "1",
