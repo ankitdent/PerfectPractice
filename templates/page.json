@@ -229,8 +229,8 @@
         "accor_item_4UkJkm"
       ],
       "custom_css": [
-        ".t4s-type-accordion > .t4s-tab-wrapper {margin-bottom: 10px; }",
-        ".t4s-accordion-style-2 .t4s-type-accordion .t4s-accor-title{border-radius: 10px;}"
+        ".t4s-type-accordion > .t4s-tab-wrapper {margin-bottom: 10px;}",
+        ".t4s-type-accordion .t4s-accor-title {border-radius: 5px;}"
       ],
       "settings": {
         "design_heading": "4",
@@ -244,7 +244,7 @@
         "bg_title_cl": "#43b049",
         "title_active_cl": "#ffffff",
         "bg_title_active_cl": "#323e48",
-        "content_cl": "#878787",
+        "content_cl": "#0e272d",
         "bg_content_cl": "#ffffff",
         "content_align": "t4s-text-start",
         "auto_active": true,
