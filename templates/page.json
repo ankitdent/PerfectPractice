@@ -247,7 +247,7 @@
         "content_cl": "#0e272d",
         "bg_content_cl": "#ffffff",
         "content_align": "t4s-text-start",
-        "auto_active": true,
+        "auto_active": false,
         "layout": "t4s-container-wrap",
         "custom_width": 1000,
         "cl_bg": "rgba(0,0,0,0)",
