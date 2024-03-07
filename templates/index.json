@@ -1085,6 +1085,7 @@
         },
         "tab_item_CV7Hw9": {
           "type": "tab_item",
+          "disabled": true,
           "settings": {
             "title": "All Categories",
             "icon_title": "",
