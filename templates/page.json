@@ -5,6 +5,7 @@
       "blocks": {
         "0553a192-f7d5-4c12-8232-b8fcd6c08676": {
           "type": "1",
+          "disabled": true,
           "settings": {
             "heading": "",
             "fontf": "inherit",
@@ -205,16 +206,8 @@
           "type": "accor_item",
           "settings": {
             "icon": "none",
-            "title": "Accordion item",
-            "content": ""
-          }
-        },
-        "accor_item_CU4t3i": {
-          "type": "accor_item",
-          "settings": {
-            "icon": "none",
-            "title": "Accordion item",
-            "content": ""
+            "title": "Please note",
+            "content": "<p>We worked with our production facility to think through product design and our primary package, to make sure that it serves the needs of transportation all the way to your door so that we don't have redundant packaging added during the process. This is eliminates an \"overbox\" and excess material waste.<\/p>"
           }
         }
       },
@@ -233,28 +226,31 @@
         "accor_item_JHinUX",
         "accor_item_VAWULe",
         "accor_item_NWifX9",
-        "accor_item_4UkJkm",
-        "accor_item_CU4t3i"
+        "accor_item_4UkJkm"
+      ],
+      "custom_css": [
+        ".t4s-type-accordion > .t4s-tab-wrapper {margin-bottom: 10px; }",
+        ".t4s-accordion-style-2 .t4s-type-accordion .t4s-accor-title{border-radius: 10px;}"
       ],
       "settings": {
-        "design_heading": "1",
+        "design_heading": "4",
         "heading_align": "t4s-text-center",
         "top_heading": "FAQs",
         "icon_heading": "las la-gem",
         "top_subheading": "",
         "tophead_mb": 30,
         "accor_des": "2",
-        "title_cl": "#222",
+        "title_cl": "#222222",
         "bg_title_cl": "#43b049",
         "title_active_cl": "#ffffff",
         "bg_title_active_cl": "#323e48",
         "content_cl": "#878787",
-        "bg_content_cl": "#fff",
+        "bg_content_cl": "#ffffff",
         "content_align": "t4s-text-start",
         "auto_active": true,
         "layout": "t4s-container-wrap",
         "custom_width": 1000,
-        "cl_bg": "",
+        "cl_bg": "rgba(0,0,0,0)",
         "cl_bg_gradient": "",
         "mg": ",,50px,",
         "pd": "",
