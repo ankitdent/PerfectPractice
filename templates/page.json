@@ -228,6 +228,7 @@
         "accor_item_NWifX9",
         "accor_item_4UkJkm"
       ],
+      "disabled": true,
       "custom_css": [
         ".t4s-type-accordion > .t4s-tab-wrapper {margin-bottom: 10px;}",
         ".t4s-type-accordion .t4s-accor-title {border-radius: 5px;}"
