@@ -2,14 +2,40 @@
   "sections": {
     "heading": {
       "type": "heading-template",
-      "disabled": true,
+      "blocks": {
+        "1_xbTJxh": {
+          "type": "1",
+          "settings": {
+            "heading": "Contact Us",
+            "fontf": "inherit",
+            "text_cl": "#ffffff",
+            "text_fs": 36,
+            "text_lh": 0,
+            "text_fw": 600,
+            "text_ls": 0,
+            "font_italic": false,
+            "font_uppercase": true,
+            "text_shadow": false,
+            "text_mgb": 0,
+            "hidden_mobile": false,
+            "text_fs_mb": 24,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 0
+          }
+        }
+      },
+      "block_order": [
+        "1_xbTJxh"
+      ],
       "settings": {
         "heading_fullwidth": false,
+        "image": "shopify:\/\/shop_images\/grass2_2x_4db2ff58-1cbf-470f-8ab1-3f1d303485bd.png",
         "use_specify_image": true,
         "parallax": false,
-        "color": "#000000",
+        "color": "#ffffff",
         "overlay": 54,
-        "padding": 50,
+        "padding": 100,
         "paddingmb": 50,
         "mg_b": 50,
         "mg_bmb": 50,
@@ -65,7 +91,7 @@
       ],
       "settings": {
         "enable_map": false,
-        "map": "<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m14!1m8!1m3!1d12029.126147180643!2d-73.4165606!3d41.0846949!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e81e87c54d3cdf%3A0xfecafa0fa99fa1f3!2sRanger%20Ready%20Repellents!5e0!3m2!1sen!2sin!4v1702940251830!5m2!1sen!2sin\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"><\/iframe>",
+        "map": "<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d2958.2500829717087!2d-71.26146251630995!3d42.14493497445732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e47c3b99f921fb%3A0x2ea0a602652a7b5e!2s85%20West%20St%20Floor%204%2C%20Walpole%2C%20MA%2002081%2C%20USA!5e0!3m2!1sen!2sin!4v1709836213011!5m2!1sen!2sin\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"><\/iframe>",
         "layout": "t4s-container-wrap",
         "cl_bg": "",
         "cl_bg_gradient": "",
