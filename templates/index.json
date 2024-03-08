@@ -255,7 +255,7 @@
         "logo_item_AXCcUk"
       ],
       "custom_css": [
-        ".SectionID .t4s-row-cols-lg-6>.t4s-col-item{width:14%;}"
+
       ],
       "settings": {
         "design_heading": "1",
@@ -301,8 +301,8 @@
         "pd_tb": "",
         "mg_mb": ",,0px,",
         "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
+        "use_cus_css": true,
+        "code_cus_css": ".SectionID .t4s-row-cols-lg-6 > .t4s-col-item{\n  width: 14%;\n}"
       }
     },
     "slideshow_QjX9gQ": {
