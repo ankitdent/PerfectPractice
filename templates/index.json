@@ -1233,7 +1233,7 @@
           "settings": {
             "price": "0",
             "type_sale": "0",
-            "tax_ship": true,
+            "tax_ship": false,
             "rating": true,
             "review_liquid": "",
             "size_price_pr": 26,
@@ -1321,6 +1321,7 @@
         },
         "social_bmjwaT": {
           "type": "social",
+          "disabled": true,
           "settings": {
             "socials_align": "start",
             "social_mode": "2",
