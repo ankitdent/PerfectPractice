@@ -104,7 +104,7 @@
       when '9'
         render 'product-grid-item9' for collection.products as product, isGrowaveWishlist: isGrowaveWishlist, show_img: show_img, show_vendor: show_vendor, enable_pr_color: enable_pr_color, show_cl_type: show_cl_type, get_color: get_color, enable_pr_size: enable_pr_size, pr_size_pos: pr_size_pos, get_size: get_size, show_size_type: show_size_type, price_varies_style: price_varies_style, app_review: app_review, enable_rating: enable_rating, use_countdown: use_countdown, imgatt: imgatt, show_list_btns: false, ti: collection.products_count
     endcase -%}
-   
+   <a class="t4s-btn t4s-btn-base t4s-viewall-btn t4s-btn-base t4s-btn-style-default t4s-btn-size-extra-medium t4s-btn-icon-false t4s-btn-color-custom2 t4s-btn-effect-default " href="/blogs/news">View All</a>
   {%- else -%}
     {%- for i in (1..8) -%}
       <div class="t4s-col-item t4s-product t4s-pr-grid t4s-pr-style{{ product_des }} t4s-pr-item t4s-pr-des-{{ product_des }}" tabindex="{{ forloop.index }}">
