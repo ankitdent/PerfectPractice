@@ -123,8 +123,36 @@
 	left: 30px;
 	right: auto;
 }
+
+
+.steps_options_container {
+    display: flex;
+    margin: 10px 0px;
+    flex-wrap: wrap;
+}
 .steps_options_container .option_steamer_icon::before {
     background-image: url("https://perfectpractice.com/cdn/shop/files/PFP_FAQ_Instruction_Icon_Option_1.png?v=1653042227");
+}
+.steps_options_container .option {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 20px;
+}
+.steps_options_container .option_iron_icon::before {
+    background-image: url('	https://perfectpractice.com/cdn/shop/files/PFP_FAQ_Instruction_Icon_Option_2.png?v=1653042246');
+}
+
+.steps_options_container .option_flatten_icon::before {
+    background-image: url('https://perfectpractice.com/cdn/shop/files/PFP_FAQ_Instruction_Icon_Option_3.png?v=1653042256');
+}
+.steps_options_container .option::before {
+    content: '';
+    width: 91px;
+    height: 78px;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
 }
 .steps_options_container .option::before {
     content: '';
