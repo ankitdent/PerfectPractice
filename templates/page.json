@@ -95,7 +95,7 @@
           "settings": {
             "icon": "none",
             "title": "How do I flatten my Perfect Practice™ Putting Mat?",
-            "content": "<p><strong>Step 1: <\/strong>Unroll your mat.<\/p><p><strong>Step 2: <\/strong>Select your favorite flattening solution...<\/p><p>Option 1:<\/p><p>Smooth and flatten wrinkles with a clothing steamer<\/p><p>Option 2:<\/p><p>Lightly spritz creaser with water. Then, iron on a low setting to produce steam<\/p><p>Option 3:<\/p><p>Place heavy objects (e.g books) to flatten mat to the group<\/p><p><strong>Step 3: <\/strong>Let mat cool\/dry if applicable. Then, begin golf practice!<\/p>"
+            "content": "<p>&lt;div class=\"content\" style=\"display: block;\"&gt;<br\/>&lt;p&gt;&lt;strong&gt; Step 1: &lt;\/strong&gt; Unroll your&nbsp;mat.&lt;\/p&gt;<br\/>&lt;p&gt;&lt;strong&gt; Step 2: &lt;\/strong&gt; Select your favorite flattening&nbsp;solution...&lt;\/p&gt;<br\/>&lt;div class=\"steps_options_container\"&gt;<br\/>&lt;div class=\"option option_steamer_icon\"&gt;<br\/>&lt;p&gt;Option 1:&lt;\/p&gt;<br\/>&lt;p class=\"option_description\"&gt;Smooth and flatten wrinkles with a clothing&nbsp;steamer&lt;\/p&gt;<br\/>&lt;\/div&gt;<br\/>&lt;div class=\"option option_iron_icon\"&gt;<br\/>&lt;p&gt;Option 2:&lt;\/p&gt;<br\/>&lt;p class=\"option_description\"&gt;Lightly spritz creaser with water. Then, iron on a low setting to produce&nbsp;steam&lt;\/p&gt;<br\/>&lt;\/div&gt;<br\/>&lt;div class=\"option option_flatten_icon\"&gt;<br\/>&lt;p&gt;Option 3:&lt;\/p&gt;<br\/>&lt;p class=\"option_description\"&gt;Place heavy objects (e.g books) to flatten mat to the&nbsp;group&lt;\/p&gt;<br\/>&lt;\/div&gt;<br\/>&lt;\/div&gt;<br\/>&lt;p&gt;&lt;strong&gt; Step 3: &lt;\/strong&gt; Let mat cool\/dry if applicable. Then, begin golf&nbsp;practice!&lt;\/p&gt;<br\/>&lt;\/div&gt;<\/p>"
           }
         },
         "accor_item_Mqn7mc": {
@@ -228,7 +228,6 @@
         "accor_item_NWifX9",
         "accor_item_4UkJkm"
       ],
-      "disabled": true,
       "custom_css": [
         ".t4s-type-accordion > .t4s-tab-wrapper {margin-bottom: 10px;}",
         ".t4s-type-accordion .t4s-accor-title {border-radius: 5px;}"
