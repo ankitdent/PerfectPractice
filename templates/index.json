@@ -254,6 +254,9 @@
         "logo_item_b7mfy4",
         "logo_item_AXCcUk"
       ],
+      "custom_css": [
+        ".SectionID .t4s-row-cols-lg-6>.t4s-col-item{width:14%;}"
+      ],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
