@@ -37,7 +37,8 @@
         "cc993342-0dd0-41d6-a6c4-a5f3c87e6f96"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/bg-heading.jpg",
+        "heading_fullwidth": false,
+        "use_specify_image": true,
         "parallax": false,
         "color": "#000000",
         "overlay": 54,
@@ -61,6 +62,8 @@
         "cl_bg_gradient": "",
         "mg": "60px,,60px,",
         "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
         "mg_mb": ",,30px,",
         "pd_mb": ""
       }
@@ -86,7 +89,7 @@
           "settings": {
             "icon": "none",
             "title": "How do I flatten my Perfect Practice™ Putting Mat?",
-            "content": "<p><strong>Step 1: <\/strong>Unroll your mat.<\/p><p><strong>Step 2: <\/strong>Select your favorite flattening solution...<\/p><p>Option 1:<\/p><p>Smooth and flatten wrinkles with a clothing steamer<\/p><p>Option 2:<\/p><p>Lightly spritz creaser with water. Then, iron on a low setting to produce steam<\/p><p>Option 3:<\/p><p>Place heavy objects (e.g books) to flatten mat to the group<\/p><p><strong>Step 3: <\/strong>Let mat cool\/dry if applicable. Then, begin golf practice!<\/p>"
+            "content": "<p><strong> Step 1: <\/strong> Unroll your mat.<\/p><p><strong> Step 2: <\/strong> Select your favorite flattening solution...<\/p><p>Option 1:<\/p><p>Smooth and flatten wrinkles with a clothing steamer<\/p><p>Option 2:<\/p><p>Lightly spritz creaser with water. Then, iron on a low setting to produce steam<\/p><p>Option 3:<\/p><p>Place heavy objects (e.g books) to flatten mat to the group<\/p><p><strong> Step 3: <\/strong> Let mat cool\/dry if applicable. Then, begin golf practice!<\/p>"
           }
         },
         "accor_item_Mqn7mc": {
@@ -238,7 +241,7 @@
         "content_cl": "#0e272d",
         "bg_content_cl": "#ffffff",
         "content_align": "t4s-text-start",
-        "auto_active": false,
+        "auto_active": true,
         "layout": "t4s-container-wrap",
         "custom_width": 1000,
         "cl_bg": "rgba(0,0,0,0)",
