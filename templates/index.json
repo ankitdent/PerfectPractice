@@ -1348,7 +1348,8 @@
         "social_bmjwaT"
       ],
       "custom_css": [
-
+        ".t4s-product__info-container .t4s-product-price del {font-size: 22px; color: #222;}",
+        ".t4s-product__info-container .t4s-product-price ins{color:#1d9e34; font-size:22px; margin-left:20px}"
       ],
       "settings": {
         "product": "v5-putting-mat",
