@@ -1349,7 +1349,8 @@
       ],
       "custom_css": [
         ".t4s-product__info-container .t4s-product-price del {font-size: 22px; color: #222;}",
-        ".t4s-product__info-container .t4s-product-price ins {color: #fff; font-size: 22px; margin-left: 10px;}"
+        ".t4s-product__info-container .t4s-product-price ins {color: #fff; font-size: 22px; margin-left: 10px;}",
+        ".t4s-btn-base.t4s-btn-style-default.t4s-btn-color-custom2{background:#fff; color:#222}"
       ],
       "settings": {
         "product": "v5-putting-mat",
