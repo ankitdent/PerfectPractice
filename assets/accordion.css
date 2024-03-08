@@ -162,6 +162,9 @@
     margin-bottom: 10px;
 }
 @media(max-width: 767px) {
+  .steps_options_container .option{
+    width:100%;
+  }
 	.t4s-type-accordion .t4s-accor-title {
 		padding: 0 50px 0 10px;
 	}
