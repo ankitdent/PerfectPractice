@@ -40,7 +40,7 @@
               </span>
               <span class="t4s-accor-item-nav"></span>
             </a>
-            <div id="t4s-{{ blockid }}" class="t4s-tab-content t4s-rte" data-t4s-tab-content {% if se_stts.auto_active == false %} style="display: none;"{%- endif -%}>{{ bk_stts.content }}</div>
+            <div id="t4s-{{ blockid }}" class="t4s-tab-content t4s-rte" data-t4s-tab-content {% if se_stts.auto_active == false %} style="display: none;"{%- endif -%}>{{ bk_stts.content }}{{ bk_stts.content_liquid }}</div>
           </div>
         {%- endfor -%}
       </div>
@@ -480,6 +480,11 @@
             "id": "content",
             "type": "richtext",
             "label": "Accordion content"
+          },
+          {
+            "type": "liquid",
+            "id": "content_liquid",
+            "label": "Add Snippets Liquid"
           }
         ]
       }
