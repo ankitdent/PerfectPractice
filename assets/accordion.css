@@ -124,7 +124,7 @@
 	right: auto;
 }
 .steps_options_container .option_steamer_icon::before {
-    background-image: url(/cdn/shop/files/PFP_FAQ_Instruction_Icon_Option_1.png?v=1653042227);
+    background-image: url("https://perfectpractice.com/cdn/shop/files/PFP_FAQ_Instruction_Icon_Option_1.png?v=1653042227");
 }
 .steps_options_container .option::before {
     content: '';
