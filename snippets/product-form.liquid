@@ -127,7 +127,7 @@
                       {%- endif -%}
                     {%- for value in option.values -%}
                       
-                    <li data-swatch-item data-tooltip{{ show_tooltip }}="top" title="{{ value | escape }}"  class="t4s-swatch__item {{ color_swatch }}bg_color_{{ value | handle }} lazyloadt4s{% if selected_value == value %} is--selected{% endif %}" data-value="{{ value | escape }}">{{ value }}</li>
+                    <li data-swatch-item data-tooltip{{ show_tooltip }}="top" title="{{ value | escape }}"  class="t4s-swatch__item {{ color_swatch }}bg_color_{{ value | handle }} lazyloadt4s{% if selected_value == value %} is--selected{% endif %}" data-value="{{ value | escape }}">{{ value }} 11</li>
                     {%- endfor -%}
                     {% if loopindex > 5 %}
                     <li class="lazyloadt4sed "><button class="  t4s-swatch__item " id="show-more">More+</button></li>
