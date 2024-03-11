@@ -4912,7 +4912,7 @@ body .t4s-product .t4s-pr-addtocart{background-color:var(--link-color-hover)}
   margin-bottom: 10px;
   display: inline-block;
 }
-.t4s-product-featured .t4s-swatch__item .swatch-items-name{
+.t4s-product-featured .t4s-swatch__item .sub-text{
   color:#000
 }
 
