@@ -160,7 +160,7 @@
                   {%- if selector_mode != 'dropdown' -%}
                     {%- for value in option.values -%}
                       {% assign loopindex = forloop.index | minus: 1 %}
-                    <li data-swatch-item class="t4s-swatch__item{% if selected_value == value %} is--selected{% endif %}" data-value="{{ value | escape }}" role="button" tabindex="{{ loopindex }}">{{ value }}</li>
+                    <li data-swatch-item class="t4s-swatch__item{% if selected_value == value %} is--selected{% endif %}" data-value="{{ value | escape }}" role="button" tabindex="{{ loopindex }}">{{ value }}111</li>
                     {%- endfor -%}
             
                   {%- else -%}
