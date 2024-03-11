@@ -4884,6 +4884,15 @@ body .t4s-product .t4s-pr-addtocart{background-color:var(--link-color-hover)}
   width: 100%;
   max-width: 140px;
 }
+ .t4s-swatch__list ul li ul li{
+  display: inline-block;
+  vertical-align: top;
+}  
+.t4s-product-featured .t4s-swatch__list li {
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+}
 @media (max-width:767px){
 .swell-tab{
   inset:50% 0px 0px 0px!important;
