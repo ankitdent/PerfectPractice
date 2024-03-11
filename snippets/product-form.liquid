@@ -165,7 +165,7 @@
                     
                     {%- for value in option.values -%}
                       {% assign loopindex = forloop.index | minus: 1 %}
-                    <li data-swatch-item class="swatch-items-name t4s-swatch__item{% if selected_value == value %} is--selected{% endif %}" data-value="{{ value | escape }}" role="button" tabindex="{{ loopindex }}">{{ value }}</li><div class="sub-text {% if selected_value == value %} is--selected{% endif %}">{{ variant_subtext[loopindex] }}</div>
+                    <li data-swatch-item class="swatch-items-name t4s-swatch__item{% if selected_value == value %} is--selected{% endif %}" data-value="{{ value | escape }}" role="button" tabindex="{{ loopindex }}">{{ value }}</li><span class="sub-text {% if selected_value == value %} is--selected{% endif %}">{{ variant_subtext[loopindex] }}</span>
                     {%- endfor -%}
             
                   {%- else -%}
