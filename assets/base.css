@@ -4892,6 +4892,7 @@ body .t4s-product .t4s-pr-addtocart{background-color:var(--link-color-hover)}
   border:none;
   width: 100%;
   max-width: 150px;
+  vertical-align: top;
 }
 .t4s-product-featured .t4s-swatch__list .sub-text{
   display: block;
