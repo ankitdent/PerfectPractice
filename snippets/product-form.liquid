@@ -65,7 +65,7 @@
 {% assign newTagList = '' %}
 {% for variant in product.variants %}
         {% assign newTagList = newTagList | append: ',' | append: variant.metafields.custom.colorcode %}
-  00---{{ variant.metafields.global.sub_text }}
+  -----{{ variant.metafields.variant.sub-text }}
 {% endfor%}
 
 {% assign newTagList = newTagList | remove_first: ',' | split: ',' %}
