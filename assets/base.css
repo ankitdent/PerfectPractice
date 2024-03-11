@@ -4902,6 +4902,9 @@ body .t4s-product .t4s-pr-addtocart{background-color:var(--link-color-hover)}
 .t4s-product-featured .t4s-swatch__list .sub-text.is--selected{
   color:#fff;
 }
+.t4s-product-featured .t4s-swatch__item{
+  border:none;
+}
 .swatch-items-name{
   background-color: #000;
   padding: 10px 20px;
