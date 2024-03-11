@@ -4888,11 +4888,7 @@ body .t4s-product .t4s-pr-addtocart{background-color:var(--link-color-hover)}
     padding: 0;
 }
 .t4s-product-featured .t4s-swatch__item:not(.is-sw__color).is--selected{
-  background:transparent !important;
-  border:none;
-  width: 100%;
-  max-width: 150px;
-  vertical-align: top;
+  
 }
 .t4s-product-featured .t4s-swatch__list .sub-text{
   display: block;
@@ -4903,7 +4899,11 @@ body .t4s-product .t4s-pr-addtocart{background-color:var(--link-color-hover)}
   color:#fff;
 }
 .t4s-product-featured .t4s-swatch__item{
+  background:transparent !important;
   border:none;
+  width: 100%;
+  max-width: 150px;
+  vertical-align: top;
 }
 .swatch-items-name{
   background-color: #000;
