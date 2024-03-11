@@ -5,6 +5,7 @@
       "blocks": {
         "18952756-58af-4afa-a0cc-b1b54300fb8b": {
           "type": "1",
+          "disabled": true,
           "settings": {
             "heading": "",
             "fontf": "inherit",
@@ -26,6 +27,7 @@
         },
         "cc993342-0dd0-41d6-a6c4-a5f3c87e6f96": {
           "type": "3",
+          "disabled": true,
           "settings": {
             "breadcrumb_color": "#f2f2f2",
             "brc_mgb": 5
@@ -56,6 +58,7 @@
     },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "layout": "t4s-container-wrap",
         "cl_bg": "",
