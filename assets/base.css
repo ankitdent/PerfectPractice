@@ -4893,7 +4893,6 @@ body .t4s-product .t4s-pr-addtocart{background-color:var(--link-color-hover)}
 .t4s-product-featured .t4s-swatch__list .sub-text{
   display: block;
   vertical-align: top;
-  color:#000;
 } 
 .t4s-product-featured .t4s-swatch__list .sub-text.is--selected{
   color:#fff;
