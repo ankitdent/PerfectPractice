@@ -69,7 +69,7 @@
 
 {% assign newTagList = newTagList | remove_first: ',' | split: ',' %}
 
-{{ variant.metafields.global.sub_text }} {{ variant.metafields.variant.sub-text }}
+00---{{ variant.metafields.global.sub_text }} -----{{ variant.metafields.variant.sub-text }}
 
 {%- if color_mode == 'dropdown' or selector_mode == 'dropdown' %}<link rel="stylesheet" href="{{ 'base_drop.min.css' | asset_url }}" media="all">{% endif -%}
 
