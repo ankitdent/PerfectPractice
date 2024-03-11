@@ -4894,9 +4894,7 @@ body .t4s-product .t4s-pr-addtocart{background-color:var(--link-color-hover)}
   display: block;
   vertical-align: top;
 } 
-.t4s-product-featured .t4s-swatch__list .sub-text.is--selected{
-  color:#fff;
-}
+
 .t4s-product-featured .t4s-swatch__item{
   background:transparent !important;
   border:none;
@@ -4914,6 +4912,9 @@ body .t4s-product .t4s-pr-addtocart{background-color:var(--link-color-hover)}
 }
 .t4s-product-featured .t4s-swatch__item .sub-text{
   color:#000
+}
+.t4s-product-featured .t4s-swatch__list .sub-text.is--selected{
+  color:#fff;
 }
 
 @media (max-width:767px){
