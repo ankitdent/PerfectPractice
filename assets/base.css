@@ -4879,10 +4879,13 @@ outline: 2px solid black;border: 2px solid black;
 .t4s-product-featured .t4s-socials-style-3 a{color:#FFFFFF; border:1px solid #fff;}
 body .t4s-product .t4s-pr-addtocart{background-color:var(--link-color-hover)}
 .t4s-contact-info{text-align:center;}
-.t4s-swatch__list ul{
-  display: inline-block;
-  width: 100%;
-  max-width: 150px;
+
+.t4s-swatch__list ul {
+    display: block;
+    width: 100%;
+    max-width: 135px;
+    margin: 0;
+    padding: 0;
 }
 .t4s-product-featured .t4s-swatch__list li {
   display: inline-block;
