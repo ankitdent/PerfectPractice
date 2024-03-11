@@ -63,9 +63,12 @@
 -%}
 
 {% assign newTagList = '' %}
+
+{% assign variant_subtext = '' %}
 {% for variant in product.variants %}
         {% assign newTagList = newTagList | append: ',' | append: variant.metafields.custom.colorcode %}
-  -----{{ variant.metafields.variant.sub-text }}
+        {% assign variant_subtext = variant_subtext | append: ',' | append: variant.metafields.variant.sub-text %}
+
 {% endfor%}
 
 {% assign newTagList = newTagList | remove_first: ',' | split: ',' %}
@@ -162,7 +165,7 @@
                     
                     {%- for value in option.values -%}
                       {% assign loopindex = forloop.index | minus: 1 %}
-                    <li data-swatch-item class="t4s-swatch__item{% if selected_value == value %} is--selected{% endif %}" data-value="{{ value | escape }}" role="button" tabindex="{{ loopindex }}">{{ value }}</li>
+                    <li data-swatch-item class="t4s-swatch__item{% if selected_value == value %} is--selected{% endif %}" data-value="{{ value | escape }}" role="button" tabindex="{{ loopindex }}">{{ value }}</li>{{ variant_subtext[0] }}
                     {%- endfor -%}
             
                   {%- else -%}
