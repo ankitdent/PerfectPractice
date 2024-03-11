@@ -69,7 +69,7 @@
 
 {% assign newTagList = newTagList | remove_first: ',' | split: ',' %}
 
-
+{{ variant.metafields.global.sub_text }} {{ variant.metafields.variant.sub-text }}
 
 {%- if color_mode == 'dropdown' or selector_mode == 'dropdown' %}<link rel="stylesheet" href="{{ 'base_drop.min.css' | asset_url }}" media="all">{% endif -%}
 
@@ -115,7 +115,7 @@
               assign name_downcase  = option_name | downcase
             -%}
             {% assign totaloptioncnt = forloop.index %}
-           ------ {{ selected_value }}
+           
             {%- if get_color contains name_downcase -%}
               
               <div data-swatch-option data-id="{{ forloop.index0 }}" class="t4s-swatch__option is-t4s-style__color is-t4s-name__{{ option_name | handle }} {% cycle 'is--first-color', '', '' %}">
@@ -158,10 +158,10 @@
                 <h4 class="t4s-swatch__title"><span>{{ forloop.index }}. Select {{ option_name }}: <span data-current-value class="t4s-dib t4s-swatch__current">{{ selected_value | default: choose_an_option }}</span></span>{% if name_sizeg == name_downcase %}{{ html_sizeg }}{% endif %}</h4>
                 <ul class="t4s-swatch__list flexbox">
                   {%- if selector_mode != 'dropdown' -%}
-                    {{ option.values }}
+                    
                     {%- for value in option.values -%}
                       {% assign loopindex = forloop.index | minus: 1 %}
-                    <li data-swatch-item class="t4s-swatch__item{% if selected_value == value %} is--selected{% endif %}" data-value="{{ value | escape }}" role="button" tabindex="{{ loopindex }}">{{ value }}</li>----{{ variant.metafields.global.sub_text }} {{ variant.metafields.variant.sub-text }}
+                    <li data-swatch-item class="t4s-swatch__item{% if selected_value == value %} is--selected{% endif %}" data-value="{{ value | escape }}" role="button" tabindex="{{ loopindex }}">{{ value }}</li>
                     {%- endfor -%}
             
                   {%- else -%}
