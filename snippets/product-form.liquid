@@ -158,6 +158,7 @@
                 <h4 class="t4s-swatch__title"><span>{{ forloop.index }}. Select {{ option_name }}: <span data-current-value class="t4s-dib t4s-swatch__current">{{ selected_value | default: choose_an_option }}</span></span>{% if name_sizeg == name_downcase %}{{ html_sizeg }}{% endif %}</h4>
                 <ul class="t4s-swatch__list flexbox">
                   {%- if selector_mode != 'dropdown' -%}
+                    {{ option.values }}
                     {%- for value in option.values -%}
                       {% assign loopindex = forloop.index | minus: 1 %}
                     <li data-swatch-item class="t4s-swatch__item{% if selected_value == value %} is--selected{% endif %}" data-value="{{ value | escape }}" role="button" tabindex="{{ loopindex }}">{{ value }}</li>----{{ variant.metafields.variant.sub-text }}
