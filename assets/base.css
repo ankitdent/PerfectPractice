@@ -4904,6 +4904,8 @@ body .t4s-product .t4s-pr-addtocart{background-color:var(--link-color-hover)}
   width: 100%;
   max-width: 150px;
   vertical-align: top;
+  margin: 0;
+  padding: 0;
 }
 .swatch-items-name{
   background-color: #000;
