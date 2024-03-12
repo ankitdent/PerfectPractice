@@ -1,0 +1,51 @@
+<script>
+   window.dataLayer = window.dataLayer || [];  // init data layer if doesn't already exist
+    var template = "{{template}}";
+
+    {% if template contains 'product' %}
+        var ecommerce = {
+          item_id: {{product.id | json}},
+          item_name: {{product.title | json}},
+          item_brand: {{product.vendor | json}},
+          item_variant: {{product.selected_or_first_available_variant.title | json}},
+          price: Number({{product.selected_or_first_available_variant.price}}) / 100,
+          quantity: 1
+        };
+          setTimeout(function(){
+          dataLayer.push({ ecommerce: null });
+          dataLayer.push({
+            event : 'view_item',
+            ecommerce: {
+              currency: {{shop.currency | json}},
+              value: Number({{product.selected_or_first_available_variant.price}}) / 100,
+              items: [
+                ecommerce
+              ]
+            } 
+          });
+             }, 1000);
+ document.addEventListener('product:added', function(event) {
+   var item = event.detail.item; // Get the variant that was added
+   console.log(item);
+  
+    dataLayer.push({ ecommerce: null });
+                dataLayer.push({
+                    'event'    : 'add_to_cart',
+                    'ecommerce': {
+                      'currency': "USD",
+                      'value': Number(item.price) / 100,
+                      'items': [
+                          {
+                          item_id: item.variant_id,
+                          item_name: item.product_title,
+                          item_brand: item.vendor,
+                          item_variant: item.variant_title,
+                          price: Number(item.price) / 100,
+                          quantity:1
+                          }
+                      ]
+                    }
+                  });
+ });
+ {% endif %}
+</script>
