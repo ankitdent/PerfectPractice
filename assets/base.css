@@ -4950,7 +4950,7 @@ transform: rotate(90deg) translate(-50%, -100%);
 .featured_logo .t4s-align-items-center{
   justify-content:center;
 }
-body .t4s-btn,.t4s-btn.t4s-btn-custom{
+body .mt25 .t4s-btn,body .t4s-btn.t4s-btn-custom{
   background:#43b02a;
   color:#fff;
 }
