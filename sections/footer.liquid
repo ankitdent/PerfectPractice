@@ -134,6 +134,10 @@
 </div>
 
   <style>
+    #ot-sdk-btn.ot-sdk-show-settings, #ot-sdk-btn.optanon-show-settings{
+      background: transparent;
+      border:none;
+    }
     @media (min-width: 1025px) { 
       {%- if sticky %}
       #MainContent,#shopify-section-announcement-bar,#shopify-section-top-bar,#t4s-header,.t4s-prefooter,.t4s-section-header{position:relative;z-index:4}#shopify-section-top-bar {z-index: 466;} #MainContent { z-index: 2;background-color: {%- if settings.body_bg != blank and settings.body_bg != 'rgba(0,0,0,0)' %}{{ settings.body_bg }}{% else %}#fff{% endif -%};}  .t4s-prefooter{z-index:1}#t4s-footer{position:sticky;position:-webkit-sticky;bottom:0;left:0;right:0;width:100%} 
