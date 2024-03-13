@@ -105,6 +105,7 @@
     {%- if stt_layout == 't4s-se-container' -%}<div class="t4s-container-inner {% if stt_image_bg != blank %} t4s-has-imgbg lazyloadt4s {% endif %} "  {%- if stt_image_bg != blank -%} data-bgset="{{ stt_image_bg | image_url: width: 1 }}" data-sizes="auto"  data-optimumx="2" {%- endif -%} > {%- endif -%}
     <div class="t4s-accordion-style-{{ se_stts.accor_des }}">
       {%- render 'section_tophead', se_stts: se_stts -%}
+      {% comment %}   
       <ul data-t4s-tab-ul2 class="t4s-tabs-ul t4s-align-items-center t4s-justify-content-{{ tabs_pos }}" id="ul_{{ section.id }}">  
   <li class="t4s-tab-item t4s-d-inline-flex"><a id="b_{{ section.id }}" href="#t4s-faq-{{ section.id }}" rel="nofollow" data-t4s-tab-item data-no-instant {{ block.shopify_attributes }} class="t4s-active t4s-li-active t4s-tab-title" >
               <span>
@@ -118,6 +119,7 @@
             </a></li>
 
         </ul>
+      {% endcomment %}
       <div id="t4s-faq-{{ section.id }}" class="t4s-tabs t4s-type-accordion {{ se_stts.content_align }}" data-t4s-tabs style="--title-cl: {{ se_stts.title_cl }};--bg-title-cl: {{ se_stts.bg_title_cl }};--title-active-cl: {{ se_stts.title_active_cl }};--bg-title-active-cl: {{ se_stts.bg_title_active_cl }};--content-cl: {{ se_stts.content_cl }};--bg-content-cl: {{ se_stts.bg_content_cl }}; t4s-tab-content2 {% if forloop.first == true %} t4s-active {% endif %}" data-t4s-tab-content data-render-lazy-component>
         {%- for block in se_blocks -%}
           {%- assign bk_stts = block.settings -%} 
