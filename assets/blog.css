@@ -309,7 +309,11 @@
 .t4s-blog-post h3.t4s-section-title.t4s-title{
   color:#FFF;
 }
-
+.t4s-post-item .t4s-post-metas,.t4s-post-item .t4s-post-content{
+    font-size:16px;
+    max-height: 140px;
+    overflow: hidden;
+  }
 @media (max-width: 991px) {
   .t4s-post-item.t4s-post-des-4 .t4s-post-metas > span:not(:last-child):after {
     margin: 0 5px;
@@ -341,10 +345,6 @@
   }
 }
 @media (min-width:768px){
-  .t4s-post-item .t4s-post-metas,.t4s-post-item .t4s-post-content{
-    font-size:16px;
-    max-height: 140px;
-    overflow: hidden;
-  }
+  
 }
   .t4s-post-item .t4s-post-content em{font-style:normal!important;}
