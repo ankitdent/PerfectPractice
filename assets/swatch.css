@@ -53,7 +53,7 @@ t4s-selector-mode__circle  */
     display: inline-block;
     padding: 6px 16px 7px;
     text-align: center;
-    border: 1px solid var(--border-sw-color);
+    /* border: 1px solid var(--border-sw-color); */
     color: var(--secondary-sw-color);
     border-radius: 3px;
     vertical-align: middle;
@@ -72,7 +72,7 @@ t4s-selector-mode__circle  */
 */
 .t4s-swatch__item:not(.is-sw__color).is--selected {
     border-color: var(--primary-sw-color);
-    background: var(--primary-sw-color);
+    /* background: var(--primary-sw-color); */
     color: var(--t4s-light-color);
 }
 /* CSS selector color block round  */
