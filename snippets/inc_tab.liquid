@@ -148,7 +148,7 @@
        {%- endif -%} 
     </div>
   {%- endif -%} 
-  <a style="margin-top:20px;" class="t4s-btn t4s-btn-base t4s-viewall-btn t4s-btn-base t4s-btn-style-default t4s-btn-icon-false t4s-btn-color-custom2 t4s-btn-effect-default " href="{{ collection.url }}">View All</a>
+  <a style="margin-top:20px;" class="t4s-btn t4s-btn-base t4s-viewall-btn t4s-btn-style-{{ bk_stts.button_style }} t4s-btn-size-{{ bk_stts.btns_size }} t4s-btn-color-{{ bk_stts.btns_cl }} {% if bk_stts.button_style == 'default' or bk_stts.button_style == 'outline' %}t4s-btn-effect-{{ bk_stts.button_effect }}{% endif %} " href="{{ collection.url }}">View All</a>
 </div>
 {%- endpaginate -%}
 {%- if ck_q == false -%}[t4splitlz]{%- endif -%}
