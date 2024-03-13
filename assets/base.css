@@ -4951,7 +4951,7 @@ transform: rotate(90deg) translate(-50%, -100%);
   justify-content:center;
 }
 body .mt25 .t4s-btn,body .t4s-btn.t4s-btn-custom{
-  background:#43b02a;
+  background:#43b02a !important;
   color:#fff;
 }
 @media (max-width: 767px) {
