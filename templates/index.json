@@ -420,7 +420,7 @@
         "custom_button_BEB7xM": {
           "type": "custom_button",
           "settings": {
-            "button_text": "Buy now",
+            "button_text": "BUY NOW",
             "button_link": "shopify:\/\/products\/v5-putting-mat",
             "target_link": "_self",
             "fontf": "inherit",
