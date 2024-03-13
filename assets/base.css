@@ -4944,7 +4944,7 @@ transform: rotate(90deg) translate(-50%, -100%);
   padding: 30px;
   border-radius:5px;
 }
-.t4s-swatch__list {
+.t4s-product-featured .t4s-swatch__list {
     margin: 10px -20px 0;
 }
 @media (max-width: 767px) {
