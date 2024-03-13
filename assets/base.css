@@ -4879,6 +4879,11 @@ outline: 2px solid black;border: 2px solid black;
 .t4s-product-featured .t4s-product__info-container>:not(:last-child),.t4s-product-featured .t4s-swatch__title{color:#FFFFFF;}
 .t4s-product-featured .t4s-socials-style-3 a{color:#FFFFFF; border:1px solid #fff;}
 body .t4s-product .t4s-pr-addtocart{background-color:var(--link-color); border-radius: 5px !important;}
+body .t4s-product .t4s-pr-addtocar:hover{
+  background:#a9873f !important;
+  --btn-background-hover:#a9873f !important;
+}
+body .t4s-product .t4s-pr-addtocart{}
 .t4s-contact-info{text-align:center;}
 
 .t4s-swatch__list ul {
