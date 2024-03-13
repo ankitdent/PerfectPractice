@@ -4953,8 +4953,14 @@ transform: rotate(90deg) translate(-50%, -100%);
 body .mt25 .t4s-btn,body .t4s-btn.t4s-btn-custom,body #shopify-section-template--15322430570565__featured_product_CYAnAM .t4s-btn-base.t4s-btn-style-default.t4s-btn-color-custom2{
   background:#43b02a !important;
   color:#fff;
-  font-size: var(--btn-fs-mb) !important;
+  font-size: 16px !important;
   border-radius:5px !important;
+}
+body .mt25 .t4s-btn:hover,body .t4s-btn.t4s-btn-custom:hover{
+  
+}
+.t4s-blog-post .t4s-btn-size-extra-medium{
+  font-size:16px;
 }
 
 @media (max-width: 767px) {
