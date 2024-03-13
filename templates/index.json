@@ -1390,7 +1390,7 @@
         "pd": "30px,,30px",
         "mg_tb": "",
         "pd_tb": "",
-        "mg_mb": ",,30px,",
+        "mg_mb": ",,0px,",
         "pd_mb": ""
       }
     },
@@ -1558,7 +1558,7 @@
         "col_tb": "2",
         "col_mb": "1",
         "space_h_item": "30",
-        "space_v_item": "30",
+        "space_v_item": "0",
         "space_h_item_mb": "10",
         "space_v_item_mb": "10",
         "layout_des": "2",
