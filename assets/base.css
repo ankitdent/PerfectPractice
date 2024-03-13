@@ -4953,6 +4953,7 @@ transform: rotate(90deg) translate(-50%, -100%);
 body .mt25 .t4s-btn,body .t4s-btn.t4s-btn-custom{
   background:#43b02a !important;
   color:#fff;
+  font-size: var(--btn-fs-mb) !important;
 }
 @media (max-width: 767px) {
   #pr_recommendations h3.t4s-section-title.t4s-title {
