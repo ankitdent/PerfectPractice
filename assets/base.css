@@ -4954,6 +4954,7 @@ body .mt25 .t4s-btn,body .t4s-btn.t4s-btn-custom,body #shopify-section-template-
   background:#43b02a !important;
   color:#fff;
   font-size: var(--btn-fs-mb) !important;
+  border-radius:5px;
 }
 
 @media (max-width: 767px) {
