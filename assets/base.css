@@ -4841,6 +4841,12 @@ footer .t4s-newsl-des-10 .t4s-newsletter__inner .t4s-newsletter__submit .t4s-new
 }
 @media (max-width:767px){
   .imgbck{background-size:100% 80%!important;}
+  .t4s-product-featured .t4s-swatch__item{
+    max-width: 115px;
+  }
+  .swatch-items-name{
+    padding: 10px 14px;
+  }
 }
 @media (max-width:450px) and (min-width:365px){
    .template-product .t4s-feature-columns__text {
