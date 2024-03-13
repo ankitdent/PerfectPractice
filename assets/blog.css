@@ -9,9 +9,9 @@
 .t4s-blog-footer.t4s-has-btn-none {
   display: none;
 }
-.t4s-blog-footer {
+/* .t4s-blog-footer {
   margin-top: 40px;
-}
+} */
 .t4s-post-item .t4s-post-info .t4s-tags > a {
   text-transform: capitalize;
 }
