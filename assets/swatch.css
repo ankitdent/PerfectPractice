@@ -51,7 +51,7 @@ t4s-selector-mode__circle  */
     -ms-touch-action: manipulation;
     touch-action: manipulation;
     display: inline-block;
-    padding: 6px 16px 7px;
+    /* padding: 6px 16px 7px; */
     text-align: center;
     /* border: 1px solid var(--border-sw-color); */
     color: var(--secondary-sw-color);
