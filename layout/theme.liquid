@@ -174,7 +174,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <a class="skip-to-content-link visually-hidden" href="#shopify-section-header-inline" role="button">Skip to Menu</a>
 
  
-    <script>
+    <script type="text/javascript">
        const menuToggle = document.getElementsByClassName('menu-toggle');
       for (i = 0; i < menuToggle.length; i++) {
           menuToggle[i].addEventListener("click",function (e) {
@@ -206,7 +206,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     {% if template.name != 'collection' and template.name != 'search' %}
       {% render 'additional-scripts-datalayer' %}
     {% endif %}
-    <script> 
+    <script  type="text/javascript"> 
   document.body.addEventListener('click', function(event) {
   var target = event.target;
   if (target && target.classList.contains('prlinksf')) {
