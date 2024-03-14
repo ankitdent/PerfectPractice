@@ -4927,13 +4927,17 @@ body .t4s-product .t4s-pr-addtocart{}
 }
 
 @media (max-width:767px){
-.swell-tab{
-  inset:50% 0px 0px 0px!important;
-transform: rotate(90deg) translate(-50%, -100%);
+  .swell-tab{
+    inset:50% 0px 0px 0px!important;
+    transform: rotate(90deg) translate(-50%, -100%);
     transform-origin: left top;
+  }
 }
+div#opinew-reviews-product-page-code {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
-
 .swell-tab,#powrIframeLoader{
   display:none!important;
 }
