@@ -335,12 +335,13 @@
     // alert('Working');
     var id = target.getAttribute('data-id');
     var prtit = target.getAttribute('data-title');
+     var dpr = target.getAttribute('data-price');
     var dv = target.getAttribute('data-vendor');
-    adcart(id, prtit, dv);
+    adcart(id, prtit, dpr, dv);
   }
 });
 
-function adcart(pid,prt,dv){
+function adcart(pid,prt,pr,dv){
     const swatchItems = document.querySelectorAll('.t4s-swatch__item');
 
     // Filter selected swatch items
@@ -349,7 +350,7 @@ function adcart(pid,prt,dv){
     // Extract and display titles of selected swatches
     const selectedSwatchTitles = selectedSwatches.map(item => item.textContent).join(' / ');
     var qty = document.querySelector('.t4s-quantity-input').value;
-  var pr = document.querySelector('.t4s-product-price').textContent;
+
   dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object. 
 
 dataLayer.push({ 
