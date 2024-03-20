@@ -4962,7 +4962,7 @@ div#opinew-reviews-product-page-code {
 .featured_logo .t4s-align-items-center{
   justify-content:center;
 }
-body .mt25 .t4s-btn,body .t4s-btn.t4s-btn-custom,body #shopify-section-template--15322430570565__featured_product_CYAnAM .t4s-btn-base.t4s-btn-style-default.t4s-btn-color-custom2{
+body .mt25 .t4s-btn,body .t4s-btn-base.t4s-btn-style-default.t4s-btn-color-custom2, body .t4s-btn.t4s-btn-custom,body #shopify-section-template--15322430570565__featured_product_CYAnAM .t4s-btn-base.t4s-btn-style-default.t4s-btn-color-custom2{
   background:#43b02a !important;
   color:#fff;
   font-size: 16px !important;
