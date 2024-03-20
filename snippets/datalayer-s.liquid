@@ -24,7 +24,8 @@
             } 
           });
              }, 1000);
- document.addEventListener('product:added', function(event) {
+      {% comment %} 
+      document.addEventListener('product:added', function(event) {
    var item = event.detail.item; // Get the variant that was added
    console.log(item);
   
@@ -47,5 +48,6 @@
                     }
                   });
  });
+      {% endcomment %}
  {% endif %}
 </script>
