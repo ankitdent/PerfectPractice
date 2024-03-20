@@ -5025,7 +5025,6 @@ body .t4s-btn-base.t4s-btn-style-default.t4s-btn-color-custom2:hover,body .mt25 
 	width: auto;
 	font-weight: 700;
 	color: #000;
-	min-height: 42px;
 	flex: 1;
 }
 
@@ -5060,7 +5059,6 @@ body .t4s-btn-base.t4s-btn-style-default.t4s-btn-color-custom2:hover,body .mt25 
 	flex-direction: inherit;
 	margin: 0 auto;
 	border-top: none;
-	padding: 30px 40px 0;
 	flex-wrap: wrap;
 }
 
