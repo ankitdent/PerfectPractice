@@ -358,7 +358,8 @@ dataLayer.push({
   event: "add_to_cart", 
 
   ecommerce: { 
-
+ currency: "USD", 
+ value: `"${pr}"`,
     items: [ 
 
     { 
@@ -369,13 +370,9 @@ dataLayer.push({
 
       items: `"${prt}"`, // Pass the product Name 
 
-      currency: "USD", // Pass the store currency code 
-
       item_variant: `"${selectedSwatchTitles}"`, 
 
       price: `"${pr}"`, // Pass the product price 
-
-      value: `"${pr}"`,
 
       quantity: qty,  // Pass the product quantity  
 
