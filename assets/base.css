@@ -5128,9 +5128,6 @@ body .t4s-btn-base.t4s-btn-style-default.t4s-btn-color-custom2:hover,body .mt25 
 	min-width: 40px;
 }
 
-.tabs .product-description-tabs--productImage img {
-	max-width: 40px;
-}
 
 .tabs .product-description-tabs--productInformation {
 	display: flex;
