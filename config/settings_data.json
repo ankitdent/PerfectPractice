@@ -52,7 +52,7 @@
     "custom_badge_color": "#f4dd4a",
     "enable_quickview": false,
     "type_qv": "2",
-    "enable_quickshop": true,
+    "enable_quickshop": false,
     "enable_rating": false,
     "enable_atc": true,
     "show_qty": false,
