@@ -266,7 +266,7 @@
         "top_subheading": "",
         "tophead_mb": 20,
         "img_effect": "none",
-        "b_effect": "plus-zoom-overlay",
+        "b_effect": "none",
         "open_link": "_blank",
         "layout_des": "1",
         "click_image": "data-goto",
