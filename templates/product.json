@@ -553,6 +553,107 @@
         "sidebar_pd": 10
       }
     },
+    "testimonials_2_aAjXRH": {
+      "type": "testimonials_2",
+      "blocks": {
+        "testimonial_MmUKY9": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DJ_1200.jpg",
+            "heading": "",
+            "content": "<p>\"Anyone who is serious about improving their putting needs the Perfect Putting mat.  It’s done wonders for my confidence and become part of my daily practice.\"<\/p>",
+            "author": "Dustin Johnson,",
+            "pos": "Major Champion",
+            "rating": 0
+          }
+        },
+        "testimonial_RRJP9M": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/m_wolf_32.jpg",
+            "image_mb": "shopify:\/\/shop_images\/m_wolff.jpg",
+            "heading": "",
+            "content": "<p>\"You make this putt, you can make any putt! (on the Perfect Practice Mat) All day, I'm buying!\"<\/p>",
+            "author": "Matt Wolff,",
+            "pos": "PGA Tour Champion",
+            "rating": 0
+          }
+        },
+        "testimonial_ajfVrj": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/faldo.jpg",
+            "heading": "",
+            "content": "<p>\"The Perfect Putting Mat is the first thing  you  should buy if you want to make more putts.\"<\/p>",
+            "author": "Sir Nick Faldo,",
+            "pos": "6-Time Major Champion",
+            "rating": 0
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_MmUKY9",
+        "testimonial_RRJP9M",
+        "testimonial_ajfVrj"
+      ],
+      "settings": {
+        "se_height": "t4s_ratioadapt_f",
+        "custom_dk": false,
+        "height_dk": 600,
+        "custom_tb": false,
+        "height_tb": 400,
+        "custom_mb": false,
+        "height_mb": 250,
+        "fontf": "inherit",
+        "content_align": "text-center",
+        "color": "#d4e554",
+        "pd_sl": ",20px,,",
+        "pd_sl_mb": ",,30px,",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": true,
+        "btn_vi": "always",
+        "btn_owl": "simple",
+        "btn_shape": "round",
+        "btn_cl": "dark",
+        "btn_size": "large",
+        "btn_hidden_mobile": false,
+        "nav_dot": true,
+        "dot_owl": "number",
+        "dots_round": true,
+        "dots_cl": "primary",
+        "dots_space": 20,
+        "dots_align": "text-center",
+        "dots_hidden_mobile": false,
+        "layout": "t4s-se-container",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "1702895640c62aba6a": {
+      "type": "apps",
+      "blocks": {
+        "8a680922-6c51-4cd9-8c1f-48449967dd9f": {
+          "type": "shopify:\/\/apps\/opinew-product-reviews-app\/blocks\/product-widget\/e1d8e0dc-17ff-4e4a-8a8a-1e73c8ef8676",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "8a680922-6c51-4cd9-8c1f-48449967dd9f"
+      ],
+      "settings": {
+      }
+    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -882,92 +983,6 @@
         "code_cus_css": "@media (min-width:768px){\n.SectionID h3 span{color:#FFF;font-size:38px;}\n.t4s-blog-button-heading{font-size:18px;}\n}\n\n.t4s-blog-post .t4s-blog-button .t4s-blog-button-heading{border: 2px solid #fff !important;\n    color: #fff!important;}\n.SectionID  h3.t4s-section-title.t4s-title{padding:0!important;}\n@media (max-width:767px){\n.SectionID h3 span{color:#FFF;}\n.SectionID h3.t4s-section-title.t4s-title{margin-bottom:0;}\n}"
       }
     },
-    "testimonials_2_aAjXRH": {
-      "type": "testimonials_2",
-      "blocks": {
-        "testimonial_MmUKY9": {
-          "type": "testimonial",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DJ_1200.jpg",
-            "heading": "",
-            "content": "<p>\"Anyone who is serious about improving their putting needs the Perfect Putting mat.  It’s done wonders for my confidence and become part of my daily practice.\"<\/p>",
-            "author": "Dustin Johnson,",
-            "pos": "Major Champion",
-            "rating": 0
-          }
-        },
-        "testimonial_RRJP9M": {
-          "type": "testimonial",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/m_wolf_32.jpg",
-            "image_mb": "shopify:\/\/shop_images\/m_wolff.jpg",
-            "heading": "",
-            "content": "<p>\"You make this putt, you can make any putt! (on the Perfect Practice Mat) All day, I'm buying!\"<\/p>",
-            "author": "Matt Wolff,",
-            "pos": "PGA Tour Champion",
-            "rating": 0
-          }
-        },
-        "testimonial_ajfVrj": {
-          "type": "testimonial",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/faldo.jpg",
-            "heading": "",
-            "content": "<p>\"The Perfect Putting Mat is the first thing  you  should buy if you want to make more putts.\"<\/p>",
-            "author": "Sir Nick Faldo,",
-            "pos": "6-Time Major Champion",
-            "rating": 0
-          }
-        }
-      },
-      "block_order": [
-        "testimonial_MmUKY9",
-        "testimonial_RRJP9M",
-        "testimonial_ajfVrj"
-      ],
-      "settings": {
-        "se_height": "t4s_ratioadapt_f",
-        "custom_dk": false,
-        "height_dk": 600,
-        "custom_tb": false,
-        "height_tb": 400,
-        "custom_mb": false,
-        "height_mb": 250,
-        "fontf": "inherit",
-        "content_align": "text-center",
-        "color": "#d4e554",
-        "pd_sl": ",20px,,",
-        "pd_sl_mb": ",,30px,",
-        "loop": true,
-        "au_time": 0,
-        "au_hover": true,
-        "nav_btn": true,
-        "btn_vi": "always",
-        "btn_owl": "simple",
-        "btn_shape": "round",
-        "btn_cl": "dark",
-        "btn_size": "large",
-        "btn_hidden_mobile": false,
-        "nav_dot": true,
-        "dot_owl": "number",
-        "dots_round": true,
-        "dots_cl": "primary",
-        "dots_space": 20,
-        "dots_align": "text-center",
-        "dots_hidden_mobile": false,
-        "layout": "t4s-se-container",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
     "brand_faqs_hFfp9x": {
       "type": "brand-faqs",
       "blocks": {
@@ -1057,21 +1072,6 @@
         "use_cus_css": false,
         "code_cus_css": ""
       }
-    },
-    "1702895640c62aba6a": {
-      "type": "apps",
-      "blocks": {
-        "8a680922-6c51-4cd9-8c1f-48449967dd9f": {
-          "type": "shopify:\/\/apps\/opinew-product-reviews-app\/blocks\/product-widget\/e1d8e0dc-17ff-4e4a-8a8a-1e73c8ef8676",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "8a680922-6c51-4cd9-8c1f-48449967dd9f"
-      ],
-      "settings": {
-      }
     }
   },
   "order": [
@@ -1081,13 +1081,13 @@
     "video_featured_VJ8JH3",
     "recently-viewed-products",
     "sidebar",
+    "testimonials_2_aAjXRH",
+    "1702895640c62aba6a",
     "product-recommendations",
     "9f87910c-c229-4870-a34d-b30c3e3613f4",
     "1a5f18e3-6d85-43b3-a67d-fd565e3561bd",
     "34eab03a-b1c4-4c29-9079-64f6e663d12a",
     "67aee4f6-c98c-4da7-9ea9-8fe5b50e0691",
-    "testimonials_2_aAjXRH",
-    "brand_faqs_hFfp9x",
-    "1702895640c62aba6a"
+    "brand_faqs_hFfp9x"
   ]
 }
