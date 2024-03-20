@@ -326,14 +326,13 @@
     }
   });
 </script>
-{% comment %}
 {% if template.name == 'product' %}
 <script>
    document.body.addEventListener('click', function(event) {
   var target = event.target;
   if (target && target.classList.contains('t4s-product-form__submit')) {
     event.preventDefault(); // Prevent default link behavior
-   //  alert('Working');
+    // alert('Working');
     var id = target.getAttribute('data-id');
     var prtit = target.getAttribute('data-title');
   //  var dpr = target.getAttribute('data-price');
@@ -356,7 +355,7 @@ dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object.
 
 dataLayer.push({ 
 
-  event: "add_cart", 
+  event: "add_to_cart", 
 
   ecommerce: { 
 
@@ -368,6 +367,8 @@ dataLayer.push({
 
       item_name: `"${prt}"`, // Pass the product Name 
 
+      items: `"${prt}"`, // Pass the product Name 
+
       currency: "USD", // Pass the store currency code 
 
       item_variant: `"${selectedSwatchTitles}"`, 
@@ -376,7 +377,9 @@ dataLayer.push({
 
       value: `"${pr}"`,
 
-      quantity: qty // Pass the product quantity  
+      quantity: qty,  // Pass the product quantity  
+
+      item_category: "{{ ct }}"
 
     } 
 
@@ -388,7 +391,7 @@ dataLayer.push({
   //alert('Working'+pid+pr+qty+selectedSwatchTitles);
 }
 </script>
-  {% else %}
+ {% elsif template.name == 'collection' %}
   <script>
    document.body.addEventListener('click', function(event) {
   var target = event.target;
@@ -408,7 +411,7 @@ dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object.
 
 dataLayer.push({ 
 
-  event: "add_cart", 
+  event: "add_to_cart", 
 
   ecommerce: { 
 
@@ -420,6 +423,8 @@ dataLayer.push({
 
       item_name: `"${prt}"`, // Pass the product Name 
 
+      items: `"${prt}"`, // Pass the product Name 
+
       currency: "USD", // Pass the store currency code 
 
       item_variant: "Default", 
@@ -428,7 +433,9 @@ dataLayer.push({
 
       value: `"${pr}"`,
 
-      quantity: 1 // Pass the product quantity  
+      quantity: 1,  // Pass the product quantity  
+
+      item_category: "{{ ct }}"
 
     } 
 
@@ -441,4 +448,3 @@ dataLayer.push({
 }
 </script>
   {% endif %}
-  {% endcomment %}
