@@ -5127,8 +5127,9 @@ body .t4s-btn-base.t4s-btn-style-default.t4s-btn-color-custom2:hover,body .mt25 
 	margin: 0;
 }
 .template-product .t4s-product__info-container .t4s-product-price del,.template-product .t4s-product__info-container .t4s-product-price ins{
-  font-size: 30px;
+  font-size: 26px;
   font-weight: 400;
+  margin-bottom: 10px;
 }
 .template-product .t4s-product__info-container .t4s-product-price ins{
   color:#fa4545;
