@@ -4971,6 +4971,7 @@ body .mt25 .t4s-btn,body .t4s-btn.t4s-btn-custom,body #shopify-section-template-
 body .t4s-btn-base.t4s-btn-style-default.t4s-btn-color-custom2:hover,body .mt25 .t4s-btn:hover,body .t4s-btn.t4s-btn-custom:hover,body #shopify-section-template--15322430570565__featured_product_CYAnAM .t4s-btn-base.t4s-btn-style-default.t4s-btn-color-custom2:hover{
   background:#a9873f !important;
   --btn-background-hover:#a9873f !important;
+  text-transform:uppercase;
 }
 .t4s-blog-post .t4s-btn-size-extra-medium{
   font-size:16px;
