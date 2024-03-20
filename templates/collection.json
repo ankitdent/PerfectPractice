@@ -87,7 +87,7 @@
         "be9b8b8f-6cac-47ab-b809-a2fe640a75a7"
       ],
       "settings": {
-        "show_top_collections": true,
+        "show_top_collections": false,
         "source": "1",
         "menu": "main-menu",
         "sort_collections": "alphabetical_reversed",
