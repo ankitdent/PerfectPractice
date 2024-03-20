@@ -220,8 +220,8 @@
           "type": "tab_html",
           "settings": {
             "title": "Key Features",
-            "content": "{{ product.metafields.custom.key_features | metafield_tag }}",
-            "page": ""
+            "content": "",
+            "page": "key-features"
           }
         },
         "tab_html_YqkayC": {
