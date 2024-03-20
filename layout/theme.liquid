@@ -202,7 +202,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         }
       </script>
     {% endif %}
-    {% endcomment %}
+  
     {% if template.name != 'collection' and template.name != 'search' %}
       {% render 'additional-scripts-datalayer' %}
     {% endif %}
@@ -263,10 +263,10 @@ dataLayer.push({
 }); 
 
 }
+     document.body.className = document.body.className.replace("mm-wrapper--position-left","");
     </script>
-
-    <script type="text/javascript">
-      document.body.className = document.body.className.replace("mm-wrapper--position-left","");
+  {% endcomment %}
+    <script type="text/javascript">     
       {% if customer %}
       window.dataLayer.push({
       VisitorType: "Logged In",
