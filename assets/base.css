@@ -5136,11 +5136,10 @@ body .t4s-btn-base.t4s-btn-style-default.t4s-btn-color-custom2:hover,body .mt25 
 	min-height: 57px;
 }
 
-.t4s-tabs .product-description-tabs--productInformation h1,
-.t4s-tabs .product-description-tabs--productInformation .h1 {
+.t4s-tabs .product-description-tabs--productInformation h2,
+.t4s-tabs .product-description-tabs--productInformation .h2 {
 	color: #1bd761;
 	font-size: 16px;
-	margin-bottom: 10px;
 }
 
 .t4s-tabs .product-description-tabs--productInformation p {
