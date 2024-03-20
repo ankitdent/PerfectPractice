@@ -117,8 +117,8 @@
             "des": "2",
             "text": "",
             "length": 31,
-            "readm": true,
-            "readm_txt": "Read more"
+            "readm": false,
+            "readm_txt": ""
           }
         },
         "form": {
