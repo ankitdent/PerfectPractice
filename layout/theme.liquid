@@ -173,7 +173,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
  {% comment %}   {%- render 'ecom_footer' -%} {% endcomment %}
     <a class="skip-to-content-link visually-hidden" href="#shopify-section-header-inline" role="button">Skip to Menu</a>
 
- 
+ {% comment %}
     <script type="text/javascript">
        const menuToggle = document.getElementsByClassName('menu-toggle');
       for (i = 0; i < menuToggle.length; i++) {
@@ -183,7 +183,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         });
       }
     </script>
-    {% comment %}
+    
     {% if customer %}
       <script>
         var customerId = '{{ customer.id }}';
