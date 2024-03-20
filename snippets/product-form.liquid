@@ -335,12 +335,12 @@
     // alert('Working');
     var id = target.getAttribute('data-id');
     var prtit = target.getAttribute('data-title');
-  //  var dpr = target.getAttribute('data-price');
-    adcart(id, prtit);
+    var dv = target.getAttribute('data-vendor');
+    adcart(id, prtit, dv);
   }
 });
 
-function adcart(pid,prt){
+function adcart(pid,prt,dv){
     const swatchItems = document.querySelectorAll('.t4s-swatch__item');
 
     // Filter selected swatch items
@@ -350,7 +350,6 @@ function adcart(pid,prt){
     const selectedSwatchTitles = selectedSwatches.map(item => item.textContent).join(' / ');
     var qty = document.querySelector('.t4s-quantity-input').value;
   var pr = document.querySelector('.t4s-product-price').textContent;
-
   dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object. 
 
 dataLayer.push({ 
@@ -370,11 +369,11 @@ dataLayer.push({
 
       item_variant: `"${selectedSwatchTitles}"`, 
 
-      price: `"${pr}"`, // Pass the product price 
+      price: pr, // Pass the product price 
 
       quantity: qty,  // Pass the product quantity  
 
-      item_brand: "{{ ct }}"
+      item_brand: `"${dv}"`
 
     } 
 
@@ -396,11 +395,12 @@ dataLayer.push({
     var id = target.getAttribute('data-id');
     var prtit = target.getAttribute('data-title');
     var dpr = target.getAttribute('data-price');
-    adcart(id, prtit, dpr);
+      var dv = target.getAttribute('data-vendor');
+    adcart(id, prtit, dpr, dv);
   }
 });
 
-function adcart(pid,prt,pr){
+function adcart(pid,prt,pr,dv){
 
 dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object. 
 
@@ -408,8 +408,9 @@ dataLayer.push({
 
   event: "add_to_cart", 
 
-  ecommerce: { 
-
+   ecommerce: { 
+ currency: "USD", 
+ value: pr,
     items: [ 
 
     { 
@@ -418,19 +419,13 @@ dataLayer.push({
 
       item_name: `"${prt}"`, // Pass the product Name 
 
-      items: `"${prt}"`, // Pass the product Name 
+      item_variant: `"${selectedSwatchTitles}"`, 
 
-      currency: "USD", // Pass the store currency code 
+      price: pr, // Pass the product price 
 
-      item_variant: "Default", 
+      quantity: qty,  // Pass the product quantity  
 
-      price: `"${pr}"`, // Pass the product price 
-
-      value: `"${pr}"`,
-
-      quantity: 1,  // Pass the product quantity  
-
-      item_category: "{{ ct }}"
+      item_brand: `"${dv}"`
 
     } 
 
