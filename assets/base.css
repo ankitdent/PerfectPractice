@@ -5070,6 +5070,14 @@ body .t4s-btn-base.t4s-btn-style-default.t4s-btn-color-custom2:hover,body .mt25 
 	width: 48%;
 	margin-bottom: 30px;
 }
+.t4s-tabs .product-description-tabs--productInformation img {
+    max-width: 70px;
+    text-align: left;
+    display: inline-block;
+    /* margin: 0 auto; */
+    padding: 0;
+    width: 100%;
+}
 @media only screen and (max-width: 989px) {
 	.t4s-tabs .product-description-tabs--productTab {
 		width: 100%;
