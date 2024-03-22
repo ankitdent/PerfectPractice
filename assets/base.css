@@ -5141,6 +5141,6 @@ body .t4s-btn-base.t4s-btn-style-default.t4s-btn-color-custom2:hover,body .mt25 
     display: block;
     max-width: 140px;
 }
-.template-product .t4s-swatch__item:not(.is-sw__color).is--selected{
+.template-product .t4s-swatch__item:not(.is-sw__color).is--selected .sub-text{
   color: #000;
 }
