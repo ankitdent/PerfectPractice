@@ -5134,3 +5134,13 @@ body .t4s-btn-base.t4s-btn-style-default.t4s-btn-color-custom2:hover,body .mt25 
 .template-product .t4s-product__info-container .t4s-product-price ins{
   color:#fa4545;
 }
+.template-product li.t4s-swatch__item {
+  vertical-align: text-top;
+}
+.template-product span.sub-text {
+    display: block;
+    max-width: 140px;
+}
+.template-product .t4s-swatch__item:not(.is-sw__color).is--selected{
+  color: #000;
+}
