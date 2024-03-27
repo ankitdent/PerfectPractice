@@ -5154,3 +5154,6 @@ body .t4s-btn-base.t4s-btn-style-default.t4s-btn-color-custom2:hover,body .mt25 
 .template-product .t4s-swatch__item:not(.is-sw__color).is--selected .sub-text{
   color: #000;
 }
+#shopify-section-template--15495153287237__main .t4s-swatch{
+  display:none;
+}
