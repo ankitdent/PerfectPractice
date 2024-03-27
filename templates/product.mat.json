@@ -236,8 +236,8 @@
           "type": "tab_html",
           "settings": {
             "title": "Assembly",
-            "content": "{{ product.metafields.custom.assembly | metafield_tag }}",
-            "page": ""
+            "content": "",
+            "page": "assembly"
           }
         },
         "tab_add_gd8MXP": {
