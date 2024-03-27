@@ -228,8 +228,8 @@
           "type": "tab_html",
           "settings": {
             "title": "Specifications",
-            "content": "{{ product.metafields.custom.specifications | metafield_tag }}",
-            "page": ""
+            "content": "",
+            "page": "specifications"
           }
         },
         "tab_html_PzAXGT": {
