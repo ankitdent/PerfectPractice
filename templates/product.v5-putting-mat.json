@@ -454,7 +454,7 @@
         "custom_text_FDErxd"
       ],
       "settings": {
-        "section_css_class": "",
+        "section_css_class": "v5-xl-content-banner",
         "se_height": "t4s_ratioadapt",
         "custom_dk": true,
         "height_dk": 600,
