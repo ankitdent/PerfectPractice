@@ -4977,10 +4977,7 @@ body .t4s-btn-base.t4s-btn-style-default.t4s-btn-color-custom2:hover,body .mt25 
 .t4s-blog-post .t4s-btn-size-extra-medium{
   font-size:16px;
 }
-.v5-xl-content-banner .t4s-slideshow .t4s-bg-content-true{
-  max-width:25%;
-  left: 9% !important;
-}
+
 @media (max-width: 767px) {
   #pr_recommendations h3.t4s-section-title.t4s-title {
     padding: 0 !important;
@@ -5003,6 +5000,10 @@ body .t4s-btn-base.t4s-btn-style-default.t4s-btn-color-custom2:hover,body .mt25 
     background:url('https://cdn.shopify.com/s/files/1/2642/5702/t/158/assets/Path_5370.webp?v=1709663044') top left no-repeat;
     right: initial;
     padding: 40px 30px;
+  }
+  .v5-xl-content-banner .t4s-slideshow .t4s-bg-content-true{
+    max-width:25%;
+    left: 9% !important;
   }
 }
 /********************************/
