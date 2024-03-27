@@ -249,6 +249,7 @@
         },
         "94011ade-ec25-4d68-b37a-70660ede49dd": {
           "type": "social",
+          "disabled": true,
           "settings": {
             "socials_align": "start",
             "social_mode": "2",
