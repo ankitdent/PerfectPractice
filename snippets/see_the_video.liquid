@@ -1,0 +1,49 @@
+<style>
+  .removeOverflow {
+      overflow: initial;
+  }
+  @media (max-width: 500px) {
+    .removeOverflow{
+      margin-bottom: 85px;
+    }
+  }
+
+</style>
+<button class="see-it-in-action-video">
+    <span class="pdp-video-cta__icon"> </span>
+    <span class="see-it-in-action-text"> SEE IT IN ACTION </span>
+</button>
+<script>
+  const videoContainer = document.querySelector('.videoContainer');
+  const pdpIframe = videoContainer.querySelector('iframe');
+  const pdpVideoSrc = new URL('https://www.youtube.com/watch?v=kUBUikJY-RM');
+  const videoParameters = new URLSearchParams(pdpVideoSrc.search);
+  
+  const interval = setInterval(() => {
+    const seeItInActionButton = document.querySelector('.see-it-in-action-video');
+    const singleMediaGroup = document.querySelector('.grid__item.product-single__media-group');
+    const checkTemplate = document.querySelector('.product-thumbnail__image'); 
+    
+    if(seeItInActionButton && (singleMediaGroup.classList.contains('slick-initialized') || singleMediaGroup.querySelector('.product-main__image.swiper-initialized'))){
+      seeItInActionButton.classList.remove('hide');
+      if(pdpVideoSrc) {
+        seeItInActionButton.addEventListener('click', () => {
+          videoContainer.classList.add('showPDPVideo');
+          pdpIframe.src = `https://youtube.com/embed/${videoParameters.get('v')}`;
+        });
+        videoContainer.addEventListener('click', () => {
+          videoContainer.classList.remove('showPDPVideo');
+          pdpIframe.src = `https://youtube.com/embed/${videoParameters.get('v')}`;
+        });
+      }
+      
+      if(!checkTemplate) {
+        singleMediaGroup.append(seeItInActionButton);
+        singleMediaGroup.classList.add('removeOverflow');
+        document.querySelectorAll('.slick-next.slick-arrow, .slick-prev.slick-arrow').forEach((element) => element.classList.add('hide'));
+      }
+      
+      clearInterval(interval);
+    }
+  }, 50);
+</script>
