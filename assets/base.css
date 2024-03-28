@@ -4928,7 +4928,7 @@ body .t4s-product .t4s-pr-addtocart{}
 .t4s-product-featured .t4s-swatch__list .is--selected .sub-text{
   color:#fff;
 }
-.t4s-product-featured .is--selected .swatch-items-name{
+.template-product .t4s-swatch__item:not(.is-sw__color).is--selected .swatch-items-name{
   background-color: #a9873f;
 }
 @media (max-width:767px){
