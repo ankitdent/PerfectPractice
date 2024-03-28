@@ -204,7 +204,8 @@ assign listTyCurent2 = '' -%}
                   {%- if pagecontent == '###page_key_feature###' -%}
                     if
                   {{ pagecontent | replace: "###page_key_feature###", product.metafields.custom.key_features_page }}
-                    {{ pages['page-handle'].metafields.custom.key_features_page }}
+                    
+                    {{ product.metafields.custom.key_features_page.value.content }}
                   {%- else -%}
                     else
                   {{ bk_stts.content }}
