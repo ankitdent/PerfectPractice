@@ -52,6 +52,8 @@
     "custom_badge_color": "#f4dd4a",
     "enable_quickview": false,
     "type_qv": "2",
+    "permethrin_color": "#1d9e34",
+    "bundle_scolor": "#1d9e34",
     "enable_quickshop": false,
     "enable_rating": false,
     "enable_atc": true,
