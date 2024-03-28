@@ -202,8 +202,10 @@ assign listTyCurent2 = '' -%}
                 <div id="{{ tab_id }}" class="t4s-rte t4s-tab-content{{ class_first_tab }}" data-t4s-tab-content>
                   
                   {%- if bk_stts.content == '###page_key_feature###' -%}
+                    if
                   {{ bk_stts.content | replace: "###page_key_feature###", product.metafields.custom.key_features_page }}
                   {%- else -%}
+                    else
                   {{ bk_stts.content }}
                   {%- endif -%}
                   {{ bk_stts.page.content }}
