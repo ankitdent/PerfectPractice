@@ -5075,12 +5075,13 @@ body .t4s-btn-base.t4s-btn-style-default.t4s-btn-color-custom2:hover,body .mt25 
 	}
 }
 .t4s-tabs .product-description-tabs--productTab {
-	display: flex;
-	justify-content: normal;
-	align-items: center;
-	flex-direction: inherit;
-	width: 98%;
-	margin-bottom: 30px;
+  display: flex;
+  justify-content: normal;
+  align-items: center;
+  flex-direction: inherit;
+  width: 98%;
+  margin-bottom: 30px;
+  padding: 5px;
 }
 .t4s-tabs .product-description-tabs--productInformation img {
     max-width: 70px;
