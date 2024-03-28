@@ -228,8 +228,8 @@
           "type": "tab_html",
           "settings": {
             "title": "Specifications",
-            "content": "",
-            "page": "specifications"
+            "content": "<p>###page_specification###<\/p>",
+            "page": ""
           }
         },
         "tab_html_PzAXGT": {
