@@ -236,8 +236,8 @@
           "type": "tab_html",
           "settings": {
             "title": "Assembly",
-            "content": "",
-            "page": "assembly"
+            "content": "<p>###page_assemble###<\/p>",
+            "page": ""
           }
         },
         "tab_add_gd8MXP": {
