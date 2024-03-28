@@ -202,12 +202,12 @@ assign listTyCurent2 = '' -%}
                 <div id="{{ tab_id }}" class="t4s-rte t4s-tab-content{{ class_first_tab }}" data-t4s-tab-content>
                   {%- assign pagecontent = bk_stts.content | strip_html %}
                   {%- if pagecontent == '###page_key_feature###' -%}
-                    if
-                  {{ pagecontent | replace: "###page_key_feature###", product.metafields.custom.key_features_page }}
-                    
-                    {{ product.metafields.custom.key_features_page.value.content }}
+                   {{ product.metafields.custom.key_features_page.value.content }}
+                  {%- elsif pagecontent == '###page_specification###' -%}
+                   {{ product.metafields.custom.specification_page.value.content }}
+                  {%- elsif pagecontent == '###page_assemble###' -%}
+                   {{ product.metafields.custom.assemble_page.value.content }}
                   {%- else -%}
-                    else
                   {{ bk_stts.content }}
                   {%- endif -%}
                   {{ bk_stts.page.content }}
