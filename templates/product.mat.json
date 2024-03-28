@@ -220,7 +220,7 @@
           "type": "tab_html",
           "settings": {
             "title": "Key Features",
-            "content": "",
+            "content": "<p>###page_key_feature###<\/p>",
             "page": "key-features"
           }
         },
