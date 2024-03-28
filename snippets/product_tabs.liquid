@@ -203,7 +203,7 @@ assign listTyCurent2 = '' -%}
                   {%- assign pagecontent = bk_stts.content | strip_html %}
                   {%- if pagecontent == '###page_key_feature###' -%}
                     if
-                  {{ bk_stts.content | strip_html | replace: "###page_key_feature###", product.metafields.custom.key_features_page }}
+                  {{ pagecontent | replace: "###page_key_feature###", product.metafields.custom.key_features_page }}
                   {%- else -%}
                     else
                   {{ bk_stts.content }}
