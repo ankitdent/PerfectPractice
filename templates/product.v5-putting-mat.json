@@ -265,6 +265,12 @@
             "space_h_item_mb": "20",
             "space_v_item_mb": "4"
           }
+        },
+        "custom_liquid_UgHntL": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% render 'see_the_video' %}"
+          }
         }
       },
       "block_order": [
@@ -286,7 +292,8 @@
         "tab_html_YqkayC",
         "tab_html_PzAXGT",
         "tab_add_gd8MXP",
-        "94011ade-ec25-4d68-b37a-70660ede49dd"
+        "94011ade-ec25-4d68-b37a-70660ede49dd",
+        "custom_liquid_UgHntL"
       ],
       "settings": {
         "pr_layout": "default",
