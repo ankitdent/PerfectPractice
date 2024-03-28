@@ -68,47 +68,5 @@
     position: relative;
 }
 </style>
-<button class="see-it-in-action-video">
-    <span class="pdp-video-cta__icon"> </span>
-    <span class="see-it-in-action-text"> SEE IT IN ACTION </span>
-</button>
-<div class="videoContainer">
-    <div class="video-content">
-      <button type="button" class="fancybox-button fancybox-close-small qaz" title="Close"><svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><polygon id="Shape" fill="#FFFFFF" points="38 12.82 35.18 10 24 21.18 12.82 10 10 12.82 21.18 24 10 35.18 12.82 38 24 26.82 35.18 38 38 35.18 26.82 24"></polygon></svg></button>
-      <iframe class="video-pdp" src="https://youtube.com/embed/kUBUikJY-RM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
-    </div>
-</div>
-<script>
-  const videoContainer = document.querySelector('.videoContainer');
-  const pdpIframe = videoContainer.querySelector('iframe');
-  const pdpVideoSrc = new URL('https://www.youtube.com/watch?v=kUBUikJY-RM');
-  const videoParameters = new URLSearchParams(pdpVideoSrc.search);
-  
-  const interval = setInterval(() => {
-    const seeItInActionButton = document.querySelector('.see-it-in-action-video');
-    const singleMediaGroup = document.querySelector('.grid__item.product-single__media-group');
-    const checkTemplate = document.querySelector('.product-thumbnail__image'); 
-    
-    if(seeItInActionButton && (singleMediaGroup.classList.contains('slick-initialized') || singleMediaGroup.querySelector('.product-main__image.swiper-initialized'))){
-      seeItInActionButton.classList.remove('hide');
-      if(pdpVideoSrc) {
-        seeItInActionButton.addEventListener('click', () => {
-          videoContainer.classList.add('showPDPVideo');
-          pdpIframe.src = `https://youtube.com/embed/${videoParameters.get('v')}`;
-        });
-        videoContainer.addEventListener('click', () => {
-          videoContainer.classList.remove('showPDPVideo');
-          pdpIframe.src = `https://youtube.com/embed/${videoParameters.get('v')}`;
-        });
-      }
-      
-      if(!checkTemplate) {
-        singleMediaGroup.append(seeItInActionButton);
-        singleMediaGroup.classList.add('removeOverflow');
-        document.querySelectorAll('.slick-next.slick-arrow, .slick-prev.slick-arrow').forEach((element) => element.classList.add('hide'));
-      }
-      
-      clearInterval(interval);
-    }
-  }, 50);
-</script>
+<button class="t4s-bl-item t4s-animation-none t4s-btn t4s-btn-custom t4s-pe-auto t4s-fnt-fm-inherit t4s-animation-none t4s-hidden-mobile-false t4s-btn-style-default t4s-btn-effect-default" data-open-mfp-video="" data-options="{&quot;type&quot;: &quot;youtube&quot;,&quot;vid&quot;: &quot;kUBUikJY-RM&quot;,&quot;autoplay&quot;: true,&quot;loop&quot;:true,&quot;accent_color&quot;:&quot;0e272d&quot;,&quot;srcDefault&quot;:&quot;https:\/\/cdn.shopify.com\/s\/files\/1\/0610\/5209\/2628\/files\/Share_your_brand_story_by_adding_a_video_to_your_store.mp4?v=1641630446&quot;, &quot;id&quot;:&quot;#tmp-video-template--15495132741701__video_popup_inline_i4h3qj&quot; }" style="--animation:none ;--delay-animation:0s;--button-icon-w:0px;--button-icon-w-mb:0px;--pri-cl:#222;--second-cl:#fff;--pri-cl-hover:#56cfe1;--second-cl-hover:#fff;--button-fs:14px;--button-fw:400; --button-pd-lr:20px;--button-bdr:0px;--button-ls:0px;--button-mh:42px;--button-mgb:0px;--button-mgb-mb:0px;--button-fs-mb:10px;--button-mh-mb:36px;--button-pd-lr-mb:15px;--button-ls-mb:0px;">
+                                                    Watch the video </button>
