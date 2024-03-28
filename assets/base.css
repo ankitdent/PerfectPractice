@@ -4880,8 +4880,10 @@ outline: 2px solid black;border: 2px solid black;
 .t4s-product-featured .t4s-socials-style-3 a{color:#FFFFFF; border:1px solid #fff;}
 body .t4s-product .t4s-pr-addtocart{background-color:var(--link-color); border-radius: 5px !important;}
 body .t4s-product .t4s-pr-addtocar:hover,body .t4s-product .t4s-pr-addtocart:hover{
-  background:#a9873f !important;
-  --btn-background-hover:#a9873f !important;
+  background:#FFF !important;
+  --btn-background-hover:#FFF !important;
+  color: #396F39 !important;
+  opacity: 1 !important;
 }
 body .t4s-product .t4s-pr-addtocart{}
 .t4s-contact-info{text-align:center;}
