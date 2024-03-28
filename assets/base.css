@@ -4884,6 +4884,7 @@ body .t4s-product .t4s-pr-addtocar:hover,body .t4s-product .t4s-pr-addtocart:hov
   --btn-background-hover:#FFF !important;
   color: #396F39 !important;
   opacity: 1 !important;
+  border: 2px solid #396F39;
 }
 body .t4s-product .t4s-pr-addtocart{}
 .t4s-contact-info{text-align:center;}
