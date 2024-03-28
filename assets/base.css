@@ -4927,6 +4927,7 @@ body .t4s-product .t4s-pr-addtocart{}
 }
 .t4s-product-featured .t4s-swatch__list .is--selected .sub-text{
   color:#fff;
+  background-color: #a9873f;
 }
 
 @media (max-width:767px){
@@ -5157,7 +5158,7 @@ body .t4s-btn-base.t4s-btn-style-default.t4s-btn-color-custom2:hover,body .mt25 
 }
 .template-product li.t4s-swatch__item {
   vertical-align: text-top;
-  max-width: 30%;
+  max-width: 22%;
   font-size: 14px;
 }
 .template-product span.sub-text {
