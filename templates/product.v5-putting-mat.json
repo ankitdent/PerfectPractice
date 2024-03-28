@@ -269,7 +269,7 @@
         "custom_liquid_UgHntL": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% render 'see_the_video' %}213"
+            "custom_liquid": "{% render 'see_the_video' %}"
           }
         }
       },
