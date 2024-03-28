@@ -371,7 +371,7 @@
             "button_ls": 0,
             "button_mh": 42,
             "button_bdr": 0,
-            "button_pd_lr": 0,
+            "button_pd_lr": 30,
             "button_mgb": 0,
             "hidden_mobile": false,
             "button_icon_w_mb": 0,
@@ -387,6 +387,7 @@
       "block_order": [
         "custom_button_BBX79R"
       ],
+      "disabled": true,
       "settings": {
         "se_height": "t4s_ratio_cuspx",
         "custom_dk": true,
