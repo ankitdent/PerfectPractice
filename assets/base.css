@@ -4930,6 +4930,7 @@ body .t4s-product .t4s-pr-addtocart{}
 }
 .template-product .t4s-swatch__item:not(.is-sw__color).is--selected .swatch-items-name{
   background-color: #a9873f;
+  color:#000
 }
 @media (max-width:767px){
   .swell-tab{
