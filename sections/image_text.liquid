@@ -69,16 +69,22 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
+  }
   .four-blocks-row {
     display: flex;
     margin-bottom: 30px;
-}
+  }
   .four-blocks-row-image {
     margin-right: 20px;
     width: 100%;
     max-width:60px;
-}
+  }
+  .four-blocks-row-text .rte-setting {
+    font-size: 14px;
+  }
+  .four-blocks-row-text .rte-setting p{
+    margin:0px;
+  }
 {% endstyle %}
 <div
   class="t4s-section-inner {{ t4s_se_class }} t4s_nt_se_{{ sid }} {{ stt_layout }}{% if stt_image_bg != blank and stt_layout != 't4s-se-container' %} t4s-has-imgbg lazyloadt4s{% endif %}"
