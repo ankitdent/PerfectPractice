@@ -220,7 +220,7 @@
           "type": "tab_html",
           "settings": {
             "title": "Key Features",
-            "content": "{{ product.metafields.custom.key_features | metafield_tag }}",
+            "content": "<p>###page_key_feature###<\/p>",
             "page": ""
           }
         },
@@ -228,7 +228,7 @@
           "type": "tab_html",
           "settings": {
             "title": "Specifications",
-            "content": "{{ product.metafields.custom.specifications | metafield_tag }}",
+            "content": "<p>###page_specification###<\/p>",
             "page": ""
           }
         },
@@ -236,7 +236,7 @@
           "type": "tab_html",
           "settings": {
             "title": "Assembly",
-            "content": "{{ product.metafields.custom.assembly | metafield_tag }}",
+            "content": "<p>###page_assemble###<\/p>",
             "page": ""
           }
         },
@@ -249,6 +249,7 @@
         },
         "94011ade-ec25-4d68-b37a-70660ede49dd": {
           "type": "social",
+          "disabled": true,
           "settings": {
             "socials_align": "start",
             "social_mode": "2",
@@ -383,7 +384,7 @@
         "height_mb": 250,
         "source": "2",
         "video_url": "https:\/\/vimeo.com\/577705578",
-        "video": "shopify:\/\/files\/videos\/Unroll_60_Compact_Opt.mp4",
+        "video": "shopify:\/\/files\/videos\/Unroll_60_2.mp4",
         "au_video": true,
         "loop_video": true,
         "bg_overlay": "#000000",
