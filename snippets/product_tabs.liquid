@@ -208,7 +208,6 @@ assign listTyCurent2 = '' -%}
                   {%- elsif pagecontent == '###page_assemble###' and product.metafields.custom.assemble_page.value.content != blank -%}
                    {{ product.metafields.custom.assemble_page.value.content }}
                   {%- else -%}
-                  {{ bk_stts.content }}
                   {{ bk_stts.page.content }}
                   {%- endif -%}
                   
