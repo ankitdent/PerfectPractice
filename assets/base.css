@@ -5191,6 +5191,6 @@ body .t4s-btn-base.t4s-btn-style-default.t4s-btn-color-custom2:hover,body .mt25 
 .t4s-color-mode__dropdown .t4s-swatch__option.is-t4s-style__color .t4s-swatch__list{
   padding-left:0px;
 }
-.t4s-product-form__buttons{
+.template-product .t4s-product-form__buttons{
   padding-top:0px;
 }
