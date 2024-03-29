@@ -116,8 +116,8 @@
           "settings": {
             "des": "2",
             "text": "",
-            "length": 31,
-            "readm": false,
+            "length": 35,
+            "readm": true,
             "readm_txt": "Read more"
           }
         },
