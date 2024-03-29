@@ -4926,7 +4926,7 @@ body .t4s-product .t4s-pr-addtocart{}
 .t4s-product-featured .t4s-swatch__item:not(.is-sw__color) .sub-text{
   color:#000
 }
-.template-product .t4s-swatch__item:not(.is-sw__color).is--selected .swatch-items-name{
+.t4s-swatch__item:not(.is-sw__color).is--selected .swatch-items-name,.template-product .t4s-swatch__item:not(.is-sw__color).is--selected .swatch-items-name{
   background-color: #a9873f;
   color:#000
 }
