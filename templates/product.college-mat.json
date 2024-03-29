@@ -124,7 +124,7 @@
         "form": {
           "type": "form",
           "settings": {
-            "selector_mode": "block",
+            "selector_mode": "dropdown",
             "color_mode": "variant_image is-sw-cl__round",
             "enable_fit_ratio_img": false,
             "color_size": "exlarge",
@@ -336,72 +336,6 @@
         "time": 5
       }
     },
-    "top_heading_DtpVCE": {
-      "type": "top_heading",
-      "blocks": {
-        "bl_heading_dTbGKa": {
-          "type": "bl_heading",
-          "settings": {
-            "top_heading": "LIGHTWEIGHT, PORTABLE DESIGN"
-          }
-        },
-        "bl_subheading_W8X9jg": {
-          "type": "bl_subheading",
-          "settings": {
-            "top_subheading": "Sometimes we want to practice outside or somewhere else. The Perfect Putting Mat is lightweight and breaks down quickly so you can lower your scores from anywhere."
-          }
-        }
-      },
-      "block_order": [
-        "bl_heading_dTbGKa",
-        "bl_subheading_W8X9jg"
-      ],
-      "settings": {
-        "design_heading": "1",
-        "heading_align": "t4s-text-center",
-        "layout": "t4s-se-container",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": "30px,,30px,",
-        "pd": ",270px,,270px",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "0,0,0,0",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
-    "video_featured_VJ8JH3": {
-      "type": "video_featured",
-      "settings": {
-        "se_height": "t4s_ratio_po",
-        "custom_dk": true,
-        "height_dk": 600,
-        "custom_tb": true,
-        "height_tb": 400,
-        "custom_mb": true,
-        "height_mb": 250,
-        "source": "2",
-        "video_url": "https:\/\/vimeo.com\/577705578",
-        "video": "shopify:\/\/files\/videos\/Unroll_60_2.mp4",
-        "au_video": true,
-        "loop_video": true,
-        "bg_overlay": "#000000",
-        "bg_opacity": 0,
-        "layout": "t4s-container-fluid",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
     "recently-viewed-products": {
       "type": "recently_viewed",
       "disabled": true,
@@ -456,6 +390,186 @@
         "pd_tb": "",
         "mg_mb": ",,30px,",
         "pd_mb": ""
+      }
+    },
+    "image_text_KDM8Mh": {
+      "type": "image_text",
+      "blocks": {
+        "bl_image_FWFHwq": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify:\/\/shop_images\/OSU_Tailgate_Opt.jpg",
+            "col_dk": "7",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        },
+        "bl_text_NV4zPt": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "5",
+            "col_tb": "6",
+            "text_size": "60,18",
+            "txt_align": "start",
+            "sub_heading": "A TAILGATE ALL-STAR",
+            "heading": "",
+            "adding_border": false,
+            "countdown": "2023\/12\/26",
+            "txt_day": "days",
+            "dayx": 0,
+            "text": "<p>Perfect Putting Mats are lightweight, portable, and roll out flat. They’re the perfect addition to any tailgate or watch party. So grab some snacks and a cold beverage and make the most of your college football experience.<\/p><p>And… you don’t even have to put down your drink! One-handed putting is a great way to improve. That’s what we call an audible.<\/p>",
+            "subhd_color": "#0b0f0e",
+            "hd_color": "#222222",
+            "des_color": "#0b0f0e",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_image_FWFHwq",
+        "bl_text_NV4zPt"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "show_badge": false,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "50x,,50px,",
+        "pd": "50px",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_rxKdPT": {
+      "type": "image_text",
+      "blocks": {
+        "bl_text_jG4exk": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "5",
+            "col_tb": "6",
+            "text_size": "40,15",
+            "txt_align": "center",
+            "sub_heading": "",
+            "heading": "",
+            "adding_border": false,
+            "countdown": "2023\/12\/26",
+            "txt_day": "days",
+            "dayx": 0,
+            "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        },
+        "bl_image_pHXXUi": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify:\/\/shop_images\/MatOverviewGraphicCollegiate_Square.jpg",
+            "col_dk": "7",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "default",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "bl_text_jG4exk",
+        "bl_image_pHXXUi"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "show_badge": false,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
       }
     },
     "sidebar": {
@@ -1078,9 +1192,9 @@
   "order": [
     "breadcrumb",
     "main",
-    "top_heading_DtpVCE",
-    "video_featured_VJ8JH3",
     "recently-viewed-products",
+    "image_text_KDM8Mh",
+    "image_text_rxKdPT",
     "sidebar",
     "testimonials_2_aAjXRH",
     "1702895640c62aba6a",
