@@ -411,7 +411,7 @@ endif -%}
                 </div>
 
           {%- when 'thumbnails_left' or 'thumbnails_bottom' or 'thumbnails_right' or 'without_thumbnails' -%}
-
+          {% render 'see_the_video' %}---
             {%- liquid
               if media_layout == 'thumbnails_left'
                 assign class_main = 't4s-col-lg t4s-order-lg-last '
@@ -461,7 +461,7 @@ endif -%}
             {%- endif -%}
            
           </div>
-          {% render 'see_the_video' %}---
+          
           {%- when 'one_column' or 'two_columns' or 'combined_grid' -%}
               
           {%- liquid
