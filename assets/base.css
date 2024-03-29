@@ -5184,6 +5184,6 @@ body .t4s-btn-base.t4s-btn-style-default.t4s-btn-color-custom2:hover,body .mt25 
 .template-product .t4s-dropdown__content .t4s-swatch__item:not(.is-sw__color).is--selected{
   background: #111 !important;
 }
-.template-product .t4s-dropdown__content .t4s-swatch__list flexbox ul{
+.template-product .t4s-selector-mode__dropdown .t4s-swatch__option:not(.is-t4s-style__color) .t4s-swatch__list{
   padding-left:0px;
 }
