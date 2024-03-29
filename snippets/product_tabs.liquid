@@ -201,11 +201,11 @@ assign listTyCurent2 = '' -%}
                 <a id="t44_{{ bk_id }}" href="#{{ tab_id }}" rel="nofollow" class="t4s-tab__title t4s-fwm t4s-ch" data-t4s-tab-item data-no-instant><span class="t4s-tab__text">{{ bk_title | escape }}</span><span class="t4s-tab__icon" role="presentation"></span></a>
                 <div id="{{ tab_id }}" class="t4s-rte t4s-tab-content{{ class_first_tab }}" data-t4s-tab-content>
                   {%- assign pagecontent = bk_stts.content | strip_html %}
-                  {%- if pagecontent == '###page_key_feature###' -%}
+                  {%- if pagecontent == '###page_key_feature###' and product.metafields.custom.key_features_page.value.content != blank -%}
                    {{ product.metafields.custom.key_features_page.value.content }}
-                  {%- elsif pagecontent == '###page_specification###' -%}
-                   {{ product.metafields.custom.specification_page.value.content }}
-                  {%- elsif pagecontent == '###page_assemble###' -%}
+                  {%- elsif pagecontent == '###page_specification###' and product.metafields.custom.specification_page.value.content != blank  -%}
+                   {{ product.metafields.custom.specification_page.value.content  }}
+                  {%- elsif pagecontent == '###page_assemble###' and product.metafields.custom.assemble_page.value.content != blank -%}
                    {{ product.metafields.custom.assemble_page.value.content }}
                   {%- else -%}
                   {{ bk_stts.content }}
