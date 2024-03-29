@@ -522,7 +522,7 @@
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
-            "post_mobile": "default",
+            "post_mobile": "reverse",
             "image_ratio": "ratioadapt",
             "image_size": "cover",
             "image_position": "1",
