@@ -399,7 +399,7 @@
           "type": "bl_image",
           "settings": {
             "image1": "shopify:\/\/shop_images\/OSU_Tailgate_Opt.jpg",
-            "col_dk": "7",
+            "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
             "post_mobile": "default",
@@ -427,7 +427,7 @@
         "bl_text_NV4zPt": {
           "type": "bl_text",
           "settings": {
-            "col_dk": "5",
+            "col_dk": "6",
             "col_tb": "6",
             "text_size": "60,18",
             "txt_align": "start",
@@ -470,7 +470,7 @@
         "space_v_item": "10",
         "space_h_item_mb": "20",
         "space_v_item_mb": "10",
-        "layout": "t4s-container-fluid",
+        "layout": "t4s-se-container",
         "cl_bg": "",
         "cl_bg_gradient": "",
         "mg": "50x,,50px,",
@@ -489,7 +489,7 @@
         "bl_text_jG4exk": {
           "type": "bl_text",
           "settings": {
-            "col_dk": "5",
+            "col_dk": "6",
             "col_tb": "6",
             "text_size": "30,15",
             "txt_align": "start",
@@ -519,7 +519,7 @@
           "type": "bl_image",
           "settings": {
             "image1": "shopify:\/\/shop_images\/MatOverviewGraphicCollegiate_Square.jpg",
-            "col_dk": "7",
+            "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
             "post_mobile": "default",
@@ -561,7 +561,7 @@
         "space_v_item": "10",
         "space_h_item_mb": "20",
         "space_v_item_mb": "10",
-        "layout": "t4s-container-fluid",
+        "layout": "t4s-container-wrap",
         "cl_bg": "",
         "cl_bg_gradient": "",
         "mg": ",,50px,",
