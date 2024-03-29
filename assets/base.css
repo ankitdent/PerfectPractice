@@ -5102,7 +5102,7 @@ body .t4s-btn-base.t4s-btn-style-default.t4s-btn-color-custom2:hover,body .mt25 
 	margin-right: 4%;
 }
 .t4s-tabs .product-description-tabs--productTab--specifications {
-	width: 33.33%;
+	width: 50%;
 	margin-right: 0;
 }
 @media only screen and (max-width: 989px) {
