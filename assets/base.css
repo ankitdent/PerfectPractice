@@ -5172,12 +5172,12 @@ body .t4s-btn-base.t4s-btn-style-default.t4s-btn-color-custom2:hover,body .mt25 
 #shopify-section-template--15495153287237__main .t4s-swatch{
   display:none;
 }
-.t4s-testimonials-inner .flickityt4s-button {
+.template-product .t4s-testimonials-inner .flickityt4s-button {
     left: 0% !important;
     top: 16px !important;
     z-index: 99999999 !important;
     position: relative;
 }
-.t4s-testimonials-inner .flickityt4s-viewport{
+.template-product .t4s-testimonials-inner .flickityt4s-viewport{
   min-height:220px;
 }
