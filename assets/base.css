@@ -5181,3 +5181,6 @@ body .t4s-btn-base.t4s-btn-style-default.t4s-btn-color-custom2:hover,body .mt25 
 .template-product .t4s-testimonials-inner .flickityt4s-viewport{
   min-height:220px;
 }
+.template-product .t4s-dropdown__content .t4s-swatch__item:not(.is-sw__color).is--selected{
+  background: #111 !important;
+}
