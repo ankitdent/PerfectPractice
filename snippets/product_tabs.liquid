@@ -209,8 +209,9 @@ assign listTyCurent2 = '' -%}
                    {{ product.metafields.custom.assemble_page.value.content }}
                   {%- else -%}
                   {{ bk_stts.content }}
-                  {%- endif -%}
                   {{ bk_stts.page.content }}
+                  {%- endif -%}
+                  
                 </div>
              </div>
              {%- assign forloop_first = false %}{% assign isEmty = false -%}
