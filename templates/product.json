@@ -124,10 +124,10 @@
         "form": {
           "type": "form",
           "settings": {
-            "selector_mode": "block",
-            "color_mode": "variant_image is-sw-cl__round",
+            "selector_mode": "block2",
+            "color_mode": "dropdown",
             "enable_fit_ratio_img": false,
-            "color_size": "exlarge",
+            "color_size": "large",
             "show_qty": true,
             "enable_wishlist": true,
             "enable_compare": false,
