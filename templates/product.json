@@ -229,7 +229,7 @@
           "settings": {
             "title": "Specifications",
             "content": "<p>###page_specification###<\/p>",
-            "page": ""
+            "page": "specifications"
           }
         },
         "tab_html_PzAXGT": {
@@ -237,7 +237,7 @@
           "settings": {
             "title": "Assembly",
             "content": "<p>###page_assemble###<\/p>",
-            "page": ""
+            "page": "assembly"
           }
         },
         "tab_add_gd8MXP": {
