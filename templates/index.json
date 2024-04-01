@@ -653,7 +653,7 @@
         "layout": "t4s-container-fluid",
         "cl_bg": "",
         "cl_bg_gradient": "",
-        "mg": ",,0px,",
+        "mg": "-1px,,0px,",
         "pd": "",
         "mg_tb": "",
         "pd_tb": "",
