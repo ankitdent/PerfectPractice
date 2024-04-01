@@ -119,10 +119,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     {%- render 'meta-tags', t_name: t_name -%}
    
-    <script src="{{ 'lazysizes.min.js' | asset_url }}" async="async"></script>
-    <script src="{{ 'global.min.js' | asset_url }}" defer="defer"></script>
-    <script src="{{ 'policies-privacy-policy.js' | asset_url }}" defer></script> 
-    <script src="{{ 'termsOfUse.js' | asset_url }}" defer></script>
+    <script rel="preload" src="{{ 'lazysizes.min.js' | asset_url }}" async="async"></script>
+    <script rel="preload" src="{{ 'global.min.js' | asset_url }}" defer="defer"></script>
+    <script rel="preload" src="{{ 'policies-privacy-policy.js' | asset_url }}" defer></script> 
+    <script rel="preload" src="{{ 'termsOfUse.js' | asset_url }}" defer></script>
     {% capture modified_content_for_header %}{{ content_for_header }}{% endcapture %} 
 
 {% assign domcontentloadeda = "document.addEventListener('DOMContentLoaded'" %} 
