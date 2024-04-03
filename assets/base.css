@@ -3842,7 +3842,10 @@ body .t4s-btn.t4s-btn-custom:hover {
     transform: rotate(90deg) translate(-50%, -100%);
     transform-origin: left top;
   }
-  .t4s-product-featured .t4s-swatch__item,.template-product li.t4s-swatch__item {
+  .t4s-product-featured .t4s-swatch__item{
     min-width:30%;
+  }
+  .template-product li.t4s-swatch__item {
+    min-width:26%;
   }
 }
