@@ -3606,6 +3606,9 @@ body .t4s-product .t4s-pr-addtocart:hover {
     transform: rotate(90deg) translate(-50%, -100%);
     transform-origin: left top;
   }
+  .t4s-product-featured .t4s-swatch__item{
+    min-width:30%;
+  }
 }
 div#opinew-reviews-product-page-code {
   width: 100%;
