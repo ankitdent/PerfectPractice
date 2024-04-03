@@ -3807,9 +3807,10 @@ body .t4s-btn.t4s-btn-custom:hover {
 }
 .template-product li.t4s-swatch__item {
   vertical-align: text-top;
-  max-width: 30%;
+  max-width: 20%;
   font-size: 14px;
   display:inline-flex;
+  flex-direction: column;
 }
 .template-product span.sub-text {
   display: block;
