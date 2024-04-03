@@ -3594,22 +3594,7 @@ body .t4s-product .t4s-pr-addtocart:hover {
   background-color: #a9873f;
   color: #000;
 }
-@media (max-width: 767px) {
-  #shopify-section-template--21405986717973__1646028739ae283905 .t4s-btn {
-    width: 100%;
-  }
-  .imgbck {
-    background-size: 100% 80% !important;
-  }
-  .swell-tab {
-    inset: 50% 0px 0px 0px !important;
-    transform: rotate(90deg) translate(-50%, -100%);
-    transform-origin: left top;
-  }
-  .t4s-product-featured .t4s-swatch__item{
-    min-width:30%;
-  }
-}
+
 div#opinew-reviews-product-page-code {
   width: 100%;
   max-width: 1200px;
@@ -3844,4 +3829,20 @@ body .t4s-btn.t4s-btn-custom:hover {
 }
 .template-product .t4s-product-form__buttons {
   padding-top: 0;
+}
+@media (max-width: 767px) {
+  #shopify-section-template--21405986717973__1646028739ae283905 .t4s-btn {
+    width: 100%;
+  }
+  .imgbck {
+    background-size: 100% 80% !important;
+  }
+  .swell-tab {
+    inset: 50% 0px 0px 0px !important;
+    transform: rotate(90deg) translate(-50%, -100%);
+    transform-origin: left top;
+  }
+  .t4s-product-featured .t4s-swatch__item,.template-product li.t4s-swatch__item {
+    min-width:30%;
+  }
 }
