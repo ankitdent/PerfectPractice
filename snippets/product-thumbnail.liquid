@@ -5,7 +5,7 @@ assign img_alt       = image.alt
 if img_alt contains '_' and variants_size > 1
 	assign arr_alt = img_alt | replace: ' | ', ' |' | replace: ' | ', ' |' | replace: ' |', ' |' | split: '|'
 	assign img_alt = arr_alt[1] | default: product.title
-    assign imgAltTag = img_alt
+    assign imgAltTag = arr_alt
     if arr_alt[0] contains 't4option'
 		assign arr_alt_index   = arr_alt[0] | remove: 't4option' | split: '_'
 		assign index_alt_first = arr_alt_index | first | plus: 0
