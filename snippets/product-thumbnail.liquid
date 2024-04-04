@@ -43,9 +43,6 @@ if img_alt contains '_' and variants_size > 1
 endif
 assign img_alt = img_alt | escape
  -%}
-
-{{ img_alt }}
- 
 {%- capture image_size %}{{ height }}x{{ height }}{% endcapture -%}
 
 {%- if media_type == 'image' -%}
