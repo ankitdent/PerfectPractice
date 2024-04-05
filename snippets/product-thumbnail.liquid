@@ -23,6 +23,7 @@ if img_alt contains '-' and variants_size > 1
 	    assign grpvl   = ops_name_arr[index_alt_last] | strip | downcase 
     else
 	    assign var_alt = arr_alt[0] | split: '_'
+         assign var_alt = var_alt | split: '-'
 		assign grname  = var_alt | strip | downcase 
 		assign grpvl   = var_alt | strip | downcase 
 	    assign index   = product.options_by_name[grname].position | default: 0
