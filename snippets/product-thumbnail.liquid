@@ -22,7 +22,7 @@ if img_alt contains '-' and variants_size > 1
 	    assign grname  = ops_name[index_alt_first] | strip | downcase 
 	    assign grpvl   = ops_name_arr[index_alt_last] | strip | downcase 
     else
-	    assign var_alt = arr_alt[0] | split: '-'
+	    assign var_alt = arr_alt[0] | split: '_'
 		assign grname  = var_alt | first | strip | downcase 
 		assign grpvl   = var_alt | last | strip | downcase 
 	    assign index   = product.options_by_name[grname].position | default: 0
@@ -43,7 +43,7 @@ endif
 assign img_alt = img_alt | escape
  -%}
 {%- capture image_size %}{{ height }}x{{ height }}{% endcapture -%}
-{{ var_alt }}
+{{ index }}
 {%- if media_type == 'image' -%}
 <div data-product-single-media-wrapper data-main-slide class="{{ class_col }}t4s-col-12 t4s-col-item t4s-product__media-item {{ isMediaHidden }}{% if variant_images contains media.src %} t4s-product__media-item--variant{% endif %}" data-media-id="{{ media.id }}" data-nt-media-id="{{ se_id }}-{{ media.id }}" data-media-type="{{ media.media_type }}" data-grname="{{ grname | escape }}" data-grpvl="{{ grpvl | escape }}">
 	<div data-t4s-gallery--open class="t4s_ratio t4s-product__media{{ class_pswp_disable }}" {{ imgatt }}style="--aspect-ratioapt:{{ image.aspect_ratio }};--mw-media:{{ image.width }}px">
