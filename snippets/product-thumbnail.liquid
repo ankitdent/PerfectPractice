@@ -2,6 +2,7 @@
 assign media_type    = media.media_type
 assign image         = media.preview_image
 assign img_alt       = image.src
+assign img_alt1       = image.alt
 if img_alt contains '-' and variants_size > 1
 	assign arr_alt = img_alt | replace: ' | ', ' |' | replace: ' | ', ' |' | replace: ' |', ' |' | split: '|'
 	assign img_alt = arr_alt[1] | default: product.title
@@ -42,7 +43,7 @@ if img_alt contains '-' and variants_size > 1
 	  assign isMediaHidden = ''
 	endif 
 endif
-assign img_alt = img_alt | escape
+assign img_alt = img_alt1 | escape
  -%}
 {%- capture image_size %}{{ height }}x{{ height }}{% endcapture -%}
 {{ grname }}>>>>{{ grpvl }}>>>>{{ var_alt }}<br>
