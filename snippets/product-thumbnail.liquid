@@ -1,12 +1,12 @@
 {%- liquid 
 assign media_type    = media.media_type
 assign image         = media.preview_image
-assign img_alt       = image.alt
-if img_alt contains '_' and variants_size > 1
+assign img_alt       = image.src
+if img_alt contains '-' and variants_size > 1
 	assign arr_alt = img_alt | replace: ' | ', ' |' | replace: ' | ', ' |' | replace: ' |', ' |' | split: '|'
 	assign img_alt = arr_alt[1] | default: product.title
     if arr_alt[0] contains 't4option'
-		assign arr_alt_index   = arr_alt[0] | remove: 't4option' | split: '_'
+		assign arr_alt_index   = arr_alt[0] | remove: 't4option' | split: '-'
 		assign index_alt_first = arr_alt_index | first | plus: 0
 		assign index_alt_last  = arr_alt_index | last | plus: 0
 	    if index_alt_first == 0
@@ -22,7 +22,7 @@ if img_alt contains '_' and variants_size > 1
 	    assign grname  = ops_name[index_alt_first] | strip | downcase 
 	    assign grpvl   = ops_name_arr[index_alt_last] | strip | downcase 
     else
-	    assign var_alt = arr_alt[0] | split: '_'
+	    assign var_alt = arr_alt[0] | split: '-'
 		assign grname  = var_alt | first | strip | downcase 
 		assign grpvl   = var_alt | last | strip | downcase 
 	    assign index   = product.options_by_name[grname].position | default: 0
