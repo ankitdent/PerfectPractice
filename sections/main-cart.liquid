@@ -353,115 +353,58 @@
    {%- endif -%}
 
 </div>
-<style>
-.govx-id-full-wrapper{justify-content: end;}                         
-</style>
-<script>window.cartT4SectionID = {{ section.id | json }};</script> 
-  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-<script>
-jQuery(document).on('click','.govx-id-button-content',function(e){
-    e.preventDefault();
-  //  alert('Success');
-  btnclicked();
-   
-});
-  function btnclicked(){
-   window.dataLayer = window.dataLayer || [];
-          window.dataLayer.push({
-            'event' : 'govx_button_clicked'
-          });
-  }
-</script>
 <script>
   document.addEventListener('DOMContentLoaded', function () {
-const quantityInputs = document.querySelectorAll('.t4s-quantity-input');
-
-  // Initialize the total variable
+  const quantityInputs = document.querySelectorAll('.t4s-quantity-input');
   let total = 0;
-
-  // Loop through each quantity input
   quantityInputs.forEach(input => {
-    // Get the quantity value and convert it to a number
     const quantity = parseInt(input.value);
-
-    // Add the subtotal to the total
     total += quantity;
   });
-   dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object. 
-
-dataLayer.push({ 
-
-  event: "view cart", 
-
-  ecommerce: { 
-
-    items: [ 
-
-    { 
-      currency: "USD", // Pass the store currency code 
-
-      value: `{{ total_price | money }}`, 
-      
-      items: `"${total}"`
-    } 
-
-    ] 
-
-  } 
-
-});  
+   dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object.
+    dataLayer.push({
+      event: "view cart",
+      ecommerce: {
+      items: [
+      { 
+        currency: "USD", // Pass the store currency code 
+        value: `{{ total_price | money }}`,
+        items: `"${total}"`
+      }
+      ]
+    }
+    });  
   });
 document.querySelector('.t4s-page_cart__remove').addEventListener('click', function() {
-    var id = this.getAttribute('data-varid');
-   var prtit = this.getAttribute('data-prtitle');
-    var pbrand = this.getAttribute('data-brand');
-   var dpr = this.getAttribute('data-price');
+  var id = this.getAttribute('data-varid');
+  var prtit = this.getAttribute('data-prtitle');
+  var pbrand = this.getAttribute('data-brand');
+  var dpr = this.getAttribute('data-price');
   var qty = this.getAttribute('data-qty');
-var cat = this.getAttribute('data-cat');
-//alert(id);
+  var cat = this.getAttribute('data-cat');
   remove_cart(id,prtit,pbrand,dpr,qty,cat);
 });
    function remove_cart(varid,prt,brand,dp,q,ct){ 
- 
-//console.log('Working');
-  
+
 dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object. 
-
 dataLayer.push({ 
-
   event: "remove_from_cart", 
-
   ecommerce: { 
-
     items: [ 
-
     { 
-
       item_id: varid, // Pass the product SKU or Product ID 
-
       item_name:`"${prt}"` , // Pass the product Name 
-
       currency: "USD", // Pass the store currency code 
-
-      item_brand: `"${brand}"`, 
-      
+      item_brand: `"${brand}"`,  
       price: dp, // Pass the product price 
-
       quantity: q, // Pass the product quantity  
-
       product_type: ct 
-    } 
-
-    ] 
-
-  } 
-
+    }
+    ]
+  }
 }); 
-
    }
- 
 </script>
-
 {%- schema -%}
   {
   "name": "Cart",
