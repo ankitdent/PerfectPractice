@@ -45,22 +45,6 @@ t4sp-theme t4s-wrapper__{{ settings.general_layout }} rtl_{{ isRTL }} swatch_col
       </script>
   <!-- OneTrust Cookies Consent Notice end for perfectpractice.golf -->
 
-{% comment %}
-    <style>
-              #opinew_badge_plugin_app > div > div > div {
-          max-width: 10000px;
-          max-height: 3000px;
-          width: 30%!important;
-          height: 130%!important;
-          zoom: 2;
-      }
-      #opinew_badge_plugin_app > div > div > div > a > div > div {
-      justify-content: center;}
-
-      #opinew_badge_plugin_app > div > div > div > div{
-      display:none!important;}
-    </style>
-{% endcomment %}
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -168,115 +152,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
  {% comment %}   {%- render 'ecom_footer' -%} {% endcomment %}
     <a class="skip-to-content-link visually-hidden" href="#shopify-section-header-inline" role="button">Skip to Menu</a>
 
- {% comment %}
-    <script type="text/javascript">
-       const menuToggle = document.getElementsByClassName('menu-toggle');
-      for (i = 0; i < menuToggle.length; i++) {
-          menuToggle[i].addEventListener("click",function (e) {
-          e.preventDefault();
-          console.log("adsfasfs")
-        });
-      }
-    </script>
-    
-    {% if customer %}
-      <script>
-        var customerId = '{{ customer.id }}';
-
-        // Check if the event has not been fired before
-        if (localStorage.getItem("efl") === null) {
-          console.log('Working');
-          window.dataLayer = window.dataLayer || [];
-          window.dataLayer.push({
-            'event' : 'login',
-            'custEmail' : '{{ customer.email }}'
-          });
-
-          // Set a flag in localStorage to indicate the event has been fired
-          localStorage.setItem('efl', 'true');
-        }
-      </script>
-    {% endif %}
-  
-    {% if template.name != 'collection' and template.name != 'search' %}
-      {% render 'additional-scripts-datalayer' %}
-    {% endif %}
-    <script  type="text/javascript"> 
-  document.body.addEventListener('click', function(event) {
-  var target = event.target;
-  if (target && target.classList.contains('prlinksf')) {
-   // event.preventDefault(); // Prevent default link behavior
-   // alert('Working');
-    var id = target.getAttribute('data-proid');
-    var prtit = target.getAttribute('data-ptitle');
-    var pbrand = target.getAttribute('data-vendor');
-    var dpr = target.getAttribute('data-price');
-    var qty = target.getAttribute('data-quantity');
-    var varname = target.getAttribute('data-variantname');
-    var sourcep = target.getAttribute('data-cat');
-  //  alert(id);
-    select_item_sf(id, prtit, pbrand, dpr, qty, varname, sourcep);
-  }
-});
-
-function select_item_sf(pid,prt,brand,pr,qt,varnm,srcp){
-//alert('Working');
-dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object. 
-
-dataLayer.push({ 
-
-  event: "select_item", 
-
-  ecommerce: { 
-
-    items: [ 
-
-    { 
-
-      item_id: pid, // Pass the product SKU or Product ID 
-
-      item_name: `"${prt}"`, // Pass the product Name 
-
-      currency: "USD", // Pass the store currency code 
-
-      item_brand: `"${brand}"`, // Pass the brand to which it belongs to 
-
-     source: `"${srcp}"`, // Pass the product category name 
-
-     item_variant: `"${varnm}"`, 
-
-      price: pr, // Pass the product price 
-
-      quantity: qt // Pass the product quantity  
-
-    } 
-
-    ] 
-
-  } 
-
-}); 
-
-}
-    
-    </script>
-
-    <script type="text/javascript">     
-       document.body.className = document.body.className.replace("mm-wrapper--position-left","");
-      {% if customer %}
-      window.dataLayer.push({
-      VisitorType: "Logged In",
-      CustomerId: "{{ customer.id }}",
-      CustomerEmail: "{{ customer.email }}",
-      });
-      {% else %}
-      window.dataLayer.push({
-      VisitorType: "Guest"
-      });
-      {% endif %}
-    </script>
-      {% endcomment %}
-    
     <script rel="preload" src="{{ 'lazysizes.min.js' | asset_url }}" async="async"></script>
     <script rel="preload" src="{{ 'global.min.js' | asset_url }}" defer="defer"></script>
     <script rel="preload" src="{{ 'policies-privacy-policy.js' | asset_url }}" defer></script> 
