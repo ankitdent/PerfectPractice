@@ -182,7 +182,7 @@
                                 {%- endfor -%}
                             </div>
                         </div>
-                    <a href="{{ url }}" target="{{ open_link }}" class="t4s-full-width-link{% if url == blank %} t4s-pe-none {% else %} t4s-pe-auto{% endif %}" style="--bg-overlay:{{ bg_overlay }};"></a>
+                    <a href="{{ url }}" target="{{ open_link }}" class="t4s-full-width-link{% if url == blank %} t4s-pe-none {% else %} t4s-pe-auto{% endif %}" style="--bg-overlay:{{ bg_overlay }};" aria-label="slideshow"></a>
                 </div>
             </div>
         {%- endfor -%}
