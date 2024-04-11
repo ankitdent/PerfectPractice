@@ -65,7 +65,8 @@
         {% endif %}
           <ul data-t4s-tab-ul2 class="t4s-tabs-ul t4s-align-items-center t4s-justify-content-{{ tabs_pos }} t4s-flicky-slider t4s-slider-btn-style-simple t4s-slider-btn-none t4s-slider-btn-small t4s-slider-btn-vi-always flickityt4s" 
            data-flickityt4s-js='{"isSimple": true,"freeScroll": true, "arrowIcon":"1", "imagesLoaded": 0,"adaptiveHeight": 0, "contain": 1, "groupCells": "100%", "dragThreshold" : 5, "minWidthLG": 992, "cellAlignLG":"{{ slide_cellAlign }}", "cellAlign":"center", "wrapAround": false,"prevNextButtons": true,"percentPosition": 0,"pageDots": false, "pauseAutoPlayOnHover" : true }'>  
-          {%- for block in se_blocks -%}
+          <ul>
+            {%- for block in se_blocks -%}
             {%- assign bk_stts = block.settings -%}
             {%- assign blockid = block.id -%} 
             <li class="t4s-tab-item t4s-d-inline-flex"><a id="b_{{ block.id }}" href="#t4s-{{ blockid }}" rel="nofollow" data-t4s-tab-item data-no-instant {{ block.shopify_attributes }} {% if forloop.first == true %} class="t4s-active" {% endif %}>
@@ -75,6 +76,7 @@
               </span>
             </a></li>
           {%- endfor -%}
+          </ul>
         </ul>
         {% if tabs_des == "inline" %}
           </div>
