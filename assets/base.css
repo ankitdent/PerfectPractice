@@ -3830,6 +3830,7 @@ body .t4s-btn.t4s-btn-custom:hover {
 .template-product .t4s-product-form__buttons {
   padding-top: 0;
 }
+.t4s-post-content a{color:#506e72;}
 @media (max-width: 767px) {
   #shopify-section-template--21405986717973__1646028739ae283905 .t4s-btn {
     width: 100%;
