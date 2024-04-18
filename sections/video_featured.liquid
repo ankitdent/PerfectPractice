@@ -36,7 +36,7 @@
                             {%- for media in se_stts.video.sources -%}
                                 <source src="{{ media.url }}" type="{{ media.mime_type }}">
                             {%- endfor -%}
-                            <img src="{{ mb_image | default: se_stts.video.preview_image.src | image_url: width: 100 }}">
+                            <img src="{{ mb_image | default: se_stts.video.preview_image.src | image_url: width: 100 }}" role="none">
                         </video>
                     {%- elsif video_url.type == 'youtube' -%}
                         <iframe class="lazyloadt4s" data-src="//www.youtube.com/embed/{{ video_url.id }}?controls=1{% if autoplay %}&autoplay=1{% endif %}{% if loop %}&playlist={{ video_url.id }}&loop=1{% endif %}&showinfo=0&rel=0&modestbranding=1" frameborder="0" allowfullscreen></iframe>
