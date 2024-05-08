@@ -44,7 +44,6 @@
         },
         "afbc77be-c292-4e14-a4c0-e92133a2841c": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "text": ""
           }
@@ -114,7 +113,7 @@
         "description": {
           "type": "description",
           "settings": {
-            "des": "2",
+            "des": "1",
             "text": "",
             "length": 31,
             "readm": false,
