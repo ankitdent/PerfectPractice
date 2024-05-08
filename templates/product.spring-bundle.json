@@ -42,12 +42,6 @@
           "settings": {
           }
         },
-        "afbc77be-c292-4e14-a4c0-e92133a2841c": {
-          "type": "text",
-          "settings": {
-            "text": ""
-          }
-        },
         "152e7505-1077-4ecb-956c-1f52beee2fd8": {
           "type": "countdown",
           "disabled": true,
@@ -88,6 +82,12 @@
             "price_sale_color": "#1d9e34"
           }
         },
+        "afbc77be-c292-4e14-a4c0-e92133a2841c": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>The Spring Bundle includes:<\/strong><\/p><ul><li><strong>1x Perfect Putting Mat™ - V4 Standard Edition - 9ft 6in<\/strong><\/li><li><strong>1x Perfect Putting Gates<\/strong><\/li><li><strong>1x Putting Alignment Mirror<\/strong><\/li><\/ul>"
+          }
+        },
         "33baad01-228a-4fde-8fb8-5af287b996d8": {
           "type": "inventory_qty",
           "disabled": true,
@@ -112,6 +112,7 @@
         },
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {
             "des": "1",
             "text": "",
@@ -269,9 +270,9 @@
         "meta",
         "title",
         "46f48626-36c1-4c15-85cf-3ae47a93c16e",
-        "afbc77be-c292-4e14-a4c0-e92133a2841c",
         "152e7505-1077-4ecb-956c-1f52beee2fd8",
         "price_review",
+        "afbc77be-c292-4e14-a4c0-e92133a2841c",
         "33baad01-228a-4fde-8fb8-5af287b996d8",
         "description",
         "form",
