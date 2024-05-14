@@ -1280,6 +1280,7 @@
           },
           "mini_cart-3": {
             "type": "btnc",
+            "disabled": true,
             "settings": {
               "btn_icon": false,
               "button_style": "default",
@@ -1298,11 +1299,13 @@
           },
           "mini_cart-5": {
             "type": "img",
+            "disabled": true,
             "settings": {
             }
           },
           "mini_cart-6": {
             "type": "btn",
+            "disabled": true,
             "settings": {
               "title": "Return To Shop",
               "url": "",
