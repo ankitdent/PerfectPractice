@@ -380,7 +380,7 @@
           "435a9eb6-413b-4cf0-8f9f-1359395beee8": {
             "type": "text",
             "settings": {
-              "text": "<p><strong>Last chance to use existing rewards points! All points expire 3\/15\/24<\/strong><\/p>",
+              "text": "<p><a href=\"\/collections\/all\" title=\"All Products\"><strong>GET READY FOR FATHER'S DAY WITH 20% OFF SITEWIDE! USE CODE DAD20 AT CHECKOUT<\/strong><\/a><\/p>",
               "adding_border": false,
               "countdown": "2023\/12\/26",
               "txt_day": "days",
@@ -402,7 +402,7 @@
           "435a9eb6-413b-4cf0-8f9f-1359395beee8"
         ],
         "settings": {
-          "show_topbar": false,
+          "show_topbar": true,
           "topbar_transparent": false,
           "height": 45,
           "fontsize": 15,
