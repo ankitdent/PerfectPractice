@@ -46,7 +46,7 @@
         "164602873867eb3815-2": {
           "type": "custom_text",
           "settings": {
-            "text": "Select Putting Mats on Sale",
+            "text": "Make a hole in one this Father's Day",
             "remove_br_tag": false,
             "tag": "p",
             "fontf": "inherit",
@@ -69,7 +69,7 @@
         "164602873867eb3815-1": {
           "type": "custom_text",
           "settings": {
-            "text": "Save up to 50% off",
+            "text": "With 20% off Sitewide",
             "remove_br_tag": false,
             "tag": "h2",
             "fontf": "inherit",
@@ -91,13 +91,12 @@
         },
         "2520939e-82a3-4dc8-99c2-7f1ce20e1005": {
           "type": "custom_text",
-          "disabled": true,
           "settings": {
-            "text": "WITH PROMO CODE: PRESIDENTSDAY",
+            "text": "USE PROMO CODE:\nDAD20 AT CHECKOUT",
             "remove_br_tag": false,
             "tag": "p",
             "fontf": "inherit",
-            "text_cl": "#0b0f0e",
+            "text_cl": "#ffffff",
             "text_fs": 18,
             "text_lh": 28,
             "text_fw": 600,
