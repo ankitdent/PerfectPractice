@@ -42,6 +42,12 @@
           "settings": {
           }
         },
+        "07bfb470-16c0-49ab-94f8-3c128655bc98": {
+          "type": "text",
+          "settings": {
+            "text": "<p>TAKE AN ADDITIONAL 20% OFF WITH CODE DAD20<\/p>"
+          }
+        },
         "152e7505-1077-4ecb-956c-1f52beee2fd8": {
           "type": "countdown",
           "disabled": true,
@@ -161,13 +167,6 @@
             ]
           }
         },
-        "07bfb470-16c0-49ab-94f8-3c128655bc98": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>SAVE 40% OFF with CODE: 2023DEAL<\/p>"
-          }
-        },
         "c2e1fa95-5c4d-4f3d-92de-63dbd96ef13e": {
           "type": "live_view",
           "disabled": true,
@@ -270,13 +269,13 @@
         "meta",
         "title",
         "46f48626-36c1-4c15-85cf-3ae47a93c16e",
+        "07bfb470-16c0-49ab-94f8-3c128655bc98",
         "152e7505-1077-4ecb-956c-1f52beee2fd8",
         "price_review",
         "afbc77be-c292-4e14-a4c0-e92133a2841c",
         "33baad01-228a-4fde-8fb8-5af287b996d8",
         "description",
         "form",
-        "07bfb470-16c0-49ab-94f8-3c128655bc98",
         "c2e1fa95-5c4d-4f3d-92de-63dbd96ef13e",
         "23551ebc-3be1-40d6-81b2-30f03478cccb",
         "size_delivery_ask",
