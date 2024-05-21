@@ -42,6 +42,12 @@
           "settings": {
           }
         },
+        "07bfb470-16c0-49ab-94f8-3c128655bc98": {
+          "type": "text",
+          "settings": {
+            "text": "<p>TAKE  20% OFF WITH CODE DAD20<\/p>"
+          }
+        },
         "afbc77be-c292-4e14-a4c0-e92133a2841c": {
           "type": "text",
           "disabled": true,
@@ -162,13 +168,6 @@
             ]
           }
         },
-        "07bfb470-16c0-49ab-94f8-3c128655bc98": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>SAVE 40% OFF with CODE: 2023DEAL<\/p>"
-          }
-        },
         "c2e1fa95-5c4d-4f3d-92de-63dbd96ef13e": {
           "type": "live_view",
           "disabled": true,
@@ -277,13 +276,13 @@
         "meta",
         "title",
         "46f48626-36c1-4c15-85cf-3ae47a93c16e",
+        "07bfb470-16c0-49ab-94f8-3c128655bc98",
         "afbc77be-c292-4e14-a4c0-e92133a2841c",
         "152e7505-1077-4ecb-956c-1f52beee2fd8",
         "price_review",
         "33baad01-228a-4fde-8fb8-5af287b996d8",
         "description",
         "form",
-        "07bfb470-16c0-49ab-94f8-3c128655bc98",
         "c2e1fa95-5c4d-4f3d-92de-63dbd96ef13e",
         "23551ebc-3be1-40d6-81b2-30f03478cccb",
         "size_delivery_ask",
@@ -362,10 +361,10 @@
             "button_icon_w": 0,
             "button_style": "default",
             "button_effect": "default",
-            "pri_cl": "#222",
-            "second_cl": "#fff",
+            "pri_cl": "#222222",
+            "second_cl": "#ffffff",
             "pri_cl_hover": "#56cfe1",
-            "second_cl_hover": "#fff",
+            "second_cl_hover": "#ffffff",
             "fsbutton": 14,
             "fwbutton": 400,
             "button_ls": 0,
@@ -407,17 +406,17 @@
         "ch_pos": 50,
         "cv_pos_mb": 50,
         "ch_pos_mb": 50,
-        "bg_overlay": "#000",
+        "bg_overlay": "#000000",
         "bg_opacity": 0,
-        "bg_content_cl": "#fff",
+        "bg_content_cl": "#ffffff",
         "bg_content_op": 0,
         "content_pd_tb": 15,
         "content_pd_lr": 15,
         "content_pd_tb_mb": 10,
         "content_pd_lr_mb": 10,
         "border_bl": false,
-        "br_color": "#222",
-        "br_bg": "#fff",
+        "br_color": "#222222",
+        "br_bg": "#ffffff",
         "br_opacity": 50,
         "br_style": "solid",
         "br_pd": 20,
