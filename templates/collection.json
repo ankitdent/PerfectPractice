@@ -48,7 +48,7 @@
         "0f0e1f7c-788c-46c0-9fb4-1ec7ce88da01": {
           "type": "cat",
           "settings": {
-            "collection": "frontpage",
+            "collection": "home-page",
             "icon": ""
           }
         },
@@ -294,7 +294,7 @@
           "type": "collection",
           "settings": {
             "heading": "Sale Products",
-            "collection": "frontpage",
+            "collection": "home-page",
             "limit_pr": 3,
             "image_ratio": "t4s_ratioadapt",
             "image_size": "t4s_cover",

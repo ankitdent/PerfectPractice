@@ -961,7 +961,7 @@
           "95da8d7e-67f2-4ebd-b1ad-e83d518cb37e": {
             "type": "cat",
             "settings": {
-              "collection": "frontpage",
+              "collection": "home-page",
               "collection_title": "",
               "collection_subtitle": "",
               "collection_des": "1",
