@@ -116,7 +116,7 @@
           "type": "custom_button",
           "settings": {
             "button_text": "SHOP NOW",
-            "button_link": "shopify:\/\/collections\/sale",
+            "button_link": "shopify:\/\/collections\/perfect-practice-sale",
             "target_link": "_self",
             "fontf": "inherit",
             "button_icon_w": 0,
