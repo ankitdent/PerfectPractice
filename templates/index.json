@@ -46,7 +46,7 @@
         "164602873867eb3815-2": {
           "type": "custom_text",
           "settings": {
-            "text": "Make a hole in one this Father's Day",
+            "text": "Perfect Practice Sale",
             "remove_br_tag": false,
             "tag": "p",
             "fontf": "inherit",
@@ -69,7 +69,7 @@
         "164602873867eb3815-1": {
           "type": "custom_text",
           "settings": {
-            "text": "With 20% off Sitewide",
+            "text": "Save on select putting mats",
             "remove_br_tag": false,
             "tag": "h2",
             "fontf": "inherit",
@@ -91,6 +91,7 @@
         },
         "2520939e-82a3-4dc8-99c2-7f1ce20e1005": {
           "type": "custom_text",
+          "disabled": true,
           "settings": {
             "text": "USE PROMO CODE:\nDAD20 AT CHECKOUT",
             "remove_br_tag": false,
