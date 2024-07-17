@@ -51,8 +51,8 @@
         "bg_pos": "center center",
         "bg_repeat": "no-repeat",
         "bg_size": "cover",
-        "use_cus_css": false,
-        "code_cus_css": ".SectionID {\nbackground-color:red\n}"
+        "use_cus_css": true,
+        "code_cus_css": ".SectionID {\nmargin-top:20px;\n\n}"
       }
     },
     "main": {
@@ -61,7 +61,7 @@
         "layout": "t4s-container-wrap",
         "cl_bg": "",
         "cl_bg_gradient": "",
-        "mg": "60px,,60px,",
+        "mg": "10px,,60px,",
         "pd": "",
         "mg_tb": "",
         "pd_tb": "",
