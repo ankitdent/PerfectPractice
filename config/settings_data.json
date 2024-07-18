@@ -391,6 +391,7 @@
         "blocks": {
           "435a9eb6-413b-4cf0-8f9f-1359395beee8": {
             "type": "text",
+            "disabled": true,
             "settings": {
               "text": "<p><a href=\"\/products\/v5-putting-mat\" title=\"V5 Putting Mat\">PRIME DAY SAVINGS: 20% OFF V4 and V5 Mats with code PRIME24 at checkout<\/a><\/p>",
               "adding_border": false,
@@ -414,7 +415,7 @@
           "435a9eb6-413b-4cf0-8f9f-1359395beee8"
         ],
         "settings": {
-          "show_topbar": true,
+          "show_topbar": false,
           "topbar_transparent": false,
           "height": 45,
           "fontsize": 15,
